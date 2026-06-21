@@ -15,7 +15,7 @@
         "heading_tQb3WV": {
           "type": "heading",
           "settings": {
-            "title": "+50% REMISE",
+            "title": "+50% SLEVA",
             "heading_font_size": "heading-large",
             "heading_tag": "automatic"
           }
@@ -23,7 +23,7 @@
         "heading_RQjAUk": {
           "type": "heading",
           "settings": {
-            "title": "sur l'achat d'une deuxième sac",
+            "title": "při koupi druhé tašky",
             "heading_font_size": "heading-x-small",
             "heading_tag": "automatic"
           }

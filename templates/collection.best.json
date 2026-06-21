@@ -15,7 +15,7 @@
         "heading_QVNQrK": {
           "type": "heading",
           "settings": {
-            "title": "Desværre er vi nødt til at lukke vores butik...💔",
+            "title": "Bohužel jsme nuceny uzavřít náš obchod...💔",
             "heading_font_size": "heading-x-small",
             "padding_bottom": 16,
             "heading_tag": "automatic"
@@ -24,7 +24,7 @@
         "text_FrECUR": {
           "type": "text",
           "settings": {
-            "text": "<p>I de seneste år har min mor og jeg lagt vores hjerte og sjæl i hvert eneste stykke tøj, vi har udvalgt med kærlighed: bukser, bluser, sko, kjoler, tasker – altid med ønsket om at skabe en varm og indbydende atmosfære for vores fællesskab. Hvert eneste produkt bar en del af os.</p><p>Nu er vi nået til et svært punkt, hvor vi er nødt til at tømme vores lager, og for at gøre det lidt hurtigere, tilbyder vi store rabatter på op til <strong>80%</strong>.</p><p><strong>Rabat fratrækkes automatisk ved checkout</strong></p><p><strong>10% EKSTRA RABAT ved køb af 2 produkter</strong><br/><br/><strong>15% EKSTRA RABAT ved køb af 3 produkter</strong><br/><br/><strong>20% EKSTRA RABAT ved køb af 4 produkter</strong></p><p>Vi takker af hjertet alle, der har været en del af denne rejse.</p>",
+            "text": "<p>Během posledních let jsme s mou maminkou vložily srdce i duši do každého kousku oblečení, který jsme s láskou vybíraly: kalhoty, halenky, boty, šaty, tašky – vždy s přáním vytvořit pro naši komunitu vřelou a příjemnou atmosféru. Každý jednotlivý produkt nesl část nás samotných.</p><p>Nyní jsme se dostaly do těžkého okamžiku, kdy musíme vyprodat naše sklady, a abychom to trochu urychlily, nabízíme velké slevy až <strong>80%</strong>.</p><p><strong>Sleva se automaticky odečte při pokladně</strong></p><p><strong>10% SLEVA NAVÍC při koupi 2 produktů</strong><br/><br/><strong>15% SLEVA NAVÍC při koupi 3 produktů</strong><br/><br/><strong>20% SLEVA NAVÍC při koupi 4 produktů</strong></p><p>Ze srdce děkujeme všem, kteří byli součástí této cesty.</p>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }

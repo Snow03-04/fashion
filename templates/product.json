@@ -67,30 +67,6 @@
             "padding_bottom": 16
           }
         },
-        "icon_f9A9K9": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-award",
-            "icon_size": 30,
-            "icon_color": "",
-            "text": "<p>Ručně vyráběné s péčí</p>",
-            "text_font_size": "body-medium",
-            "width": "full",
-            "padding_bottom": 16
-          }
-        },
-        "icon_M9Cn9q": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-award",
-            "icon_size": 30,
-            "icon_color": "",
-            "text": "<p>Dárkové balení zdarma</p>",
-            "text_font_size": "body-small",
-            "width": "full",
-            "padding_bottom": 16
-          }
-        },
         "icon_3yMUym": {
           "type": "icon",
           "settings": {
@@ -201,8 +177,8 @@
             "show_description": false,
             "show_read_more": true,
             "default_open": false,
-            "heading": "PAGA SIEMPRE DE FORMA SEGURA",
-            "text": "<p>ZAWSZE PŁAĆ BEZPIECZNIE</p><p>Możesz bezpiecznie płacić kartą kredytową, Blik, Paypal, Apple Pay i innymi metodami.</p><p></p><p>Cyfrowe przesyłanie danych osobowych, w tym danych karty kredytowej i konta, jest chronione połączeniem SSL (Secure Socket Layer). Ochrona danych osobowych jest dla nas bardzo ważna. Wszystkie dane osobowe są traktowane jako poufne, nie są przekazywane osobom nieuprawnionym i są wykorzystywane wyłącznie w ramach bieżącego procesu, po czym są usuwane.</p>",
+            "heading": "PLAŤTE VŽDY BEZPEČNĚ",
+            "text": "<p>PLAŤTE VŽDY BEZPEČNĚ</p><p>Můžete bezpečně platit kreditní kartou, PayPal, Apple Pay a dalšími metodami.</p><p></p><p>Digitální přenos osobních údajů, včetně údajů o kreditní kartě a účtu, je chráněn připojením SSL (Secure Socket Layer). Ochrana osobních údajů je pro nás velmi důležitá. Všechny osobní údaje jsou považovány za důvěrné, nejsou předávány neoprávněným osobám a jsou používány výhradně v rámci probíhajícího procesu, po jehož skončení jsou smazány.</p>",
             "padding_bottom": 0
           }
         },
@@ -224,8 +200,6 @@
         "price",
         "variants",
         "icon_4CjRqV",
-        "icon_f9A9K9",
-        "icon_M9Cn9q",
         "icon_3yMUym",
         "code_WLByy8",
         "fit_guide_Pxxjia",
@@ -261,7 +235,7 @@
         "collection_RNiPda": {
           "type": "collection",
           "settings": {
-            "title": "Prstenje",
+            "title": "Prsteny",
             "featured_collection": "najprodavanije",
             "show_image": false,
             "align_with_product_images": false,
@@ -269,7 +243,7 @@
             "overlay_color": "#ffffff",
             "description": "",
             "color": "",
-            "link_text": "vidjeti proizvode",
+            "link_text": "zobrazit produkty",
             "link": "",
             "button_type": "btn--primary",
             "button_size": "",
@@ -285,9 +259,9 @@
       "name": "Tab collections",
       "settings": {
         "show_product_count": false,
-        "title": "MOŻE CI SIĘ RÓWNIEŻ SPODOBAĆ",
+        "title": "MOHLO BY SE VÁM TAKÉ LÍBIT",
         "heading_font_size": "heading-medium",
-        "text": "<p>2 produkty – 10% ekstra | 3 produkty – 15% ekstra | 4 produkty – 20% ekstra</p>",
+        "text": "<p>2 produkty – 10% navíc | 3 produkty – 15% navíc | 4 produkty – 20% navíc</p>",
         "text_font_size": "body-medium",
         "layout": "stacked",
         "layout_desktop": "slider",
@@ -307,7 +281,7 @@
         "heading_hGPmGk": {
           "type": "heading",
           "settings": {
-            "title": "Rasprodaja zbog zatvaranja",
+            "title": "Výprodej z důvodu uzavření",
             "heading_font_size": "heading-large",
             "padding_bottom": 16,
             "heading_tag": "automatic"
@@ -316,7 +290,7 @@
         "text_nQEkaY": {
           "type": "text",
           "settings": {
-            "text": "<p>Nažalost, došlo je vrijeme da zatvorimo vrata naše trgovine.</p><p>Tijekom proteklih 26 godina uložili smo svoje srce i dušu u svaki komad odjeće, s ciljem stvaranja toplog i ugodnog mjesta za našu zajednicu u Hrvatskoj.</p><p>Svaki proizvod koji ste odabrali nosi dio naše strasti, ukusa i predanosti.</p><p>Kako bismo se oprostili i ubrzali proces zatvaranja, nudimo vam posebne popuste do 80%.</p><p>Od srca vam zahvaljujemo na povjerenju i podršci koju ste nam pružali svih ovih godina.<br/><br/></p><h5>S ljubavlju i zahvalnošću,<br/><br/><strong></strong></h5>",
+            "text": "<p>Bohužel nastal čas zavřít dveře našeho obchodu.</p><p>Během uplynulých 26 let jsme vkládali srdce i duši do každého kousku oblečení s cílem vytvořit vřelé a příjemné místo pro naši komunitu.</p><p>Každý produkt, který jste si vybrali, nese část naší vášně, vkusu a oddanosti.</p><p>Abychom se rozloučili a urychlili proces uzavření, nabízíme vám mimořádné slevy až 80%.</p><p>Ze srdce vám děkujeme za důvěru a podporu, kterou jste nám po všechna tato léta projevovali.<br/><br/></p><h5>S láskou a vděčností,<br/><br/><strong></strong></h5>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
@@ -395,7 +369,7 @@
         "heading_LjAXqK": {
           "type": "heading",
           "settings": {
-            "title": "IZ SRCA ZAGREBA",
+            "title": "ZE SRDCE ZÁHŘEBU",
             "heading_font_size": "heading-medium",
             "heading_tag": "automatic"
           }
@@ -403,7 +377,7 @@
         "text_FmaJxn": {
           "type": "text",
           "settings": {
-            "text": "<p>Rođena u Zagrebu, kolekcija odražava elegantan i suvremen stil moderne žene. <strong>Sofisticirana, udobna i izrađena s predanošću</strong>, svaki komad donosi duh Zagreba u vašu garderobu.</p>",
+            "text": "<p>Kolekce zrozená v Záhřebu odráží elegantní a moderní styl současné ženy. <strong>Sofistikovaná, pohodlná a vyrobená s oddaností</strong>, každý kousek přináší ducha Záhřebu do vašeho šatníku.</p>",
             "text_font_size": "body-medium"
           }
         }
@@ -659,7 +633,7 @@
         "text_nC3nEm": {
           "type": "text",
           "settings": {
-            "description": "W 2018 roku, w tętniącym życiem Warszawie, nie mogliśmy nie zauważyć, że urok klasycznej elegancji zanikał. Zdeterminowani, aby przywrócić ten ponadczasowy urok, stworzyliśmy markę odzieżową „KRYSTYNA” jako hołd dla trwałej elegancji.",
+            "description": "V roce 2018 jsme v rušné Varšavě nemohli přehlédnout, že kouzlo klasické elegance pomalu mizí. Odhodláni navrátit toto nadčasové kouzlo jsme vytvořili oděvní značku „Aurellis Viktorie“ jako poctu trvalé eleganci.",
             "text_font_size": "body-large",
             "color": "#ffffff"
           }
@@ -896,7 +870,7 @@
       "disabled": true,
       "name": "SS - Scrolling images",
       "settings": {
-        "heading": "<p>+12470 clientes satisfechos</p>",
+        "heading": "<p>+12470 spokojených zákazníků</p>",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
         "heading_size": 30,
@@ -923,7 +897,7 @@
         "content_radius": 10,
         "content_border_thickness": 0,
         "use_shadow": true,
-        "text": "<p>+29.000 people love our product</p>",
+        "text": "<p>+29.000 lidí miluje náš produkt</p>",
         "text_custom": false,
         "text_font": "assistant_n4",
         "text_size": 24,
