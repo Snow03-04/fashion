@@ -59,9 +59,10 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-award",
+            "image": "shopify://shop_images/entreg.png",
             "icon_size": 20,
             "icon_color": "",
-            "text": "<p>Doprava GLS zdarma</p>",
+            "text": "<p>Doprava zdarma přes Zásilkovnu</p>",
             "text_font_size": "body-small",
             "width": "full",
             "padding_bottom": 16
@@ -71,9 +72,10 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-fast-shipment",
+            "image": "shopify://shop_images/return_icon_6929d17e-76e9-40f6-bbe2-45765efba474.png",
             "icon_size": 20,
             "icon_color": "",
-            "text": "<p>60denní záruka vrácení</p>",
+            "text": "<p>30denní záruka vrácení peněz</p>",
             "text_font_size": "body-small",
             "width": "full",
             "padding_bottom": 16
@@ -749,6 +751,7 @@
             "icon_name": "icon-fast-shipment",
             "icon_size": 80,
             "icon_color": "",
+            "image": "shopify://shop_images/entreg.png",
             "title": "Doprava zdarma",
             "heading_font_size": "heading-x-small",
             "text": "<p>Doručujeme po celém Česku službou <strong>GLS</strong> pro rychlejší a bezpečnější dodání. Ke každé objednávce je doprava zdarma.</p>",
