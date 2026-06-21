@@ -749,7 +749,7 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-fast-shipment",
-            "icon_size": 80,
+            "icon_size": 65,
             "icon_color": "",
             "image": "shopify://shop_images/entreg.png",
             "title": "Doprava zdarma",
