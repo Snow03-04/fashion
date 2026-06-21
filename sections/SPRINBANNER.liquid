@@ -1,0 +1,173 @@
+{% style %}
+  .sale-banner {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(356deg, #695b5b, #000000);
+    color: #FFFFFF;
+    border-radius: 0;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .sale-title {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px 10px;
+  }
+  .sale-subtitle {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  }
+  .sale-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+    justify-content: space-around;
+  }
+  .sale-column {
+    flex: 1;
+    padding: 0 10px;
+  }
+  .sale-column:not(:last-child) {
+    border-right: 1px solid #ccc;
+  }
+  .sale-heading {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+  }
+  .sale-percentage {
+    font-size: 32px;
+    font-weight: bold;
+    color: #FFFFFF; 
+    position: relative;
+    line-height: 1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  .sale-percentage span {
+    display: block;
+    font-size: 12px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+  }
+  .sale-benefit {
+    font-size: 10px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  .sale-discount-note {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+  .sale-discount-note-header {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  .sale-discount-note .highlight {
+    font-weight: bold;
+  }
+  @media (max-width: 767px) {
+    .sale-banner {
+      padding: 15px;
+    }
+    .sale-title {
+      font-size: 12px;
+      margin: 0px 5px;
+    }
+    .sale-subtitle {
+      font-size: 24px;
+      margin-bottom: 8px;
+    }
+    .sale-heading {
+      font-size: 14px;
+    }
+    .sale-percentage {
+      font-size: 15px;
+    }
+    .sale-percentage span {
+      font-size: 6px;
+    }
+    .sale-benefit {
+      font-size: 8px;
+    }
+    .sale-discount-note {
+      font-size: 10px;
+    }
+    .sale-discount-note-header {
+      font-size: 14px;
+    }
+    .sale-container {
+      padding: 10px 0;
+    }
+    .sale-column {
+      padding: 0 5px;
+    }
+  }
+{% endstyle %}
+
+<div class="sale-banner">
+  <div class="sale-title">ŠTO VIŠE KUPUJETE, VIŠE ŠTEDITE!</div>
+  <div class="sale-subtitle">RASPRODAJA</div>
+  <div class="sale-container">
+    <div class="sale-column">
+      <div class="sale-heading">KUPI 2 PROIZVODA</div>
+      <div class="sale-percentage">10% POPUSTA<span></span></div>
+      <div class="sale-benefit"></div>
+    </div>
+    <div class="sale-column">
+      <div class="sale-heading">KUPI 3 PROIZVODA</div>
+      <div class="sale-percentage">15% POPUSTA<span></span></div>
+      <div class="sale-benefit"></div>
+    </div>
+    <div class="sale-column">
+      <div class="sale-heading">KUPI 4 PROIZVODA</div>
+      <div class="sale-percentage">20% POPUSTA<span></span></div>
+      <div class="sale-benefit"></div>
+    </div>
+  </div>
+  <div class="sale-discount-note">
+    <div class="sale-discount-note-header">KAKO FUNKCIONIRA?</div>
+    Dodajte najmanje <span class="highlight">2, 3, 4 ili više proizvoda</span> u košaricu, popust <span class="highlight">primijenit će se automatski</span>.
+Proizvode možete miješati i kombinirati kako želite.
+</div>
+</div>
+
+{% schema %}
+{
+  "name": "Spring Sale Banner",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "THE MORE YOU ADD, THE MORE YOU SAVE!"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "SPRING SALE"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Spring Sale Banner",
+      "category": "Promotional"
+    }
+  ]
+}
+{% endschema %}

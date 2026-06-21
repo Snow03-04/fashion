@@ -1,0 +1,104 @@
+{%- assign total_qty = cart.item_count -%}
+
+{%- if total_qty >= 1 -%}
+  {%- if total_qty == 1 -%}{%- assign bar_width = 25 -%}
+  {%- elsif total_qty == 2 -%}{%- assign bar_width = 50 -%}
+  {%- elsif total_qty == 3 -%}{%- assign bar_width = 75 -%}
+  {%- else -%}{%- assign bar_width = 100 -%}
+  {%- endif -%}
+
+  {% comment %}
+<div class="cpb">
+    <div class="cpb__track">
+      <div class="cpb__fill" style="width:{{ bar_width }}%;"></div>
+      <div class="cpb__node {% if total_qty >= 2 %}cpb__node--active{% endif %}" style="left:50%">
+        {%- render 'icon-tags' -%}
+        <span>15%</span>
+      </div>
+      <div class="cpb__node {% if total_qty >= 3 %}cpb__node--active{% endif %}" style="left:75%">
+        {%- render 'icon-tags' -%}
+        <span>20%</span>
+      </div>
+      <div class="cpb__node {% if total_qty >= 4 %}cpb__node--active{% endif %}" style="left:100%">
+        {%- render 'icon-tags' -%}
+        <span>25%</span>
+      </div>
+    </div>
+  </div>
+{% endcomment %}
+ 
+  <style>
+  .cpb { padding: 4px 0 20px; }
+  .cpb__track { position: relative; height: 2px; background: rgba(0,0,0,0.12); border-radius: 1px; margin: 16px 0 0; }
+  .cpb__fill { position: absolute; top: 0; left: 0; height: 100%; background: #000; border-radius: 1px; transition: width 0.4s ease; }
+  .cpb__node { position: absolute; top: 50%; transform: translate(-50%, -50%); display: flex; flex-direction: column; align-items: center; gap: 5px; }
+  .cpb__node svg { width: 22px; height: 22px; padding: 4px; background: #fff; border: 1.5px solid rgba(0,0,0,0.15); border-radius: 50%; color: rgba(0,0,0,0.2); transition: all 0.3s ease; }
+  .cpb__node span { position: absolute; top: 26px; font-size: 10px; color: rgba(0,0,0,0.4); white-space: nowrap; }
+  .cpb__node--active svg { border-color: #000; color: #000; }
+  .cpb__node--active span { color: #000; font-weight: 600; }
+  </style>
+{%- endif -%}
+
+{%- liquid
+  assign subtotal = cart.total_price | plus: 0
+  assign cart_discount_size = cart.cart_level_discount_applications.size
+  assign original_subtotal = cart.original_total_price | plus: 0
+  assign currency_code_enable = settings.currency_code_enable
+
+  if currency_code_enable
+    assign original_subtotal_formatted = original_subtotal | money
+  else
+    assign original_subtotal_formatted = original_subtotal | money
+  endif
+-%}
+
+
+{%- if total_qty >= 2 -%}
+  <div class="cart__total">
+    <span class="cart__total__label">Termékek</span>
+    <span class="cart__total__price">
+      {%- if original_subtotal == 0 -%}
+        {{ 'general.money.free' | t }}
+      {%- else -%}
+        {{- original_subtotal_formatted -}}
+      {%- endif -%}
+    </span>
+  </div>
+{%- endif -%}
+
+{%- if total_qty >= 4 -%}
+  {%- assign active_pct = 25 -%}
+{%- elsif total_qty == 3 -%}
+  {%- assign active_pct = 20 -%}
+{%- elsif total_qty == 2 -%}
+  {%- assign active_pct = 15 -%}
+{%- else -%}
+  {%- assign active_pct = 0 -%}
+{%- endif -%}
+
+{%- if active_pct > 0 -%}
+  {%- assign saving = original_subtotal | minus: subtotal -%}
+  {%- if saving > 0 -%}
+    <div class="cart__total">
+      <div style="display:flex; align-items:center; gap:6px;">
+        {%- render 'icon-tags' -%}
+        <span>{{ active_pct }}% Kedvezmény</span>
+      </div>
+      <span style="color:var(--COLOR-SALE);">
+        -{{- saving | money -}}
+      </span>
+    </div>
+  {%- endif -%}
+{%- endif -%}
+
+<div class="cart__total">
+  <span class="cart__total__label">Összesen</span>
+  <span class="cart__total__price cart__total__price--animated" data-cart-total="{{ subtotal }}">
+    {%- if subtotal == 0 -%}
+      {{ 'general.money.free' | t }}
+    {%- else -%}
+      {{- subtotal | money -}}
+    {%- endif -%}
+  </span>
+  <div class="cart__price__loader loader"><div class="loader-indeterminate"></div></div>
+</div>

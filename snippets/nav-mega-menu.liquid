@@ -1,0 +1,65 @@
+{%- comment -%}
+Mega menu item for desktop. Expects:
+- link: the top-level menu item
+- index: forloop.index from the parent
+- highlight_item (optional): string to highlight a specific top-level item
+{%- endcomment -%}
+
+{%- assign is_highlight = highlight_item-%}
+
+<div class="navitem{% if is_highlight %} navitem--highlight{% endif %}">
+  <a class="navlink navlink--toplevel" href="{{ link.url }}">
+    <span class="navtext">{%- render 'menu-tr', title: link.title -%}</span>
+  </a>
+
+  {%- if link.links.size > 0 -%}
+    <div class="mega" data-mega>
+      <div class="mega__inner">
+        {%- for child in link.links -%}
+          <div class="mega__col">
+            <a class="mega__heading" href="{{ child.url }}">{{ child.title }}</a>
+
+            {%- if child.links.size > 0 -%}
+              <ul class="mega__list" role="list">
+                {%- for grandchild in child.links -%}
+                  <li class="mega__item">
+                    <a class="mega__link" href="{{ grandchild.url }}">{{ grandchild.title }}</a>
+                  </li>
+                {%- endfor -%}
+              </ul>
+            {%- endif -%}
+          </div>
+        {%- endfor -%}
+
+        {%- comment -%}
+        Optional promo image for this menu item.
+        If you want to attach images to specific positions (you already have "Image" blocks with a "position"),
+        you can render them here by matching block.settings.position == index.
+        {%- endcomment -%}
+        {%- for block in section.blocks -%}
+          {%- if block.type == 'image' and block.settings.position == index and block.settings.image != blank -%}
+            <div class="mega__promo{% if block.settings.wide_image %} mega__promo--wide{% endif %}">
+              {%- render 'image',
+                image: block.settings.image,
+                widths: '360,540,720,900,1080',
+                sizes: '(min-width: 1200px) 420px, 40vw',
+                alt: block.settings.image.alt | default: block.settings.title
+              -%}
+              {%- if block.settings.title != blank or block.settings.link_text != blank -%}
+                <div class="mega__promo__overlay"
+                     style="--overlay: {{ block.settings.overlay_color }}; --overlay-o: {{ block.settings.overlay_opacity | default: 0 }}%;">
+                  {%- if block.settings.title != blank -%}
+                    <div class="mega__promo__title {{ block.settings.heading_font_size }}">{{ block.settings.title }}</div>
+                  {%- endif -%}
+                  {%- if block.settings.link != blank and block.settings.link_text != blank -%}
+                    <a class="btn btn--small btn--solid btn--primary" href="{{ block.settings.link }}">{{ block.settings.link_text }}</a>
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
+            </div>
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
+    </div>
+  {%- endif -%}
+</div>

@@ -1,0 +1,569 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "heading_font_size": "heading-large",
+        "show_content": true,
+        "text_font_size": "body-medium",
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_rich_text_EmPLpq": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_9chzd8": {
+          "type": "heading",
+          "settings": {
+            "title": "Česta pitanja",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_Mgy88U": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pronađite odgovore na najčešća pitanja naših klijenata. Ako ne pronađete odgovor koji tražite, obratite se našem timu za podršku kako biste dobili pomoć.<br/><br/></p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_3EtNwQ": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Kontaktirajte nas",
+            "button_url": "shopify://pages/contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_9chzd8",
+        "text_Mgy88U",
+        "buttons_3EtNwQ"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "faq-first": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "faq-heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Naručbe"
+          }
+        },
+        "faq-0": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Kako se radi narudžba?",
+            "content": "<p>Vrlo je jednostavno naručiti kod nas: čim stavite artikl u svoju košaricu za kupnju, možete izvršiti narudžbu klikom na gumb „Izvrši narudžbu”. To možete jednostavno učiniti tijekom procesa plaćanja, kada se automatski prijavite. Zatim ćete biti vođeni kroz proces narudžbe u tri koraka (adresa – način plaćanja – potvrda) i moći ćete dovršiti svoju narudžbu.</p><p>Također vam nudimo mogućnost naručivanja bez izrade korisničkog računa. Narudžbu možete izvršiti i bez izrade korisničkog računa.</p><p>Za to kliknite na „Nastavi” u obrascu za registraciju gostiju. Kako biste dovršili svoju narudžbu, slijedite proces narudžbe u tri koraka (vaši podaci – plaćanje – narudžba).</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "faq-1": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Što se događa kada je moja narudžba dovršena?",
+            "content": "<p>Nakon što dovršite svoju narudžbu, primit ćete e-mail s potvrdom narudžbe koji će sadržavati ne samo artikle koje ste naručili, već i vašu adresu za dostavu i naplatu te odabrani način plaćanja.</p><p>Ako nije tako, možete započeti postupak povrata.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "faq-2": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Mogu li otkazati svoju narudžbu ako još nije poslana?",
+            "content": "<p>Otkazivanje je moguće ako vaša narudžba još nije obrađena u našem skladištu. Budući da naše skladište vrlo brzo obrađuje narudžbe, ponekad nije moguće otkazati narudžbu čak ni nakon nekoliko minuta.</p><p>Najbrži način je otvoriti odgovarajuću narudžbu u svom korisničkom računu i odabrati opciju otkazivanja. Imajte na umu da možete zatražiti otkazivanje samo svih artikala iz jedne planirane isporuke.</p><p>Ako želite otkazati sve artikle iz svoje narudžbe, a ona je podijeljena u više planiranih isporuka, morat ćete zatražiti otkazivanje za svaku od tih planiranih isporuka.</p><p>Nažalost, nije moguće otkazati pojedinačni artikl iz planirane isporuke. Nakon vašeg zahtjeva, dobit ćete poseban e-mail o statusu vašeg zahtjeva za otkazivanje.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_ET4j8W": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Postoji li minimalna vrijednost narudžbe?",
+            "content": "<p>U načelu, u našoj internetskoj trgovini ne postoji minimalni iznos narudžbe. Međutim, za određene načine plaćanja može postojati minimalni iznos; o tome ćete biti obaviješteni tijekom procesa naručivanja.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_CEEfLA": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Nedostaje li nešto u mojoj narudžbi?",
+            "content": "<p>Kontaktirajte nas izravno na <a>info@store.com</a> i dostavite nam ključne informacije, poput dostavne etikete itd. Što su informacije potpunije, to ćemo brže moći identificirati i riješiti problem.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_NwtyCU": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Što trebam učiniti ako nešto pođe po zlu s mojom narudžbom?",
+            "content": "<p>Kontaktirajte nas na <a>info@store.com</a>. Navedite broj svoje narudžbe, opis problema i priložite potrebne fotografije.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "faq-heading",
+        "faq-0",
+        "faq-1",
+        "faq-2",
+        "question_ET4j8W",
+        "question_CEEfLA",
+        "question_NwtyCU"
+      ],
+      "settings": {
+        "heading_font_size": "heading-medium",
+        "question_font_size": "heading-mini",
+        "width": "wrapper",
+        "columns": "2",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_accordion_group_HFbUBb": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading_6WKUpk": {
+          "type": "heading",
+          "settings": {
+            "title": "Dostava i isporuka"
+          }
+        },
+        "question_XqYzfm": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Koji je rok isporuke?",
+            "content": "<p>U pravilu isporučujemo artikle koji su odmah dostupni u roku od 5 do 8 radnih dana.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_i8zfpF": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Kako mogu pratiti svoju narudžbu?",
+            "content": "<p>Kako biste pratili svoju narudžbu, možete kliknuti na poveznicu za praćenje u e-mailu s potvrdom slanja koji ste primili.</p><p>Ako ne pronađete e-mail s potvrdom u pristigloj pošti, najvjerojatnije se nalazi u mapi neželjene pošte.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_neceip": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Zašto se praćenje pošiljke ne ažurira?",
+            "content": "<p>Las actualizaciones de seguimiento pueden retrasarse cuando el paquete se :</p><p>-Retenidos por causas de fuerza mayor, como condiciones meteorológicas extremas, restricciones de envío, huelgas, etc.</p><p>-Sujeto a procedimientos aduaneros locales.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_DFLyin": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Zašto se moja narudžba prikazuje kao isporučena prije nego što je primim?",
+            "content": "<p>Ako niste primili svoj(e) artikl(e):</p><p>1) Provjerite je li adresa u vašoj narudžbi netočna;</p><p>2) Kontaktirajte dostavnu službu;</p><p>3) Provjerite svoj poštanski sandučić ili pitajte susjede jesu li primili paket u vaše ime;</p><p>4) U rijetkim slučajevima, paketi mogu biti označeni kao isporučeni i do 48 sati prije stvarnog dolaska.</p><p>Ako ne primite artikl u roku od 3 radna dana od datuma isporuke vaše narudžbe, pošaljite nam e-mail na info@store.com (s brojem narudžbe i razlogom).</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_Ei6WRN": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Zašto se moja narudžba vraća pošiljatelju ili se odbija?",
+            "content": "<p>Narudžba se može vratiti pošiljatelju ili odbiti iz bilo kojeg od sljedećih razloga:</p><p>1) Adresa nije važeća ili nedostaju podaci,</p><p>2) Dostavljač ne može isporučiti vaš paket,</p><p>3) Narudžbu kupac odbije u trenutku isporuke.</p><p>Imajte na umu da nismo odgovorni za izgubljene, pogrešno poslane ili krivo isporučene artikle ako je adresa navedena prilikom kupnje netočna.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_33DAwh": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Što mogu učiniti ako usluga praćenja pokazuje da moj paket nije isporučen?",
+            "content": "<p>Ako otkrijete da vaš paket nije isporučen, provjerite podatke o adresi dostave navedene u potvrdi narudžbe. Ako je adresa točna, predlažemo da se najprije obratite logističkoj tvrtki, jer je to najučinkovitiji način da locirate svoj paket i dogovorite novu dostavu.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_4U9y7i": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Kako mogu biti siguran/na da sam ispravno ispunio/la svoju narudžbu?",
+            "content": "<p>Ako ste izradili korisnički račun, možete pristupiti web stranici i pregledati svoje narudžbe u odjeljku „Narudžbe”. Ako imate bilo kakvih pitanja, možete se u bilo kojem trenutku obratiti našoj službi za korisnike putem e-pošte na adresu ayuda@store.com</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_jN7Hbg": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Koje će dostavne službe dostaviti moj paket?",
+            "content": "<p>Svoje proizvode dostavljamo u Hrvatskoj u suradnji s našim partnerima Paket24.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_4Ue9MH": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Može li adresa dostave biti drugačija od adrese za naplatu?",
+            "content": "<p>Naravno, svoju narudžbu možete dostaviti i na adresu koja je drugačija od adrese za naplatu, primjerice na svoje radno mjesto ili mjesto preuzimanja, odabirom jednog od dostupnih načina plaćanja i navođenjem adrese dostave u odjeljku „Adresa dostave”.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_b6aAWP": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Mogu li promijeniti adresu dostave svoje potvrđene narudžbe?",
+            "content": "<p>Nažalost, naknadna promjena adrese dostave nije moguća. Ako se adresa dostave ne može pronaći ili ako se vaša narudžba ne može isporučiti, pošiljka će nam biti vraćena. Nakon što primimo i provjerimo vašu povratnu pošiljku, vratit ćemo vam odgovarajući iznos koristeći način plaćanja koji ste odabrali prilikom naručivanja.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_6WKUpk",
+        "question_XqYzfm",
+        "question_i8zfpF",
+        "question_neceip",
+        "question_DFLyin",
+        "question_Ei6WRN",
+        "question_33DAwh",
+        "question_4U9y7i",
+        "question_jN7Hbg",
+        "question_4Ue9MH",
+        "question_b6aAWP"
+      ],
+      "settings": {
+        "heading_font_size": "heading-medium",
+        "question_font_size": "heading-mini",
+        "width": "wrapper",
+        "columns": "2",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_accordion_group_eqhNRQ": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading_ihdNma": {
+          "type": "heading",
+          "settings": {
+            "title": "Povrati i povrati novca"
+          }
+        },
+        "question_LwTNKm": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Kako poslati povrat?",
+            "content": "<p>Ako je vaša narudžba podobna za povrat, slijedite ove korake kako biste započeli postupak povrata:</p><p>1. Pošaljite e-mail putem odjeljka „Kontakt” na web stranici</p><p>2. Provjerite sadrži li e-mail sljedeće informacije:<br/><br/>:- Broj narudžbe</p><p>-Razlog zahtjeva za povrat<br/>-Fotografija proizvoda ako je oštećen<br/>-Ime i prezime kupca<br/>-Adresa kupca</p><p>Kontaktirat ćemo vas kako bismo vam dostavili adresu za povrat.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_9mXNYF": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Koliko obično traje povrat novca za povratnu pošiljku?",
+            "content": "<p>Čim primimo i provjerimo vraćene proizvode, iznos računa bit će vam vraćen u roku od 14 dana koristeći način plaćanja koji ste odabrali prilikom narudžbe.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_DjwWRR": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Hoće li troškovi dostave biti vraćeni ako vratim svoju narudžbu?",
+            "content": "<p>Dobit ćete puni povrat iznosa svoje narudžbe ako je vratite u cijelosti.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_AU6tby": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Što mogu učiniti ako je moj artikl oštećen tijekom transporta?",
+            "content": "<p>Ako je artikl koji smo vam isporučili oštećen, neispravan ili ne odgovara vašim potrebama, možete, naravno, podnijeti reklamaciju i vratiti nam ga besplatno koristeći obrazac za povrat. Sve potrebne informacije o povratima pronaći ćete u odjeljku „Kako izvršiti povrat?”.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_8z3EHq": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "U kojem roku mogu vratiti artikl?",
+            "content": "<p>U možete vratiti naručene artikle u roku od 30 dana od primitka svoje narudžbe.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_BNDz6X": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Kako ću primiti povrat novca?",
+            "content": "<p>Povrat će se uvijek izvršiti korištenjem načina plaćanja koji ste odabrali. Ako plaćate kreditnom karticom, iznos za vraćene artikle vratit ćemo izravno na račun vaše kreditne kartice. Ako plaćate putem PayPala, iznos će biti uplaćen na vaš PayPal račun.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_ihdNma",
+        "question_LwTNKm",
+        "question_9mXNYF",
+        "question_DjwWRR",
+        "question_AU6tby",
+        "question_8z3EHq",
+        "question_BNDz6X"
+      ],
+      "settings": {
+        "heading_font_size": "heading-medium",
+        "question_font_size": "heading-mini",
+        "width": "wrapper",
+        "columns": "2",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_accordion_group_hx4Day": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading_wUmdaQ": {
+          "type": "heading",
+          "settings": {
+            "title": "Plaćanja i promocije"
+          }
+        },
+        "question_CzEWKL": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Kako se obračunavaju carine i porezi?",
+            "content": "<p>Vi ste odgovorni za to da proizvodi koje naručujete budu u skladu s državnim i saveznim uvoznim pravilima i propisima te za plaćanje troškova (uključujući sve troškove dostave, primjenjive carine, poreze i pristojbe za carinsko posredovanje).</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_8QaQa8": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Koje oblike plaćanja prihvaćate?",
+            "content": "<p>Prihvaćamo Apple Pay, Google Pay, PayPal, Shop Pay, Visa, Mastercard i American Express kao načine plaćanja. Koristimo pouzdane kanale plaćanja i činimo sve kako bismo zaštitili vaše plaćanje i vaše osobne podatke.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_mWM3zh": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Zašto mi je plaćanje odbijeno?",
+            "content": "<p>To može biti iz nekoliko razloga. Podaci o kartici su netočni – provjerite datum isteka, adresu za naplatu i sigurnosni kod (sigurnosni kod se nalazi na poleđini vaše Visa/Master kartice). 2. Banka izdavatelj je odbila plaćanje. 3. Stanje na računu nije dovoljno za izvršenje plaćanja. Prihvaćeni načini plaćanja uključuju kreditne ili debitne kartice (Visa, MasterCard, American Express, Discover), PayPal i druge platforme ovisno o zemlji.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_Kj4djA": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Zašto mi je naplaćeno dvaput?",
+            "content": "<p>Ali ne brinite. Najprije provjerite jeste li možda greškom napravili više narudžbi. Ako niste, napravite snimku zaslona svoje povijesti plaćanja i kontaktirajte nas.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_wUmdaQ",
+        "question_CzEWKL",
+        "question_8QaQa8",
+        "question_mWM3zh",
+        "question_Kj4djA"
+      ],
+      "settings": {
+        "heading_font_size": "heading-medium",
+        "question_font_size": "heading-mini",
+        "width": "wrapper",
+        "columns": "2",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_accordion_group_Tg6aRt": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading_yeDmbJ": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "AFILIACIÓN E INFLUENCIADORES"
+          }
+        },
+        "question_tq6dGh": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "default_open": false,
+            "title": "Me gustaría ser afiliado y/o influencer de Nivra, ¿qué pasos debo seguir?",
+            "content": "<p>¡Gracias por tu cariño! Envíanos un e-mail a influencer@nivra-madrid.es. Te responderemos con más información si la necesitamos.¿Todavía tienes preguntas? Envíanos un correo electrónico a ayuda@nivra-madrid.es. Estaremos encantados de ayudarte.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_PdH8PA": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "default_open": false,
+            "title": "¿Se trata de una invitación oficial a colaborar o de una estafa?",
+            "content": "<p>¡Esté alerta! Si recibes un correo electrónico o un SMS en nombre de Nivra pidiéndote que pagues una cuota, lo más probable es que se trate de una estafa. </p><p>Recientemente, algunos clientes nos han informado de que algunos estafadores se han hecho pasar por NIVRA para cometer fraudes. </p><p>Todas las cuentas de correo electrónico de NIVRA terminan con el sufijo @nivra-madrid.es. Si recibes un correo electrónico fraudulento, no respondas y denuncia al remitente a través de tu proveedor de servicios de Internet.</p><p>Gracias por ayudarnos a proteger a los demás de las estafas. En este caso, comprueba que el remitente es @nivra-madrid.es. 📬</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_yeDmbJ",
+        "question_tq6dGh",
+        "question_PdH8PA"
+      ],
+      "settings": {
+        "heading_font_size": "heading-medium",
+        "question_font_size": "heading-mini",
+        "width": "wrapper",
+        "columns": "2",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_rich_text_EmPLpq",
+    "faq-first",
+    "section_accordion_group_HFbUBb",
+    "section_accordion_group_eqhNRQ",
+    "section_accordion_group_hx4Day",
+    "section_accordion_group_Tg6aRt"
+  ]
+}

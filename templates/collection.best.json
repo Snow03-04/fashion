@@ -1,0 +1,148 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_rich_text_zRzGAF": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_QVNQrK": {
+          "type": "heading",
+          "settings": {
+            "title": "Desværre er vi nødt til at lukke vores butik...💔",
+            "heading_font_size": "heading-x-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_FrECUR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I de seneste år har min mor og jeg lagt vores hjerte og sjæl i hvert eneste stykke tøj, vi har udvalgt med kærlighed: bukser, bluser, sko, kjoler, tasker – altid med ønsket om at skabe en varm og indbydende atmosfære for vores fællesskab. Hvert eneste produkt bar en del af os.</p><p>Nu er vi nået til et svært punkt, hvor vi er nødt til at tømme vores lager, og for at gøre det lidt hurtigere, tilbyder vi store rabatter på op til <strong>80%</strong>.</p><p><strong>Rabat fratrækkes automatisk ved checkout</strong></p><p><strong>10% EKSTRA RABAT ved køb af 2 produkter</strong><br/><br/><strong>15% EKSTRA RABAT ved køb af 3 produkter</strong><br/><br/><strong>20% EKSTRA RABAT ved køb af 4 produkter</strong></p><p>Vi takker af hjertet alle, der har været en del af denne rejse.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_QVNQrK",
+        "text_FrECUR"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "hero": {
+      "type": "collection-image-with-title",
+      "settings": {
+        "show_title": true,
+        "show_description": true,
+        "flex_align": "align--middle-left",
+        "color_scheme": "",
+        "show_text_background": false,
+        "show_image": true,
+        "banner_layout": "inline",
+        "height": "three-fifty-height-hero",
+        "mobile_height": "two-fifty-height-hero--mobile",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "settings": {
+        "subcollection_layout": "grid",
+        "subcollection_description": true,
+        "select_image": "collection",
+        "color_scheme": "",
+        "color": "#ffffff",
+        "bg_color": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "featured_image_itFb3E": {
+          "type": "featured_image",
+          "settings": {
+            "featured_image": "shopify://shop_images/desconto_banner.png",
+            "position": 13,
+            "featured_heading": "",
+            "heading_font_size": "heading-large",
+            "featured_text": "",
+            "featured_button_text": "",
+            "featured_button_link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "featured_color_text": "#ffffff",
+            "featured_color_overlay": "#222222",
+            "featured_overlay_opacity": 0,
+            "heading_tag": "automatic"
+          }
+        },
+        "featured_image_aTnhdJ": {
+          "type": "featured_image",
+          "settings": {
+            "featured_image": "shopify://shop_images/desconto_banner.png",
+            "position": 22,
+            "featured_heading": "",
+            "heading_font_size": "heading-large",
+            "featured_text": "",
+            "featured_button_text": "",
+            "featured_button_link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "featured_color_text": "#ffffff",
+            "featured_color_overlay": "#222222",
+            "featured_overlay_opacity": 0,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "featured_image_itFb3E",
+        "featured_image_aTnhdJ"
+      ],
+      "settings": {
+        "enable_sort": true,
+        "enable_filters": false,
+        "filter_layout": "inline-open",
+        "default_open": true,
+        "collection_linklist": "",
+        "grid": 4,
+        "grid_mobile": "2",
+        "products_per_page": 24,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "section_rich_text_zRzGAF",
+    "hero",
+    "subcollections",
+    "main"
+  ]
+}

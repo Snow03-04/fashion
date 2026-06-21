@@ -1,0 +1,96 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "aside",
+  "name": "Overlay",
+  "sections": {
+    "cart-drawer": {
+      "type": "cart-drawer",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title": "Košík"
+          }
+        },
+        "code_h7PeEM": {
+          "type": "code",
+          "disabled": true,
+          "settings": {
+            "code": "<div id=\"cart-timer\" class=\"cart-timer\" style=\"margin-left:-1.5rem;margin-right:-1.5rem;\">\n      Produkty są zarezerwowane przez <strong><span id=\"timer\"></span></strong> minuta!\n          </div>",
+            "pin_to_bottom": false
+          }
+        },
+        "code_dWqUJV": {
+          "type": "code",
+          "disabled": true,
+          "settings": {
+            "code": "{% assign today = 'now' | date: '%s' %}\n{% assign delivery_start = today | plus: 259200| date: '%s' %} \n{% assign delivery_end = delivery_start | plus: 259200 | date: '%s' %} \n\n{% assign start_weekday = delivery_start | date: '%a' %}\n{% assign end_weekday = delivery_end | date: '%a' %}\n{% assign start_day = delivery_start | date: '%d/%m' %}\n{% assign end_day = delivery_end | date: '%d/%m' %}\n\n\n{% case start_weekday %}\n  {% when 'Mon' %}{% assign start_weekday_fr = 'Lun' %}\n  {% when 'Tue' %}{% assign start_weekday_fr = 'Mar' %}\n  {% when 'Wed' %}{% assign start_weekday_fr = 'Mer' %}\n  {% when 'Thu' %}{% assign start_weekday_fr = 'Jeu' %}\n  {% when 'Fri' %}{% assign start_weekday_fr = 'Ven' %}\n  {% when 'Sat' %}{% assign start_weekday_fr = 'Sam' %}\n  {% when 'Sun' %}{% assign start_weekday_fr = 'Dim' %}\n{% endcase %}\n\n{% case end_weekday %}\n  {% when 'Mon' %}{% assign end_weekday_fr = 'Lun' %}\n  {% when 'Tue' %}{% assign end_weekday_fr = 'Mar' %}\n  {% when 'Wed' %}{% assign end_weekday_fr = 'Mer' %}\n  {% when 'Thu' %}{% assign end_weekday_fr = 'Jeu' %}\n  {% when 'Fri' %}{% assign end_weekday_fr = 'Ven' %}\n  {% when 'Sat' %}{% assign end_weekday_fr = 'Sam' %}\n  {% when 'Sun' %}{% assign end_weekday_fr = 'Dim' %}\n{% endcase %}\n\n<style>.koGWUQ {\n    padding: 6px 12px;\n    border-radius: 0px;\n    background-color: rgb(242, 242, 242);\n    font-size: 0.875rem;\n  \n    color: inherit;\n}.cvrUtC {\n    flex-direction: column;\n    display: flex;\n    gap: 0;\n}.ihpTGJ{display:flex;-webkit-box-pack:justify;justify-content:space-between;padding:10px 0px 0; align-items:center}.cuLIOr{flex-direction:column;display:flex;gap:.375rem}.ezizbo{font-size:1rem;color:#000;}</style>\n\n<div class=\"sc-4d4a51-1 ihpTGJ appear-animation appear-delay-1\" style=\"padding:10px 10px;\">\n          <div class=\"sc-45d4aa8a-0 cvrUtC\"><div data-testid=\"deliveryHeadline\" class=\"cart__title caps\" >Livraison</div><span color=\"Grey0\" data-testid=\"shippedByMerchantInfo\" class=\"sle579p tquhlzi\" style=\"font-size: 0.625rem; --tquhlzi-2: #6b6b6b; --tquhlzi-3: normal; --tquhlzi-4: none; --tquhlzi-5: inherit;\">Expédié(e) par <b>NIVRA</b></span></div>\n          <div>\n            <div class=\"sc-4d4a51-3 koGWUQ\">{{ start_weekday_fr }}. {{ start_day }} - {{ end_weekday_fr }}. {{ end_day }}</div>\n          </div>\n        </div>",
+            "pin_to_bottom": false
+          }
+        },
+        "code_zNzBFX": {
+          "type": "code",
+          "settings": {
+            "code": "<div class=\"cart-timer-strip\">\n  Košík je rezervován pouze ještě\n  <strong><span id=\"timer\" class=\"cart-time\">--:--</span></strong>\n  <span id=\"minutes-label\">minut!</span>\n</div>\n<style>\n.cart-timer-strip {\n  display: block; width: 100%; box-sizing: border-box;\n  background: #e6f4ea; padding: 10px 0; margin: 0;\n  font-size: clamp(11px, 3.2vw, 13px); line-height: 1.4;\n  text-align: center; white-space: nowrap; color: #1a1a1a;\n  font-family: inherit;\n}\n.cart-timer-strip strong { font-weight: 700; font-size: clamp(12px, 3.4vw, 14px); color: #1a1a1a; }\n.cart-time { font-weight: 700; }\n</style>",
+            "pin_to_bottom": false
+          }
+        },
+        "products": {
+          "type": "products",
+          "settings": {
+            "pin_to_bottom": false
+          }
+        },
+        "checkout-buttons": {
+          "type": "checkout-buttons",
+          "settings": {
+            "enable_additional_buttons": false,
+            "show_view_cart_button": false,
+            "pin_to_bottom": true
+          }
+        },
+        "free-shipping": {
+          "type": "free-shipping",
+          "disabled": true,
+          "settings": {
+            "message": "Zbývá vám ||amount|| do dopravy zdarma.",
+            "free_shipping_gradient": "",
+            "pin_to_bottom": false
+          }
+        },
+        "code_YcyLx6": {
+          "type": "code",
+          "settings": {
+            "code": "<style>\n.icon-list-custom {\n    display: flex;\n    flex-wrap: wrap;\n    list-style: none;\n    justify-content: center;\n    margin: 0;\n    gap: 8px;\n    padding: 0;\n    margin-top: -1rem;\n}\n</style>\n\n<ul class=\"icon-list-custom\" role=\"list\">\n    {% assign enabled_payment_types = 'visa,master,american_express,apple_pay,google_pay, maestro' | remove: ' ' | split: ',' %}\n    {% for type in enabled_payment_types %}\n        <li>{{ type | payment_type_svg_tag: class: 'icon-svg' }}</li>\n    {%- endfor -%}\n</ul>",
+            "pin_to_bottom": true
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "code_h7PeEM",
+        "code_dWqUJV",
+        "code_zNzBFX",
+        "products",
+        "checkout-buttons",
+        "free-shipping",
+        "code_YcyLx6"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": ""
+      }
+    }
+  },
+  "order": [
+    "cart-drawer"
+  ]
+}

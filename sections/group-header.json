@@ -1,0 +1,152 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "section_custom_code_4yHrJT": {
+      "type": "section-custom-code",
+      "disabled": true,
+      "name": "Custom code",
+      "settings": {
+        "code": "<!-- TOP ANNOUNCEMENT BAR -->\n<div id=\"TopAnnouncementCustom\" class=\"top-announcement-custom\">\n  <div class=\"bar-inner\">\n    <p class=\"bar-text\">\nA végső leárazás ma véget ér | Akár 80% kedvezmény\n    </p>\n  </div>\n</div>\n\n<style>\n/* =========================\n   TOP ANNOUNCEMENT BAR\n   ========================= */\n\n#TopAnnouncementCustom{\n  background:#000000;\n  color:#ffffff;\n  width:100%;\n  z-index:9999;\n}\n\n#TopAnnouncementCustom .bar-inner{\n  max-width:1200px;\n  margin:0 auto;\n  padding:10px 16px;\n  display:flex;\n  align-items:center;\n  justify-content:center;\n}\n\n#TopAnnouncementCustom .bar-text{\n  margin:0;\n  font-weight:700;\n  text-transform:uppercase;\n  letter-spacing:0.3px;\n  line-height:1.3;\n  color:#ffffff;\n  font-size:13px;\n  text-align:center;\n}\n\n/* MOBILE */\n@media (max-width:768px){\n  #TopAnnouncementCustom .bar-text{\n    font-size:11px;\n  }\n}\n</style>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_section_kzjwx3": {
+      "type": "custom-liquid-section",
+      "name": "Custom Liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"BeigeAnnouncementBar\">\n  <div class=\"beige-inner\">\n    <div class=\"beige-marquee\">\n      <div class=\"beige-marquee__track\">\n        <span class=\"beige-marquee__item\">Kup 2 a získej 15% slevu</span>\n        <span class=\"beige-marquee__sep\">✦</span>\n        <span class=\"beige-marquee__item\">Kup 3 a získej 20% slevu</span>\n        <span class=\"beige-marquee__sep\">✦</span>\n        <span class=\"beige-marquee__item\">Kup 4+ a získej 25% slevu</span>\n        <span class=\"beige-marquee__sep\">✦</span>\n        <span class=\"beige-marquee__item\">Kup 2 a získej 15% slevu</span>\n        <span class=\"beige-marquee__sep\">✦</span>\n        <span class=\"beige-marquee__item\">Kup 3 a získej 20% slevu</span>\n        <span class=\"beige-marquee__sep\">✦</span>\n        <span class=\"beige-marquee__item\">Kup 4+ a získej 25% slevu</span>\n        <span class=\"beige-marquee__sep\">✦</span>\n      </div>\n    </div>\n  </div>\n</div>\n<style>\n:root{\n  --bar-h: 36px;\n  --fs: 11px;\n  --speed: 40s;\n}\n@media (min-width: 768px){\n  :root{\n    --bar-h: 44px;\n    --fs: 14px;\n  }\n}\n#BeigeAnnouncementBar{\n  background: #7b1010;\n  color: #ffffff;\n  width: 100%;\n  overflow: hidden;\n  box-shadow: inset 0 -1px 0 rgba(255,255,255,.12);\n}\n#BeigeAnnouncementBar .beige-inner{\n  width: 100%;\n  height: var(--bar-h);\n  display: flex;\n  align-items: center;\n  overflow: hidden;\n}\n#BeigeAnnouncementBar .beige-marquee{\n  width: 100%;\n  overflow: hidden;\n  height: var(--bar-h);\n  display: flex;\n  align-items: center;\n}\n#BeigeAnnouncementBar .beige-marquee__track{\n  display: flex;\n  flex-direction: row;\n  width: max-content;\n  animation: beige-horizontal var(--speed) linear infinite;\n}\n#BeigeAnnouncementBar .beige-marquee__item{\n  white-space: nowrap;\n  font-family: 'Montserrat', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;\n  font-weight: 600;\n  text-transform: uppercase;\n  letter-spacing: 1.4px;\n  font-size: var(--fs);\n  line-height: var(--bar-h);\n  height: var(--bar-h);\n  display: flex;\n  align-items: center;\n  padding: 0 40px;\n}\n#BeigeAnnouncementBar .beige-marquee__sep{\n  color: rgba(255,255,255,0.4);\n  font-size: var(--fs);\n  line-height: var(--bar-h);\n  height: var(--bar-h);\n  display: flex;\n  align-items: center;\n  padding: 0 4px;\n  font-weight: 300;\n}\n@keyframes beige-horizontal{\n  from{ transform: translateX(0); }\n  to  { transform: translateX(-50%); }\n}\n</style>"
+      }
+    },
+    "announcement": {
+      "type": "announcement",
+      "blocks": {
+        "text_hWRmkz": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>BESPLATNA DOSTAVA – RASPRODAJA ZAVRŠAVA DANAS – POPUSTI DO 80%</strong></p>",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "text_hWRmkz"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_border": false,
+        "layout": "marquee",
+        "slider_speed": 5,
+        "text_alignment": "center",
+        "show_arrows": false,
+        "marquee_speed": 50,
+        "message_spacing": 10,
+        "text_font_size": "body-small",
+        "color_scheme": "scheme-2",
+        "border_color": "",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "header": {
+      "type": "header",
+      "custom_css": [],
+      "settings": {
+        "header_sticky": true,
+        "header_style": "logo_above",
+        "show_separator_line": true,
+        "header_border_color": "",
+        "separator_opacity": 0,
+        "show_icons": true,
+        "icon_as_circle": false,
+        "cart_icon_family": "bag",
+        "logo": "shopify://shop_images/ELENA_EGER.png",
+        "logo_max_limit": 170,
+        "logo_max_limit_mobile": 190,
+        "main_menu_linklist": "",
+        "mobile_menu_linklist": "",
+        "enable_search": true,
+        "show_social_icons": false,
+        "button_text": "",
+        "button_link": "",
+        "button_type": "btn--black",
+        "show_locale_selector": true,
+        "show_country_selector": true,
+        "show_country_name": true,
+        "show_country_flag": true,
+        "highlight_item": "Promotion",
+        "highlight_item_color": "#c20000",
+        "transparent_home": false,
+        "transparent_collection": false,
+        "transparent_article": false,
+        "transparent_page": false,
+        "transparent_product_page": false,
+        "secondary_menu_linklist": "",
+        "tertiary_menu_linklist": "",
+        "padding_top": 5,
+        "padding_bottom": 5
+      }
+    },
+    "mobile_menu_VJFJXW": {
+      "type": "mobile-menu",
+      "blocks": {
+        "menu_gEbFcX": {
+          "type": "menu",
+          "settings": {
+            "mobile_menu_linklist": "main-menu",
+            "text_font_size": "body-medium",
+            "highlight_item": "Liquidaçāo",
+            "highlight_item_color": "#d02e2e",
+            "padding": true,
+            "padding_bottom": 14
+          }
+        }
+      },
+      "block_order": [
+        "menu_gEbFcX"
+      ],
+      "settings": {
+        "logo_max_limit": 145,
+        "color_scheme": ""
+      }
+    },
+    "section_custom_code_Nfqzih": {
+      "type": "section-custom-code",
+      "disabled": true,
+      "name": "Custom code",
+      "settings": {
+        "code": "<div class=\"promo-barra-fixa\">\n  <div class=\"promo-item\">\n    <div class=\"promo-top\">-10%</div>\n    <div class=\"promo-bottom\">KUPITE 2 I UŠTEDITE</div>\n  </div>\n  <div class=\"promo-item\">\n    <div class=\"promo-top\">-15%</div>\n    <div class=\"promo-bottom\">KUPITE 3 I UŠTEDITE</div>\n  </div>\n  <div class=\"promo-item\">\n    <div class=\"promo-top\">-20%</div>\n    <div class=\"promo-bottom\">KUPITE 4 I UŠTEDITE</div>\n  </div>\n</div>\n\n<style>\n.promo-barra-fixa {\n  display: flex;\n  justify-content: space-between;\n  align-items: stretch; /* <-- estica os itens para altura total */\n  background-color: #f5f0eb;\n  border: 5px solid #ffffff;\n  font-family: ;\n  padding: 0; /* Remove padding vertical aqui */\n  text-align: center;\n  height: 100%; /* Garante altura total da borda */\n}\n\n.promo-item {\n  flex: 1;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  padding: 8px 5px;\n}\n\n/* Borda branca total entre os itens */\n.promo-item:not(:first-child) {\n  border-left: 2px solid #ffffff;\n}\n\n.promo-top {\n  color: #000 !important;\n  font-weight: 700 !important;\n  font-size: 16px !important;\n  line-height: 1.2 !important;\n  margin-bottom: 4px;\n}\n\n.promo-bottom {\n  font-size: 10px;\n  font-weight: 500;\n  color: #000;\n  line-height: 1.2;\n}\n\n@media (max-width: 768px) {\n  .promo-barra-fixa {\n    flex-direction: row;\n    padding: 0;\n  }\n  .promo-item {\n    padding: 6px 2px;\n  }\n  .promo-top {\n    font-size: 10px;\n    padding: 2px 6px;\n  }\n  .promo-bottom {\n    font-size: 10px;\n  }\n}\n</style>",
+        "width": "wrapper--full",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "section_custom_code_4yHrJT",
+    "custom_liquid_section_kzjwx3",
+    "announcement",
+    "header",
+    "mobile_menu_VJFJXW",
+    "section_custom_code_Nfqzih"
+  ]
+}

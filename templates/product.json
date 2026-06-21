@@ -1,0 +1,972 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection_nav_impulse_KTtW4L": {
+      "type": "collection-nav-impulse",
+      "custom_css": [
+        ".imp-collections-list {display: flex; gap: 18px; margin: 0; padding: 10px 4px; list-style: none; white-space: nowrap; margin-left: 20px; /* 👈 margem à esquerda */}"
+      ],
+      "name": "Coleções Bar",
+      "settings": {
+        "menu": "",
+        "sticky": false,
+        "offset": 0
+      }
+    },
+    "main": {
+      "type": "product",
+      "blocks": {
+        "code_rr8GY4": {
+          "type": "code",
+          "settings": {
+            "code": "<div class=\"custom-review\" style=\"display: flex; align-items: center; gap: 5px; font-size: 14px; margin-top:0px\">\n  <div class=\"r-stars\" style=\"display: flex; gap: 0px;\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"#2E9E5B\">\n      <polygon points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\"></polygon>\n    </svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"#2E9E5B\">\n      <polygon points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\"></polygon>\n    </svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"#2E9E5B\">\n      <polygon points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\"></polygon>\n    </svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"#2E9E5B\">\n      <polygon points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\"></polygon>\n    </svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"#2E9E5B\">\n      <polygon points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\"></polygon>\n    </svg>\n  </div>\n  <div class=\"r-text\" style=\"font-size: 14px;\">\n    <b>4.8/5</b> több mint <b>+13465</b> értékelés\n  </div>\n</div>",
+            "padding_bottom": 16
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading_option": "none",
+            "heading_font_size": "heading-x-small",
+            "padding_bottom": 12
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "text_font_size": "body-small",
+            "padding_bottom": 24
+          }
+        },
+        "variants": {
+          "type": "variants",
+          "settings": {
+            "info_page": "",
+            "size_chart_style": "question",
+            "subscriptions_enable_selectors": false,
+            "padding_bottom": 24
+          }
+        },
+        "icon_4CjRqV": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "",
+            "text": "<p>Doprava GLS zdarma</p>",
+            "text_font_size": "body-small",
+            "width": "full",
+            "padding_bottom": 16
+          }
+        },
+        "icon_f9A9K9": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-award",
+            "icon_size": 30,
+            "icon_color": "",
+            "text": "<p>Ručně vyráběné s péčí</p>",
+            "text_font_size": "body-medium",
+            "width": "full",
+            "padding_bottom": 16
+          }
+        },
+        "icon_M9Cn9q": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-award",
+            "icon_size": 30,
+            "icon_color": "",
+            "text": "<p>Dárkové balení zdarma</p>",
+            "text_font_size": "body-small",
+            "width": "full",
+            "padding_bottom": 16
+          }
+        },
+        "icon_3yMUym": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-fast-shipment",
+            "icon_size": 20,
+            "icon_color": "",
+            "text": "<p>60denní záruka vrácení</p>",
+            "text_font_size": "body-small",
+            "width": "full",
+            "padding_bottom": 16
+          }
+        },
+        "code_WLByy8": {
+          "type": "code",
+          "settings": {
+            "code": "<style>\n.low-stock {\n  position: relative;\n  width: 10px;\n  height: 10px;\n  border-radius: 50%;\n  background-color: #C41E3A;\n}\n.low-stock::after {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  border-radius: 50%;\n  background: #F5AF29;\n  animation: pulse 2s infinite ease-in-out;\n}\n@keyframes pulse {\n  0% { transform: scale(0.8); opacity: 1; }\n  50% { transform: scale(1.5); opacity: 0.2; }\n  100% { transform: scale(0.8); opacity: 0; }\n}\n</style>\n\n<div style=\"display:flex; align-items:center; margin-top:0px; padding-left:2px;\">\n  <div style=\"width:17px; height:20px; display:flex; align-items:center; justify-content:center; margin-right:10px;\">\n    <div class=\"low-stock\"></div>\n  </div>\n  <span style=\"font-size:14px; color:#C41E3A;\">Skladem zbývá málo kusů!</span>\n</div>",
+            "padding_bottom": 16
+          }
+        },
+        "fit_guide_Pxxjia": {
+          "type": "fit-guide",
+          "settings": {
+            "heading": "Střih",
+            "selected_segment": "3",
+            "left_label": "Malý",
+            "middle_label": "Standardní velikost",
+            "right_label": "Volný střih",
+            "fit_color": "",
+            "padding_bottom": 20
+          }
+        },
+        "code_ajPB4J": {
+          "type": "code",
+          "disabled": true,
+          "settings": {
+            "code": "<div class=\"stock-alert\">\n  <span class=\"circle\"></span>\n  <span class=\"text\">ZOSTAŁY TYLKO <span id=\"stockCount\">14</span> SZTUKI</span>\n</div>\n\n<script>\n  // Inicializa o número de unidades\n  let stock = 14;\n\n  // Função para diminuir o estoque de 10 em 10 segundos\n  function updateStock() {\n    if (stock > 0) {\n      stock--;  // Diminui o estoque\n      document.getElementById(\"stockCount\").textContent = stock;  // Atualiza o número na tela\n    }\n  }\n\n  // Atualiza o estoque a cada 10 segundos\n  setInterval(updateStock, 10000);\n</script>\n\n<style>\n  .stock-alert {\n    display: flex;\n    align-items: center;\n    background-color: #f4f4f4;\n    padding: 10px 20px;\n    border-radius: 20px;\n    max-width: 300px;\n    font-family: Arial, sans-serif;\n  }\n\n  .circle {\n    width: 12px;\n    height: 12px;\n    background-color: red;\n    border-radius: 50%;\n    margin-right: 10px;\n  }\n\n  .text {\n    font-size: 1rem;\n    color: #333;\n    font-weight: bold;\n  }\n</style>",
+            "padding_bottom": 16
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "show_quantity": false,
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_payment_button": false,
+            "button_type_dynamic": "btn--secondary",
+            "button_style_dynamic": "btn--solid",
+            "show_gift_card_recipient": false,
+            "padding_bottom": 16
+          }
+        },
+        "code_GYjW8w": {
+          "type": "code",
+          "settings": {
+            "code": "{% assign today = 'now' | date: '%s' %}\n{% assign delivery_start = today | plus: 86400 | date: '%s' %} \n\n{% assign start_weekday = delivery_start | date: '%a' %}\n{% assign start_day = delivery_start | date: '%d/%m' %}\n\n{% case start_weekday %}\n  {% when 'Mon' %}{% assign start_weekday_es = 'PO' %}\n  {% when 'Tue' %}{% assign start_weekday_es = 'ÚT' %}\n  {% when 'Wed' %}{% assign start_weekday_es = 'ST' %}\n  {% when 'Thu' %}{% assign start_weekday_es = 'ČT' %}\n  {% when 'Fri' %}{% assign start_weekday_es = 'PÁ' %}\n  {% when 'Sat' %}{% assign start_weekday_es = 'SO' %}\n  {% when 'Sun' %}{% assign start_weekday_es = 'NE' %}\n{% endcase %}\n\n<div class=\"custom-shipping-container\">\n  <div class=\"custom-shipping-item\">\n    <svg class=\"green-circle\" xmlns=\"http://www.w3.org/2000/svg\" width=\"10\" height=\"10\" viewBox=\"0 0 12 13\" fill=\"none\">\n      <circle cx=\"6\" cy=\"6.5\" r=\"6\" fill=\"#000\"></circle>\n    </svg>\n\n    <div class=\"text-block-shipping\">\n      <strong>Doručení</strong>\n      <span id=\"shipping-date\" class=\"shipping-date\">\n        {{ start_weekday_es }} {{ start_day }}\n      </span>\n    </div>\n  </div>\n\n  <div class=\"custom-shipping-item\">\n    <p id=\"locationinfop\" style=\"display:flex;align-items:center;\">\n      <img \n        src=\"https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg\"\n        width=\"20\"\n        height=\"auto\"\n        style=\"margin-right:5px\"\n      >\n      <span style=\"color:#000;font-weight:bold;font-size:11px\">\n        Doprava zdarma\n      </span>\n    </p>\n  </div>\n</div>\n\n<style>\n.custom-shipping-container {\n  display: flex;\n  margin-top: -16px;\n  margin-bottom: 20px;\n  justify-content: space-between;\n  align-items: center;\n  background: #f6f6f6;\n  padding: 6px 10px;\n}\n\n.custom-shipping-item {\n  display: flex;\n  gap: 10px;\n  align-items: center;\n}\n\n.text-block-shipping {\n  font-size: 11px;\n  font-weight: bold;\n  color: #000;\n}\n\n#locationinfop {\n  text-align: center;\n  font-size: 11px;\n  font-weight: 500;\n}\n\n@media screen and (max-width: 700px) {\n  .text-block-shipping {\n    font-size: 10px;\n  }\n\n  #locationinfop {\n    font-size: 10px;\n  }\n}\n</style>",
+            "padding_bottom": 16
+          }
+        },
+        "code_URQEWk": {
+          "type": "code",
+          "settings": {
+            "code": "<style>\n.icon-list-custom {\n    display: flex;\n    flex-wrap: wrap;\n    list-style: none;\n    justify-content: center;\n    margin: 0;\n    gap: 8px;\n    padding: 0;\n    margin-top: 1rem;\n}\n</style>\n\n<ul class=\"icon-list-custom\" role=\"list\">\n    {% assign enabled_payment_types = 'visa,master,american_express,apple_pay,google_pay, maestro' | remove: ' ' | split: ',' %}\n    {% for type in enabled_payment_types %}\n        <li>{{ type | payment_type_svg_tag: class: 'icon-svg' }}</li>\n    {%- endfor -%}\n</ul>",
+            "padding_bottom": 16
+          }
+        },
+        "code_pDHeGY": {
+          "type": "code",
+          "settings": {
+            "code": "<div style=\"border: 1.5px solid #c0392b; border-radius: 8px; padding: 16px 20px; background: #fff5f5;\">\n  <p style=\"text-align:center; font-weight:700; font-size:14px; color:#c0392b; text-transform:uppercase; letter-spacing:0.5px; margin:0 0 10px;\">\n    JARNÍ VÝPRODEJ AŽ –80%\n  </p>\n  <p style=\"text-align:left; font-size:14px; color:#444; margin:0; line-height:1.6;\">\n    Kvůli velkému zájmu o akci jsou naše zásoby téměř vyprodané. Pokud ještě můžete kliknout na tlačítko „Do košíku\", produkt je stále dostupný.\n  </p>\n</div>",
+            "padding_bottom": 16
+          }
+        },
+        "code_MH3An9": {
+          "type": "code",
+          "disabled": true,
+          "settings": {
+            "code": "<!-- GOOGLE FONT -->\n<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n<link href=\"https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap\" rel=\"stylesheet\">\n<div class=\"promo-container\">\n  <h2 class=\"promo-header\">Többet vásárolsz, többet spórolsz</h2>\n  <div class=\"promo-options\">\n    <div class=\"promo-option\">\n      <span>Vásárolj <br>2-t</span>\n      <strong>-15%</strong>\n    </div>\n    <div class=\"promo-option\">\n      <span>Vásárolj <br>3-at</span>\n      <strong>-20%</strong>\n    </div>\n    <div class=\"promo-option promo-option--best\">\n      <span>Vásárolj 4+ terméket</span>\n      <strong>-25%</strong>\n      <em class=\"promo-badge\">Legjobb ajánlat</em>\n    </div>\n  </div>\n  <p class=\"promo-note\">\n    Korlátozott készlet. Ha a „Kosárba\" gomb látható, a termék még elérhető.\n  </p>\n</div>\n<style>\n  .promo-container {\n    text-align: center;\n    background: #f7f7f7;\n    border: 1px solid #e8e8e8;\n    padding: 16px 14px 12px;\n    max-width: 420px;\n    margin: 0 auto;\n    font-family: 'Poppins', Arial, sans-serif;\n    border-radius: 4px;\n  }\n  .promo-header {\n    font-size: 0.85rem;\n    font-weight: 700;\n    text-transform: uppercase;\n    letter-spacing: 0.08em;\n    margin-bottom: 14px;\n    color: #1a1a1a;\n  }\n  .promo-options {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 8px;\n    margin-bottom: 12px;\n  }\n  .promo-option {\n    background: #fff;\n    border: 1px solid #e0e0e0;\n    border-radius: 4px;\n    padding: 12px 6px 10px;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 2px;\n    font-size: 0.72rem;\n    font-weight: 600;\n    color: #1a1a1a;\n  }\n  .promo-option strong {\n    font-size: 1.35rem;\n    font-weight: 700;\n    color: #1a1a1a;\n    line-height: 1.1;\n  }\n  .promo-option--best {\n    border-color: #2d7a4f;\n    background: #f0f8f4;\n  }\n  .promo-option--best strong {\n    color: #2d7a4f;\n  }\n  .promo-badge {\n    font-style: normal;\n    font-size: 0.58rem;\n    font-weight: 600;\n    background: #2d7a4f;\n    color: #fff;\n    border-radius: 99px;\n    padding: 2px 8px;\n    margin-top: 4px;\n    text-transform: uppercase;\n    letter-spacing: 0.05em;\n  }\n  .promo-note {\n    font-size: 0.7rem;\n    color: #888;\n    margin: 0;\n  }\n  @media (min-width: 768px) {\n    .promo-options {\n      grid-template-columns: repeat(3, auto);\n      justify-content: center;\n    }\n    .promo-option {\n      width: 115px;\n    }\n  }\n</style>",
+            "padding_bottom": 16
+          }
+        },
+        "accordion_QE3Nzt": {
+          "type": "accordion",
+          "settings": {
+            "show_description": true,
+            "show_read_more": false,
+            "default_open": true,
+            "heading": "POPIS",
+            "text": "",
+            "padding_bottom": 0
+          }
+        },
+        "accordion_WpMJVN": {
+          "type": "accordion",
+          "settings": {
+            "show_description": false,
+            "show_read_more": true,
+            "default_open": false,
+            "heading": "DOPRAVA A VRÁCENÍ",
+            "text": "<p>Doprava zdarma do 9–12 pracovních dnů, pečlivě zabaleno a s péčí odesláno. Naším cílem je, abyste byli se svým nákupem zcela spokojeni. Proto poskytujeme velkorysou 60denní lhůtu na vrácení, abyste měli dostatek času ujistit se, že vaše objednávka splňuje vaše očekávání. Pokud chcete zboží vrátit, kontaktujte naši zákaznickou podporu a vyžádejte si formulář pro vrácení. Uveďte údaje o produktu a důvod vrácení a my se postaráme o zbytek, aby byl celý proces hladký.<br/><br/></p>",
+            "padding_bottom": 0
+          }
+        },
+        "accordion_Qtb6fh": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "show_description": false,
+            "show_read_more": true,
+            "default_open": false,
+            "heading": "PAGA SIEMPRE DE FORMA SEGURA",
+            "text": "<p>ZAWSZE PŁAĆ BEZPIECZNIE</p><p>Możesz bezpiecznie płacić kartą kredytową, Blik, Paypal, Apple Pay i innymi metodami.</p><p></p><p>Cyfrowe przesyłanie danych osobowych, w tym danych karty kredytowej i konta, jest chronione połączeniem SSL (Secure Socket Layer). Ochrona danych osobowych jest dla nas bardzo ważna. Wszystkie dane osobowe są traktowane jako poufne, nie są przekazywane osobom nieuprawnionym i są wykorzystywane wyłącznie w ramach bieżącego procesu, po czym są usuwane.</p>",
+            "padding_bottom": 0
+          }
+        },
+        "accordion_Qz8fBc": {
+          "type": "accordion",
+          "settings": {
+            "show_description": false,
+            "show_read_more": true,
+            "default_open": false,
+            "heading": "O NAŠICH PRODUKTECH",
+            "text": "<p>Po mnoho let budujeme silná a dlouhodobá partnerství s mezinárodními návrháři a výrobci, abychom zajistili, že naše vysoké nároky na kvalitu jsou důsledně naplňovány během výroby i v celém dodavatelském řetězci. Jsme hrdí na to, že tyto procesy pravidelně dohlížíme, abychom udrželi kvalitu, kterou očekáváte. Udržitelný rozvoj a férové výrobní postupy tvoří základ naší společnosti a odrážejí náš hluboký závazek k zodpovědné módě a etickému obchodu.</p>",
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "code_rr8GY4",
+        "title",
+        "price",
+        "variants",
+        "icon_4CjRqV",
+        "icon_f9A9K9",
+        "icon_M9Cn9q",
+        "icon_3yMUym",
+        "code_WLByy8",
+        "fit_guide_Pxxjia",
+        "code_ajPB4J",
+        "buttons",
+        "code_GYjW8w",
+        "code_URQEWk",
+        "code_pDHeGY",
+        "code_MH3An9",
+        "accordion_QE3Nzt",
+        "accordion_WpMJVN",
+        "accordion_Qtb6fh",
+        "accordion_Qz8fBc"
+      ],
+      "custom_css": [],
+      "settings": {
+        "product_sticky_enable": false,
+        "variant_image_scroll": true,
+        "show_cart_bar": true,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "image_layout": "thumbnails",
+        "image_size": "normal",
+        "mobile_image_style": "thumbs",
+        "color_scheme": "",
+        "padding_top": 7,
+        "padding_bottom": 60
+      }
+    },
+    "section_tab_collections_Tdyw3e": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_RNiPda": {
+          "type": "collection",
+          "settings": {
+            "title": "Prstenje",
+            "featured_collection": "najprodavanije",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#ffffff",
+            "description": "",
+            "color": "",
+            "link_text": "vidjeti proizvode",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "collection_RNiPda"
+      ],
+      "disabled": true,
+      "name": "Tab collections",
+      "settings": {
+        "show_product_count": false,
+        "title": "MOŻE CI SIĘ RÓWNIEŻ SPODOBAĆ",
+        "heading_font_size": "heading-medium",
+        "text": "<p>2 produkty – 10% ekstra | 3 produkty – 15% ekstra | 4 produkty – 20% ekstra</p>",
+        "text_font_size": "body-medium",
+        "layout": "stacked",
+        "layout_desktop": "slider",
+        "layout_mobile": "slider",
+        "product_limit": 12,
+        "grid": 5,
+        "rows": 3,
+        "color_scheme": "scheme-6",
+        "padding_top": 39,
+        "padding_bottom": 21,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_double_g7Pe8x": {
+      "type": "section-double",
+      "blocks": {
+        "heading_hGPmGk": {
+          "type": "heading",
+          "settings": {
+            "title": "Rasprodaja zbog zatvaranja",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_nQEkaY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nažalost, došlo je vrijeme da zatvorimo vrata naše trgovine.</p><p>Tijekom proteklih 26 godina uložili smo svoje srce i dušu u svaki komad odjeće, s ciljem stvaranja toplog i ugodnog mjesta za našu zajednicu u Hrvatskoj.</p><p>Svaki proizvod koji ste odabrali nosi dio naše strasti, ukusa i predanosti.</p><p>Kako bismo se oprostili i ubrzali proces zatvaranja, nudimo vam posebne popuste do 80%.</p><p>Od srca vam zahvaljujemo na povjerenju i podršci koju ste nam pružali svih ovih godina.<br/><br/></p><h5>S ljubavlju i zahvalnošću,<br/><br/><strong></strong></h5>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_hGPmGk",
+        "text_nQEkaY"
+      ],
+      "disabled": true,
+      "name": "Image with text",
+      "settings": {
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-third--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_double_hhBHBM": {
+      "type": "section-double",
+      "blocks": {
+        "heading_mCBf8N": {
+          "type": "heading",
+          "settings": {
+            "title": "LOUČÍME SE S VDĚČNOSTÍ!",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_hCJ3rU": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><strong>AŽ 80% SLEVA</strong><br/>S těžkým srdcem oznamujeme, že Aurellis Viktorie se brzy navždy uzavře. Jsme vděční za vaši dosavadní podporu.</h6><h6>Abychom tuto kapitolu uzavřeli důstojně, nabízíme mimořádné slevy na veškeré naše zboží.</h6><h6><strong>OKAMŽITÉ DODATEČNÉ SLEVY:</strong></h6><h5>2 produkty → +15%</h5><h5>3 produkty → +20%</h5><h5>4+ produkty → +25%</h5><h6>Zásoby jsou omezené, dotisk není možný. Neváhejte a pořiďte si své oblíbené kousky za nejnižší ceny!</h6><h6><strong>Aurellis Viktorie</strong></h6>",
+            "text_font_size": "body-small",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_mCBf8N",
+        "text_hCJ3rU"
+      ],
+      "custom_css": [
+        "/* Center all text */* {text-align: center !important; line-height: 1.8 !important;}",
+        " /* Spacing between paragraphs */p {margin-bottom: 36px !important;}",
+        " /* No extra spacing after the last paragraph */p:last-child {margin-bottom: 0 !important;}",
+        " /* Tight spacing from header to first paragraph */h1,h2,h3 {margin-bottom: 6px !important;}"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image_1": "shopify://shop_images/take_out_the_tol_left_202606200411.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full-padded",
+        "height": "screen-height-one-half",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 18,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_hero_yhNCBi": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_LjAXqK": {
+          "type": "heading",
+          "settings": {
+            "title": "IZ SRCA ZAGREBA",
+            "heading_font_size": "heading-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "text_FmaJxn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Rođena u Zagrebu, kolekcija odražava elegantan i suvremen stil moderne žene. <strong>Sofisticirana, udobna i izrađena s predanošću</strong>, svaki komad donosi duh Zagreba u vašu garderobu.</p>",
+            "text_font_size": "body-medium"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LjAXqK",
+        "text_FmaJxn"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "html,body,* {color: #ffffff !important; -webkit-text-fill-color: #ffffff !important; /* for Safari */}"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "link": "",
+        "width": "wrapper--full",
+        "height": "screen-height-one-half",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "mobile_height": "screen-height-one-half--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "scheme-1",
+        "show_text_background": false,
+        "overlay_opacity": 20,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "related": {
+      "type": "related",
+      "blocks": {
+        "related": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "Neked is tetszhet",
+            "limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "related"
+      ],
+      "custom_css": [],
+      "settings": {
+        "enable_tabs": false,
+        "heading_alignment": "text-center",
+        "heading_font_size": "heading-small",
+        "layout_mobile": "2",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 30
+      }
+    },
+    "ss_testimonial_12_pJrEqB": {
+      "type": "ss-testimonial-12",
+      "blocks": {
+        "slide_CaqXah": {
+          "type": "slide",
+          "settings": {
+            "media_style": "image",
+            "video_url": "",
+            "controls": false,
+            "stars_count": 5,
+            "text": "<p>Naprosto miluji kvalitu šatů! Střih je dokonalý a materiál velmi prémiový. I doručení bylo velmi rychlé.</p>",
+            "author": "<h6><strong>@</strong>Eliška Nováková<br/><br/></h6>"
+          }
+        },
+        "slide_eKAPUm": {
+          "type": "slide",
+          "settings": {
+            "media_style": "image",
+            "video_url": "",
+            "controls": false,
+            "stars_count": 5,
+            "text": "<p>Naživo mnohem hezčí, než jsem čekala. Velmi pohodlné na nošení.</p>",
+            "author": "<h6>@Tereza Svobodová</h6>"
+          }
+        },
+        "slide_FTmzQw": {
+          "type": "slide",
+          "settings": {
+            "media_style": "image",
+            "video_url": "",
+            "controls": false,
+            "stars_count": 5,
+            "text": "<p>Překvapivě dobrá kvalita, určitě si objednám znovu.</p>",
+            "author": "<h6><strong>@</strong>Kateřina Dvořáková</h6>"
+          }
+        },
+        "slide_VyB3ed": {
+          "type": "slide",
+          "settings": {
+            "media_style": "image",
+            "video_url": "",
+            "controls": false,
+            "stars_count": 5,
+            "text": "<p>Skvělý poměr ceny a kvality, jsem naprosto spokojená.</p>",
+            "author": "<h6>@Barbora Černá</h6>"
+          }
+        },
+        "slide_B3pfKK": {
+          "type": "slide",
+          "settings": {
+            "media_style": "image",
+            "video_url": "",
+            "controls": false,
+            "stars_count": 5,
+            "text": "<p>Velmi elegantní kabát, přesně takový jsem chtěla.</p>",
+            "author": "<h6><strong>@</strong>Markéta Procházková</h6>"
+          }
+        },
+        "slide_iJRKer": {
+          "type": "slide",
+          "settings": {
+            "media_style": "image",
+            "video_url": "",
+            "controls": false,
+            "stars_count": 5,
+            "text": "<p>Velmi krásné a pohodlné šaty, jsem naprosto spokojená.</p>",
+            "author": "<h6><strong>@</strong>Veronika Kučerová</h6>"
+          }
+        },
+        "slide_WeanxQ": {
+          "type": "slide",
+          "settings": {
+            "media_style": "image",
+            "video_url": "",
+            "controls": false,
+            "stars_count": 5,
+            "text": "<p>Velmi lehké a pohodlné šaty.</p>",
+            "author": "<h6><strong>@</strong>Lucie Veselá</h6>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_CaqXah",
+        "slide_eKAPUm",
+        "slide_FTmzQw",
+        "slide_VyB3ed",
+        "slide_B3pfKK",
+        "slide_iJRKer",
+        "slide_WeanxQ"
+      ],
+      "name": "SS - Testimonials #12",
+      "settings": {
+        "heading": "<h1><strong>Milovaná všemi. Všude.</strong></h1>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 30,
+        "heading_size_mobile": 22,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "sub_heading": "",
+        "sub_heading_custom": false,
+        "sub_heading_font": "josefin_sans_n4",
+        "sub_heading_size": 30,
+        "sub_heading_size_mobile": 22,
+        "sub_heading_height": 150,
+        "sub_heading_mt": 12,
+        "sub_heading_align": "center",
+        "sub_heading_align_mobile": "center",
+        "slider_view": 5,
+        "slider_view_mobile": 1.3,
+        "slider_gap": 28,
+        "slider_gap_mobile": 20,
+        "slider_mt": 20,
+        "autoplay": false,
+        "autoplay_delay": 5,
+        "card_padding_vertical": 20,
+        "card_padding_vertical_mobile": 16,
+        "card_padding_horizontal": 20,
+        "card_padding_horizontal_mobile": 16,
+        "card_radius": 20,
+        "card_border_thickness": 1,
+        "card_shadow": false,
+        "media_radius": 20,
+        "media_border_thickness": 0,
+        "media_ratio": "square",
+        "media_ratio_mobile": "square",
+        "content_padding_vertical": 0,
+        "content_padding_vertical_mobile": 0,
+        "content_padding_horizontal": 0,
+        "content_padding_horizontal_mobile": 0,
+        "hide_content": false,
+        "stars_size": 16,
+        "stars_mt": 12,
+        "stars_align": "center",
+        "stars_align_mobile": "center",
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 16,
+        "text_size_mobile": 16,
+        "text_height": 130,
+        "text_mt": 12,
+        "text_align": "center",
+        "text_align_mobile": "center",
+        "author_custom": false,
+        "author_font": "josefin_sans_n4",
+        "author_size": 14,
+        "author_size_mobile": 14,
+        "author_height": 130,
+        "author_mt": 12,
+        "author_align": "center",
+        "author_align_mobile": "center",
+        "navigation_mt": 40,
+        "navigation_gap": 20,
+        "navigation_align": "center",
+        "navigation_align_mobile": "center",
+        "arrow_size": 50,
+        "arrow_size_mobile": 50,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": false,
+        "dots_size": 10,
+        "dots_size_mobile": 10,
+        "dots_show_desktop": false,
+        "dots_show_mobile": true,
+        "btn_icon_size": 50,
+        "btn_icon_size_mobile": 40,
+        "card_bg_color": "#ffffff",
+        "card_bg_gradient": "",
+        "card_border_color": "#dedbc4",
+        "media_border_color": "#121212",
+        "stars_color": "#323232",
+        "text_color": "#323232",
+        "author_color": "#323232",
+        "video_icon_bg_color": "#ffffff",
+        "video_icon_color": "#121212",
+        "arrow_color": "#837c5c",
+        "arrow_hover_color": "#837c5c",
+        "dots_color": "#837c5c",
+        "heading_color": "#837c5c",
+        "sub_heading_color": "#837c5c",
+        "background_color": "#f6f5f2",
+        "background_gradient": "",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "section_hero_scrolling_N7TfWF": {
+      "type": "section-hero-scrolling",
+      "blocks": {
+        "text_nC3nEm": {
+          "type": "text",
+          "settings": {
+            "description": "W 2018 roku, w tętniącym życiem Warszawie, nie mogliśmy nie zauważyć, że urok klasycznej elegancji zanikał. Zdeterminowani, aby przywrócić ten ponadczasowy urok, stworzyliśmy markę odzieżową „KRYSTYNA” jako hołd dla trwałej elegancji.",
+            "text_font_size": "body-large",
+            "color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "text_nC3nEm"
+      ],
+      "disabled": true,
+      "name": "Image with scrolling text",
+      "settings": {
+        "link": "",
+        "message_spacing": 10,
+        "marquee_speed": 100,
+        "flex_align": "align--middle-center",
+        "type_font": "poppins_n4",
+        "text_font_size_px": 20,
+        "type_letter_spacing": 0,
+        "type_font_caps": false,
+        "scrolling_align": "align--middle-center",
+        "direction": "ticker-rtl",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "image-height--mobile",
+        "color_scheme": "",
+        "overlay_opacity": 25,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_accordion_group_DAykjN": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading_wCjcbD": {
+          "type": "heading",
+          "settings": {
+            "title": "Často kladené otázky"
+          }
+        },
+        "question_nFVa3U": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Jak mě můžete kontaktovat?",
+            "content": "<h6><strong>Každý den jsem k dispozici, abych odpověděla na vaše dotazy nebo si jen popovídala o našich špercích. Napište e-mail na adresu: support@aurellisviktorie.cz</strong></h6><h6><strong>Otevírací doba zákaznické podpory:</strong></h6><ul><li><h6>Pondělí až pátek: 9:00–17:00<br/><br/><br/></h6></li><li><h6>Sobota a neděle: 10:00–15:00<br/><br/></h6></li></ul>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_We9Y79": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Jak mohu vrátit produkt, pokud se mi nelíbí?",
+            "content": "<h6><strong>Nabízím 60denní lhůtu na vrácení. Stačí poslat e-mail a já se postarám o celý proces za vás.</strong></h6>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_qqgTya": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Nabízíte dopravu zdarma?",
+            "content": "<h6>Ano. Nabízíme dopravu zdarma. Po dokončení objednávky obdržíte sledovací číslo, se kterým můžete sledovat každou fázi doručení.</h6>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_jaKMaK": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Musím platit clo?",
+            "content": "<h6><strong>Po potvrzení objednávky trvá zpracování 1–3 pracovní dny. Objednávky podané v pátek odpoledne nebo o víkendu mohou trvat o něco déle. Po zpracování objednávky trvá doručení v průměru 8–12 pracovních dnů.</strong></h6>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_wCjcbD",
+        "question_nFVa3U",
+        "question_We9Y79",
+        "question_qqgTya",
+        "question_jaKMaK"
+      ],
+      "settings": {
+        "heading_font_size": "heading-medium",
+        "question_font_size": "heading-mini",
+        "width": "wrapper--narrow",
+        "columns": "1",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_text_row_YH3jU8": {
+      "type": "section-text-row",
+      "blocks": {
+        "icon_pUEUxG": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-fast-shipment",
+            "icon_size": 80,
+            "icon_color": "",
+            "title": "Doprava zdarma",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>Doručujeme po celém Česku službou <strong>GLS</strong> pro rychlejší a bezpečnější dodání. Ke každé objednávce je doprava zdarma.</p>",
+            "text_font_size": "body-small",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_iYkT7F": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shield",
+            "icon_size": 40,
+            "icon_color": "",
+            "title": "ZÁKAZNICKÁ PODPORA 24/7",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>Máte-li jakýkoli dotaz nebo pochybnost ohledně své objednávky, nemějte obavy — náš tým zákaznické podpory je vám k dispozici 24 hodin denně, aby vám pomohl.</p>",
+            "text_font_size": "body-small",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_m8i7fc": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_size": 45,
+            "icon_color": "",
+            "title": "100% záruka spokojenosti",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>Na všechny objednávky nabízíme 60denní záruku vrácení peněz bez rizika. Pokud nejste spokojeni, můžete zboží vrátit.</p>",
+            "text_font_size": "body-small",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "icon_pUEUxG",
+        "icon_iYkT7F",
+        "icon_m8i7fc"
+      ],
+      "settings": {
+        "title": "",
+        "heading_font_size": "heading-small",
+        "align_heading": "text-left",
+        "align_text": "text-center",
+        "icon_alignment": "icon--top",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-center",
+        "layout": "grid",
+        "grid": 3,
+        "layout_mobile": "1",
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "scrolling_R8EDhj": {
+      "type": "scrolling",
+      "blocks": {
+        "image_jrAkLU": {
+          "type": "image",
+          "settings": {
+            "url": ""
+          }
+        },
+        "image_RaNNHN": {
+          "type": "image",
+          "settings": {
+            "url": ""
+          }
+        },
+        "image_HGnLTc": {
+          "type": "image",
+          "settings": {
+            "url": ""
+          }
+        },
+        "image_wAKL7H": {
+          "type": "image",
+          "settings": {
+            "url": ""
+          }
+        },
+        "image_NzBEAN": {
+          "type": "image",
+          "settings": {
+            "url": ""
+          }
+        },
+        "image_LNaFF4": {
+          "type": "image",
+          "settings": {
+            "url": ""
+          }
+        },
+        "image_a4LNRM": {
+          "type": "image",
+          "settings": {
+            "url": ""
+          }
+        },
+        "image_WFLB7m": {
+          "type": "image",
+          "settings": {
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_jrAkLU",
+        "image_RaNNHN",
+        "image_HGnLTc",
+        "image_wAKL7H",
+        "image_NzBEAN",
+        "image_LNaFF4",
+        "image_a4LNRM",
+        "image_WFLB7m"
+      ],
+      "disabled": true,
+      "name": "SS - Scrolling images",
+      "settings": {
+        "heading": "<p>+12470 clientes satisfechos</p>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 30,
+        "heading_height": 110,
+        "heading_align": "center",
+        "slider_speed": 23,
+        "slider_gap": 10,
+        "slider_gap_mobile": 10,
+        "slider_mt": 35,
+        "slider_direction": "left",
+        "pause_hover": false,
+        "image_width_desktop": 200,
+        "image_width_mobile": 120,
+        "image_height_desktop": 270,
+        "image_height_mobile": 200,
+        "image_radius": 10,
+        "use_content": false,
+        "content_position": "center",
+        "content_max_width": 340,
+        "content_max_width_mobile": 340,
+        "content_padding_vertical": 30,
+        "content_padding_horizontal": 30,
+        "content_distance": 60,
+        "content_radius": 10,
+        "content_border_thickness": 0,
+        "use_shadow": true,
+        "text": "<p>+29.000 people love our product</p>",
+        "text_custom": false,
+        "text_font": "assistant_n4",
+        "text_size": 24,
+        "text_height": 130,
+        "heading_color": "#000000",
+        "content_bg": "#ffffff",
+        "content_border_color": "#000000",
+        "text_color": "#000000",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "176134914017bc6232": {
+      "type": "apps",
+      "settings": {
+        "include_margins": false
+      }
+    }
+  },
+  "order": [
+    "collection_nav_impulse_KTtW4L",
+    "main",
+    "section_tab_collections_Tdyw3e",
+    "section_double_g7Pe8x",
+    "section_double_hhBHBM",
+    "section_hero_yhNCBi",
+    "related",
+    "ss_testimonial_12_pJrEqB",
+    "section_hero_scrolling_N7TfWF",
+    "section_accordion_group_DAykjN",
+    "section_text_row_YH3jU8",
+    "scrolling_R8EDhj",
+    "176134914017bc6232"
+  ]
+}

@@ -1,0 +1,42 @@
+{%- liquid
+  comment
+    Translates known Hungarian navigation titles to Czech at render time.
+    Unknown titles pass through unchanged. Outputs an escaped string.
+  endcomment
+  assign t = title | strip_html
+  case t
+    when 'Fürdőruha'
+      assign t = 'Plavky'
+    when 'Nyári Szandál'
+      assign t = 'Letní sandály'
+    when 'Signature Női Divat'
+      assign t = 'Signature dámská móda'
+    when 'LEGNÉPSZERŰBB'
+      assign t = 'Nejoblíbenější'
+    when 'Napszemüveg'
+      assign t = 'Sluneční brýle'
+    when 'Ruhák'
+      assign t = 'Šaty'
+    when 'Nyári Overálok'
+      assign t = 'Letní overaly'
+    when 'Kézzel Készített Táskák'
+      assign t = 'Ručně vyráběné tašky'
+    when 'Női'
+      assign t = 'Dámské'
+    when 'Férfi'
+      assign t = 'Pánské'
+    when 'Kezdőlap'
+      assign t = 'Domů'
+    when 'Kapcsolat'
+      assign t = 'Kontakt'
+    when 'Összes'
+      assign t = 'Vše'
+    when 'Új'
+      assign t = 'Novinky'
+    when 'Akció'
+      assign t = 'Sleva'
+    when 'Ékszerek'
+      assign t = 'Šperky'
+  endcase
+  echo t | escape
+-%}

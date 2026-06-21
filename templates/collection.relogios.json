@@ -1,0 +1,123 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_custom_code_kTtzHw": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<style data-shopify=\"\">\n  .sale-banner {\n    text-align: center;\n    margin: 0;\n    padding: 20px;\n        background: linear-gradient(135deg, #cc4c4c, #810f0f);\n    color: #FFFFFF;\n    border-radius: 0;\n    border: 1px solid #CCCCCC;\n    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);\n    width: 100%;\n    box-sizing: border-box;\n  }\n  .sale-title {\n    font-size: 14px;\n    font-weight: 400;\n    margin: 0px 10px;\n  }\n  .sale-subtitle {\n    font-size: 32px;\n    font-weight: bold;\n    margin-bottom: 10px;\n    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);\n  }\n  .sale-container {\n    display: flex;\n    flex-direction: row;\n    text-align: center;\n    border-top: 1px solid #ccc;\n    border-bottom: 1px solid #ccc;\n    padding: 20px 0;\n    justify-content: space-around;\n  }\n  .sale-column {\n    flex: 1;\n    padding: 0 10px;\n  }\n  .sale-column:not(:last-child) {\n    border-right: 1px solid #ccc;\n  }\n  .sale-heading {\n    font-size: 16px;\n    font-weight: bold;\n    margin-bottom: 10px;\n    color: #FFFFFF;\n  }\n  .sale-percentage {\n    font-size: 32px;\n    font-weight: bold;\n    color: #FFFFFF; \n    position: relative;\n    line-height: 1;\n    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);\n  }\n  .sale-percentage span {\n    display: block;\n    font-size: 12px;\n    position: absolute;\n    top: 100%;\n    left: 50%;\n    transform: translateX(-50%);\n    white-space: nowrap;\n  }\n  .sale-benefit {\n    font-size: 10px;\n    font-weight: 600;\n    margin-top: 10px;\n  }\n  .sale-discount-note {\n    font-size: 12px;\n    font-weight: 400;\n    margin-top: 20px;\n  }\n  .sale-discount-note-header {\n    font-size: 16px;\n    font-weight: bold;\n    margin-bottom: 10px;\n    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);\n  }\n  .sale-discount-note .highlight {\n    font-weight: bold;\n  }\n  @media (max-width: 767px) {\n    .sale-banner {\n      padding: 15px;\n    }\n    .sale-title {\n      font-size: 12px;\n      margin: 0px 5px;\n    }\n    .sale-subtitle {\n      font-size: 24px;\n      margin-bottom: 8px;\n    }\n    .sale-heading {\n      font-size: 14px;\n    }\n    .sale-percentage {\n      font-size: 15px;\n    }\n    .sale-percentage span {\n      font-size: 6px;\n    }\n    .sale-benefit {\n      font-size: 8px;\n    }\n    .sale-discount-note {\n      font-size: 10px;\n    }\n    .sale-discount-note-header {\n      font-size: 14px;\n    }\n    .sale-container {\n      padding: 10px 0;\n    }\n    .sale-column {\n      padding: 0 5px;\n    }\n  }\n</style>\n<div class=\"sale-banner\">\n  <div class=\"sale-title\">QUANTO MAIS COMPRAR, MAIS POUPA!</div>\n  <div class=\"sale-subtitle\">OFERTA DE PRIMAVERA</div>\n  <div class=\"sale-container\">\n    <div class=\"sale-column\">\n      <div class=\"sale-heading\">COMPRA 2 PRODUTOS</div>\n      <div class=\"sale-percentage\">10% DE DESCONTO<span></span></div>\n      <div class=\"sale-benefit\"></div>\n    </div>\n    <div class=\"sale-column\">\n      <div class=\"sale-heading\">COMPRA 3 PRODUTOS</div>\n      <div class=\"sale-percentage\">15% DE DESCONTO<span></span></div>\n      <div class=\"sale-benefit\"></div>\n    </div>\n    <div class=\"sale-column\">\n      <div class=\"sale-heading\">COMPRA 4+ PRODUTOS</div>\n      <div class=\"sale-percentage\">20% DE DESCONTO<span></span></div>\n      <div class=\"sale-benefit\"></div>\n    </div>\n  </div>\n  <div class=\"sale-discount-note\">\n    <div class=\"sale-discount-note-header\">COMO FUNCIONA</div>\n    Adiciona pelo menos <span class=\"highlight\">2, 3, 4 ou mais produtos</span> ao teu carrinhoe o desconto será <span class=\"highlight\">aplicado automaticamente</span>. Pode misturar e combinar produtos.\n  </div>\n</div>",
+        "width": "wrapper--full",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "hero": {
+      "type": "collection-image-with-title",
+      "settings": {
+        "show_title": true,
+        "show_description": true,
+        "flex_align": "align--middle-left",
+        "color_scheme": "",
+        "show_text_background": false,
+        "show_image": true,
+        "banner_layout": "inline",
+        "height": "three-fifty-height-hero",
+        "mobile_height": "two-fifty-height-hero--mobile",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "settings": {
+        "subcollection_layout": "grid",
+        "subcollection_description": true,
+        "select_image": "collection",
+        "color_scheme": "",
+        "color": "#ffffff",
+        "bg_color": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "featured_image_itFb3E": {
+          "type": "featured_image",
+          "settings": {
+            "featured_image": "shopify://shop_images/Frame_1010107060.svg",
+            "position": 5,
+            "featured_heading": "",
+            "heading_font_size": "heading-large",
+            "featured_text": "",
+            "featured_button_text": "",
+            "featured_button_link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "featured_color_text": "#ffffff",
+            "featured_color_overlay": "#222222",
+            "featured_overlay_opacity": 0,
+            "heading_tag": "automatic"
+          }
+        },
+        "featured_image_aTnhdJ": {
+          "type": "featured_image",
+          "settings": {
+            "featured_image": "shopify://shop_images/Frame_1010107060.svg",
+            "position": 22,
+            "featured_heading": "",
+            "heading_font_size": "heading-large",
+            "featured_text": "",
+            "featured_button_text": "",
+            "featured_button_link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "featured_color_text": "#ffffff",
+            "featured_color_overlay": "#222222",
+            "featured_overlay_opacity": 0,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "featured_image_itFb3E",
+        "featured_image_aTnhdJ"
+      ],
+      "settings": {
+        "enable_sort": true,
+        "enable_filters": true,
+        "filter_layout": "inline-open",
+        "default_open": true,
+        "collection_linklist": "",
+        "grid": 4,
+        "grid_mobile": "2",
+        "products_per_page": 24,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "section_custom_code_kTtzHw",
+    "hero",
+    "subcollections",
+    "main"
+  ]
+}

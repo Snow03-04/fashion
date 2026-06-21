@@ -1,0 +1,841 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_liquid_section_mxpq8b": {
+      "type": "custom-liquid-section",
+      "disabled": true,
+      "name": "Custom Liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"BeigeAnnouncementBar\">\n  <div class=\"beige-inner\">\n    <div class=\"beige-marquee\">\n      <div class=\"beige-marquee__track\">\n        <span class=\"beige-marquee__item\">Lleva 2 y obtén 10% de descuento</span>\n        <span class=\"beige-marquee__item\">Lleva 3 y obtén 15% de descuento</span>\n        <span class=\"beige-marquee__item\">Lleva 4+ y obtén 20% de descuento</span>\n      </div>\n    </div>\n  </div>\n</div>\n\n<style>\n:root{\n  --beige-bg: #000000;   /* fundo preto */\n  --beige-fg: #ffffff;   /* texto branco */\n  --bar-h: 40px;\n  --fs: 16px;\n  --speed: 7s;\n}\n\n/* BAR */\n#BeigeAnnouncementBar{\n  background: var(--beige-bg);\n  color: var(--beige-fg);\n  width:100%;\n  overflow:hidden;\n  box-shadow: inset 0 -1px 0 rgba(255,255,255,.08);\n}\n\n#BeigeAnnouncementBar .beige-inner{\n  width:100%;\n  height: var(--bar-h);\n  display:flex;\n  align-items:center;\n  justify-content:center;\n  padding:0;\n}\n\n/* MARQUEE VERTICAL */\n#BeigeAnnouncementBar .beige-marquee{\n  width:100%;\n  height: var(--bar-h);\n  overflow:hidden;\n}\n\n/* TRACK */\n#BeigeAnnouncementBar .beige-marquee__track{\n  display:flex;\n  flex-direction:column;\n  animation: beige-vertical var(--speed) linear infinite;\n  will-change: transform;\n}\n\n/* ITEM */\n#BeigeAnnouncementBar .beige-marquee__item{\n  white-space:nowrap;\n  font-family:'Montserrat', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;\n  font-weight:500;\n  text-transform:uppercase;\n  letter-spacing:1.6px;\n  font-size: var(--fs);\n  line-height: var(--bar-h);\n  height: var(--bar-h);\n  color: var(--beige-fg);\n  display:flex;\n  align-items:center;\n  justify-content:center;\n}\n\n/* ANIMAÇÃO */\n@keyframes beige-vertical{\n  from{\n    transform: translateY(0);\n  }\n  to{\n    transform: translateY(calc(-2 * var(--bar-h)));\n  }\n}\n</style>"
+      }
+    },
+    "hero": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_i78HjD": {
+          "type": "heading",
+          "settings": {
+            "title": "Až 80% sleva!",
+            "heading_font_size": "heading-large",
+            "heading_tag": "automatic"
+          }
+        },
+        "text_k7qn6A": {
+          "type": "text",
+          "settings": {
+            "text": "<p>TOTÁLNÍ VÝPRODEJ</p>",
+            "text_font_size": "body-large"
+          }
+        },
+        "button-1": {
+          "type": "button",
+          "settings": {
+            "link_text": "Dámské",
+            "link": "shopify://collections/minden",
+            "button_type": "btn--primary",
+            "button_size": "btn--large",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        },
+        "button_7iexrG": {
+          "type": "button",
+          "settings": {
+            "link_text": "Pánské",
+            "link": "shopify://collections/ferfi",
+            "button_type": "btn--primary",
+            "button_size": "btn--large",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_i78HjD",
+        "text_k7qn6A",
+        "button-1",
+        "button_7iexrG"
+      ],
+      "custom_css": [
+        ".btn {color: white; border-color: white;}"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/make_it_all_jowlery_inside_202606200405.jpg",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "flex_align_desktop": "align--bottom-left-desktop",
+        "mobile_image": "shopify://shop_images/make_it_mobile_size_2K_202606200435.jpg",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_mobile": "align--bottom-center-mobile",
+        "color_scheme": "scheme-2",
+        "show_text_background": false,
+        "overlay_opacity": 20,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "collection_nav_impulse_KbrCmr": {
+      "type": "collection-nav-impulse",
+      "disabled": true,
+      "custom_css": [
+        ".imp-collections-list {display: flex; gap: 14px; margin: 0; padding: 1px 1px; list-style: none; white-space: nowrap; margin-left: 15px; /* 👈 margem à esquerda */}"
+      ],
+      "name": "Coleções Bar",
+      "settings": {
+        "menu": "",
+        "sticky": false,
+        "offset": 0
+      }
+    },
+    "section_collection_7efiR9": {
+      "type": "section-collection",
+      "settings": {
+        "featured_collection": "furdoruha",
+        "heading": "Plavky",
+        "heading_font_size": "heading-x-small",
+        "description": "",
+        "text_font_size": "body-medium",
+        "layout": "inline",
+        "link_text": "Vše",
+        "link_url": "shopify://collections/signature-noi-divat",
+        "button_type": "btn--primary",
+        "button_size": "btn--small",
+        "button_style": "btn--outline",
+        "show_arrow": true,
+        "layout_desktop": "slider",
+        "grid": 4,
+        "rows": 3,
+        "width": "wrapper",
+        "layout_mobile": "2",
+        "rows_mobile": 3,
+        "color_scheme": "",
+        "padding_top": 14,
+        "padding_bottom": 21,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_collection_qtJLdc": {
+      "type": "section-collection",
+      "custom_css": [],
+      "settings": {
+        "featured_collection": "nyari-szandal",
+        "heading": "Letní sandály",
+        "heading_font_size": "heading-x-small",
+        "description": "",
+        "text_font_size": "body-medium",
+        "layout": "inline",
+        "link_text": "Vše",
+        "link_url": "shopify://collections/furdoruha",
+        "button_type": "btn--primary",
+        "button_size": "btn--small",
+        "button_style": "btn--outline",
+        "show_arrow": true,
+        "layout_desktop": "slider",
+        "grid": 4,
+        "rows": 3,
+        "width": "wrapper--full-padded",
+        "layout_mobile": "2",
+        "rows_mobile": 3,
+        "color_scheme": "",
+        "padding_top": 17,
+        "padding_bottom": 21,
+        "heading_tag": "automatic"
+      }
+    },
+    "ss_media_grid_2_bgLwM3": {
+      "type": "ss-media-grid-2",
+      "blocks": {
+        "item_hzTw4h": {
+          "type": "item",
+          "settings": {
+            "column_width": 1,
+            "row_width": 1,
+            "bg_overlay": 30,
+            "collection": "nyari-overalok",
+            "sub_heading": "",
+            "title": "<h2>Letní overaly</h2>",
+            "text": "",
+            "button": "",
+            "url": "shopify://collections/bolsas",
+            "content_align": "bottom-left",
+            "content_align_mobile": "middle-center",
+            "sub_heading_color": "#ffffff",
+            "title_color": "#f8eedd",
+            "text_color": "#ffffff",
+            "button_color": "#212121",
+            "button_hover_color": "#573c2a",
+            "button_bg_color": "#f8eedd",
+            "button_bg_hover_color": "#f2f2f2",
+            "button_border_color": "#573c2a",
+            "button_border_hover_color": "#573c2a"
+          }
+        },
+        "item_gKy79T": {
+          "type": "item",
+          "settings": {
+            "column_width": 1,
+            "row_width": 1,
+            "bg_overlay": 30,
+            "collection": "nyari-szandal",
+            "sub_heading": "",
+            "title": "<h4>Letní sandály <br/></h4>",
+            "text": "",
+            "button": "",
+            "url": "shopify://collections/vestidos",
+            "content_align": "bottom-center",
+            "content_align_mobile": "middle-center",
+            "sub_heading_color": "#ffffff",
+            "title_color": "#f8eedd",
+            "text_color": "#ffffff",
+            "button_color": "#573c2a",
+            "button_hover_color": "#573c2a",
+            "button_bg_color": "#f8eedd",
+            "button_bg_hover_color": "#ffffff",
+            "button_border_color": "#573c2a",
+            "button_border_hover_color": "#573c2a"
+          }
+        },
+        "item_EJQ7ty": {
+          "type": "item",
+          "settings": {
+            "column_width": 1,
+            "row_width": 1,
+            "bg_overlay": 30,
+            "collection": "furdoruha",
+            "sub_heading": "",
+            "title": "<h5>Plavky</h5>",
+            "text": "",
+            "button": "",
+            "url": "shopify://collections/furdoruha",
+            "content_align": "bottom-left",
+            "content_align_mobile": "middle-center",
+            "sub_heading_color": "#ffffff",
+            "title_color": "#f8eedd",
+            "text_color": "#ffffff",
+            "button_color": "#212121",
+            "button_hover_color": "#573c2a",
+            "button_bg_color": "#f8eedd",
+            "button_bg_hover_color": "#ffffff",
+            "button_border_color": "#573c2a",
+            "button_border_hover_color": "#573c2a"
+          }
+        },
+        "item_ygGGGH": {
+          "type": "item",
+          "settings": {
+            "column_width": 1,
+            "row_width": 1,
+            "bg_overlay": 30,
+            "collection": "ketreszes-szettek",
+            "sub_heading": "",
+            "title": "<h2>Signature dámská móda</h2>",
+            "text": "",
+            "button": "",
+            "url": "shopify://collections/botas-1",
+            "content_align": "bottom-center",
+            "content_align_mobile": "middle-center",
+            "sub_heading_color": "#ffffff",
+            "title_color": "#f8eedd",
+            "text_color": "#ffffff",
+            "button_color": "#573c2a",
+            "button_hover_color": "#573c2a",
+            "button_bg_color": "#f8eedd",
+            "button_bg_hover_color": "#ffffff",
+            "button_border_color": "#573c2a",
+            "button_border_hover_color": "#573c2a"
+          }
+        }
+      },
+      "block_order": [
+        "item_hzTw4h",
+        "item_gKy79T",
+        "item_EJQ7ty",
+        "item_ygGGGH"
+      ],
+      "custom_css": [
+        "/* Botões da Section Store na Media Grid */.media-grid-button-item_kQVtcK,.media-grid-button-template--24372380303688__ss_media_grid_2_bgLwM3 {opacity: 0.6; /* mais translúcido */ transition: opacity 0.3s ease;}",
+        " /* No hover ficam 100% visíveis */.media-grid-button-item_kQVtcK:hover,.media-grid-button-template--24372380303688__ss_media_grid_2_bgLwM3:hover {opacity: 1;}"
+      ],
+      "name": "SS - Media Grid #2",
+      "settings": {
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 0,
+        "heading_size_mobile": 0,
+        "heading_height": 150,
+        "heading_align": "left",
+        "heading_align_mobile": "left",
+        "items_columns": 4,
+        "items_columns_mobile": "2",
+        "items_gap": 6,
+        "items_gap_mobile": 6,
+        "items_mt": 0,
+        "row_height": 600,
+        "row_height_mobile": 260,
+        "item_radius": 0,
+        "item_border_thickness": 0,
+        "item_shadow": false,
+        "content_padding_vertical": 16,
+        "content_padding_vertical_mobile": 6,
+        "content_padding_horizontal": 16,
+        "content_padding_horizontal_mobile": 6,
+        "sub_heading_custom": false,
+        "sub_heading_font": "josefin_sans_n4",
+        "sub_heading_size": 14,
+        "sub_heading_size_mobile": 14,
+        "sub_heading_height": 100,
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 24,
+        "title_size_mobile": 24,
+        "title_height": 100,
+        "title_mt": 10,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 16,
+        "text_size_mobile": 16,
+        "text_height": 100,
+        "text_mt": 10,
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 14,
+        "button_size_mobile": 10,
+        "button_height": 50,
+        "button_mt": 12,
+        "button_padding_vertical": 10,
+        "button_padding_vertical_mobile": 6,
+        "button_padding_horizontal": 16,
+        "button_padding_horizontal_mobile": 14,
+        "button_radius": 0,
+        "button_border_thickness": 0,
+        "button_style": "outline",
+        "item_border_color": "#000000",
+        "item_shadow_color": "#000000",
+        "heading_color": "#000000",
+        "overlay_color": "#000000",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 0,
+        "full_width": false,
+        "content_width": 160,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "section_collection_XwCHeG": {
+      "type": "section-collection",
+      "settings": {
+        "featured_collection": "nyari-overalok",
+        "heading": "Letní overaly",
+        "heading_font_size": "heading-x-small",
+        "description": "",
+        "text_font_size": "body-medium",
+        "layout": "inline",
+        "link_text": "Vše",
+        "link_url": "shopify://collections/nyari-szandal",
+        "button_type": "btn--primary",
+        "button_size": "btn--small",
+        "button_style": "btn--outline",
+        "show_arrow": true,
+        "layout_desktop": "slider",
+        "grid": 4,
+        "rows": 3,
+        "width": "wrapper",
+        "layout_mobile": "2",
+        "rows_mobile": 3,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 21,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_collection_FPAFdd": {
+      "type": "section-collection",
+      "settings": {
+        "featured_collection": "signature-noi-divat",
+        "heading": "Signature dámská móda",
+        "heading_font_size": "heading-x-small",
+        "description": "",
+        "text_font_size": "body-medium",
+        "layout": "inline",
+        "link_text": "Vše",
+        "link_url": "shopify://collections/kedvenc-ruhaink",
+        "button_type": "btn--primary",
+        "button_size": "btn--small",
+        "button_style": "btn--outline",
+        "show_arrow": true,
+        "layout_desktop": "slider",
+        "grid": 4,
+        "rows": 3,
+        "width": "wrapper",
+        "layout_mobile": "2",
+        "rows_mobile": 3,
+        "color_scheme": "",
+        "padding_top": 21,
+        "padding_bottom": 21,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_double_Hhi6GT": {
+      "type": "section-double",
+      "blocks": {
+        "heading_cjwABj": {
+          "type": "heading",
+          "settings": {
+            "title": "LOUČÍME SE S VDĚČNOSTÍ!",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_6CGe8H": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><strong>AŽ 80% SLEVA</strong><br/>S těžkým srdcem oznamujeme, že Aurellis Viktorie se brzy navždy uzavře. Jsme vděční za vaši dosavadní podporu.</h6><h6>Abychom tuto kapitolu uzavřeli důstojně, nabízíme mimořádné slevy na veškeré naše zboží.</h6><h6><strong>OKAMŽITÉ DODATEČNÉ SLEVY:</strong></h6><h5>2 produkty → +15%</h5><h5>3 produkty → +20%</h5><h5>4+ produkty → +25%</h5><h6>Zásoby jsou omezené, dotisk není možný. Neváhejte a pořiďte si své oblíbené kousky za nejnižší ceny!</h6><h6><strong>Aurellis Viktorie</strong></h6>",
+            "text_font_size": "body-small",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_cjwABj",
+        "text_6CGe8H"
+      ],
+      "custom_css": [
+        "/* Center all text */* {text-align: center !important; line-height: 1.8 !important;}",
+        " /* Spacing between paragraphs */p {margin-bottom: 36px !important;}",
+        " /* No extra spacing after the last paragraph */p:last-child {margin-bottom: 0 !important;}",
+        " /* Tight spacing from header to first paragraph */h1,h2,h3 {margin-bottom: 6px !important;}"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image_1": "shopify://shop_images/take_out_the_tol_left_202606200411.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full-padded",
+        "height": "screen-height-one-half",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 18,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_collection_Cx4ccy": {
+      "type": "section-collection",
+      "settings": {
+        "featured_collection": "ruhak",
+        "heading": "Šaty",
+        "heading_font_size": "heading-x-small",
+        "description": "",
+        "text_font_size": "body-medium",
+        "layout": "inline",
+        "link_text": "Vše",
+        "link_url": "shopify://collections/ruhak",
+        "button_type": "btn--primary",
+        "button_size": "btn--small",
+        "button_style": "btn--outline",
+        "show_arrow": true,
+        "layout_desktop": "slider",
+        "grid": 4,
+        "rows": 3,
+        "width": "wrapper",
+        "layout_mobile": "2",
+        "rows_mobile": 3,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 21,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_collection_pD9BVc": {
+      "type": "section-collection",
+      "custom_css": [],
+      "settings": {
+        "featured_collection": "napszemuveg",
+        "heading": "Sluneční brýle",
+        "heading_font_size": "heading-small",
+        "description": "",
+        "text_font_size": "body-medium",
+        "layout": "inline",
+        "link_text": "Vše",
+        "link_url": "shopify://collections/napszemuveg",
+        "button_type": "btn--primary",
+        "button_size": "btn--small",
+        "button_style": "btn--outline",
+        "show_arrow": true,
+        "layout_desktop": "slider",
+        "grid": 4,
+        "rows": 3,
+        "width": "wrapper",
+        "layout_mobile": "2",
+        "rows_mobile": 3,
+        "color_scheme": "scheme-1",
+        "padding_top": 17,
+        "padding_bottom": 21,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_collection_8TFLxT": {
+      "type": "section-collection",
+      "custom_css": [],
+      "settings": {
+        "featured_collection": "kezzel-keszitett-steppelt-taskak-70",
+        "heading": "Ručně vyráběné tašky",
+        "heading_font_size": "heading-x-small",
+        "description": "",
+        "text_font_size": "body-medium",
+        "layout": "inline",
+        "link_text": "Vše",
+        "link_url": "shopify://collections/kezzel-keszitett-steppelt-taskak-70",
+        "button_type": "btn--primary",
+        "button_size": "btn--small",
+        "button_style": "btn--outline",
+        "show_arrow": true,
+        "layout_desktop": "slider",
+        "grid": 4,
+        "rows": 3,
+        "width": "wrapper",
+        "layout_mobile": "2",
+        "rows_mobile": 3,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 21,
+        "heading_tag": "automatic"
+      }
+    },
+    "two_coll_PLyn7n": {
+      "type": "two-coll",
+      "disabled": true,
+      "name": "Two collections side by side",
+      "settings": {
+        "left_collection": "test-shirts",
+        "left_heading": "Men's",
+        "left_button": "See all",
+        "left_link": "",
+        "right_collection": "frontpage",
+        "right_heading": "Women's",
+        "right_button": "See all",
+        "right_link": "",
+        "aspect_ratio": "3/2",
+        "stack_on_mobile": true,
+        "overlay_opacity": 30,
+        "text_align": "bottom-left"
+      }
+    },
+    "section_collection_YxNEeG": {
+      "type": "section-collection",
+      "disabled": true,
+      "settings": {
+        "featured_collection": "torby",
+        "heading": "Torby",
+        "heading_font_size": "heading-x-small",
+        "description": "",
+        "text_font_size": "body-medium",
+        "layout": "inline",
+        "link_text": "WIĘCEJ",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "btn--small",
+        "button_style": "btn--outline",
+        "show_arrow": true,
+        "layout_desktop": "slider",
+        "grid": 4,
+        "rows": 3,
+        "width": "wrapper",
+        "layout_mobile": "2",
+        "rows_mobile": 3,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 21,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_collection_MpqiAK": {
+      "type": "section-collection",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "featured_collection": "artystyczne-kombinezony",
+        "heading": "Collection",
+        "heading_font_size": "heading-small",
+        "description": "",
+        "text_font_size": "body-medium",
+        "layout": "inline",
+        "link_text": "WIĘCEJ",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "btn--small",
+        "button_style": "btn--solid",
+        "show_arrow": true,
+        "layout_desktop": "slider",
+        "grid": 4,
+        "rows": 3,
+        "width": "wrapper--full-padded",
+        "layout_mobile": "slider",
+        "rows_mobile": 3,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 21,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_collection_fyDGYM": {
+      "type": "section-collection",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "featured_collection": "sweter",
+        "heading": "Collection",
+        "heading_font_size": "heading-small",
+        "description": "",
+        "text_font_size": "body-medium",
+        "layout": "inline",
+        "link_text": "WIĘCEJ",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "btn--small",
+        "button_style": "btn--solid",
+        "show_arrow": true,
+        "layout_desktop": "slider",
+        "grid": 4,
+        "rows": 3,
+        "width": "wrapper--full-padded",
+        "layout_mobile": "slider",
+        "rows_mobile": 3,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 21,
+        "heading_tag": "automatic"
+      }
+    },
+    "scrolling_Ke8cyF": {
+      "type": "scrolling",
+      "blocks": {
+        "image_dic6Hr": {
+          "type": "image",
+          "settings": {
+            "url": ""
+          }
+        },
+        "image_czinh7": {
+          "type": "image",
+          "settings": {
+            "url": ""
+          }
+        },
+        "image_78Ribt": {
+          "type": "image",
+          "settings": {
+            "url": ""
+          }
+        },
+        "image_KB76WE": {
+          "type": "image",
+          "settings": {
+            "url": ""
+          }
+        },
+        "image_L6GQjq": {
+          "type": "image",
+          "settings": {
+            "url": ""
+          }
+        },
+        "image_KhFjnn": {
+          "type": "image",
+          "settings": {
+            "url": ""
+          }
+        },
+        "image_CDQawY": {
+          "type": "image",
+          "settings": {
+            "url": ""
+          }
+        },
+        "image_UzJEpX": {
+          "type": "image",
+          "settings": {
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_dic6Hr",
+        "image_czinh7",
+        "image_78Ribt",
+        "image_KB76WE",
+        "image_L6GQjq",
+        "image_KhFjnn",
+        "image_CDQawY",
+        "image_UzJEpX"
+      ],
+      "disabled": true,
+      "name": "SS - Scrolling images",
+      "settings": {
+        "heading": "<h6>+12470 zadowolonych klientów</h6>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 30,
+        "heading_height": 110,
+        "heading_align": "center",
+        "slider_speed": 23,
+        "slider_gap": 10,
+        "slider_gap_mobile": 10,
+        "slider_mt": 35,
+        "slider_direction": "left",
+        "pause_hover": false,
+        "image_width_desktop": 200,
+        "image_width_mobile": 120,
+        "image_height_desktop": 270,
+        "image_height_mobile": 200,
+        "image_radius": 10,
+        "use_content": false,
+        "content_position": "center",
+        "content_max_width": 340,
+        "content_max_width_mobile": 340,
+        "content_padding_vertical": 30,
+        "content_padding_horizontal": 30,
+        "content_distance": 60,
+        "content_radius": 10,
+        "content_border_thickness": 0,
+        "use_shadow": true,
+        "text": "<p>+29.000 people love our product</p>",
+        "text_custom": false,
+        "text_font": "assistant_n4",
+        "text_size": 24,
+        "text_height": 130,
+        "heading_color": "#000000",
+        "content_bg": "#ffffff",
+        "content_border_color": "#000000",
+        "text_color": "#000000",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "section_text_row_we4DAE": {
+      "type": "section-text-row",
+      "blocks": {
+        "icon_9WrLMw": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-fast-shipment",
+            "icon_size": 80,
+            "icon_color": "",
+            "title": "Doprava zdarma",
+            "heading_font_size": "heading-small",
+            "text": "<p>Doručujeme po celém Česku službou <strong>GLS</strong> pro rychlejší a bezpečnější dodání. Ke každé objednávce je doprava zdarma.</p>",
+            "text_font_size": "body-small",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_LwgdLt": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shield",
+            "icon_size": 50,
+            "icon_color": "",
+            "title": "Zákaznická podpora 24/7",
+            "heading_font_size": "heading-small",
+            "text": "<p><br/>Máte-li jakýkoli dotaz nebo pochybnost ohledně své objednávky, nemějte obavy — náš tým zákaznické podpory je vám k dispozici 24 hodin denně, aby vám pomohl.<br/><br/></p>",
+            "text_font_size": "body-small",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_ThybTf": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_size": 50,
+            "icon_color": "",
+            "title": "100% záruka spokojenosti",
+            "heading_font_size": "heading-small",
+            "text": "<p><strong>Na všechny objednávky nabízíme 60denní záruku vrácení peněz bez rizika. Pokud nejste spokojeni, můžete zboží vrátit.</strong></p>",
+            "text_font_size": "body-small",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "icon_9WrLMw",
+        "icon_LwgdLt",
+        "icon_ThybTf"
+      ],
+      "settings": {
+        "title": "",
+        "heading_font_size": "heading-small",
+        "align_heading": "text-left",
+        "align_text": "text-center",
+        "icon_alignment": "icon--top",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-center",
+        "layout": "grid",
+        "grid": 3,
+        "layout_mobile": "1",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "1753737979cab7a210": {
+      "type": "apps",
+      "settings": {
+        "include_margins": false
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_section_mxpq8b",
+    "hero",
+    "collection_nav_impulse_KbrCmr",
+    "section_collection_7efiR9",
+    "section_collection_qtJLdc",
+    "ss_media_grid_2_bgLwM3",
+    "section_collection_XwCHeG",
+    "section_collection_FPAFdd",
+    "section_double_Hhi6GT",
+    "section_collection_Cx4ccy",
+    "section_collection_pD9BVc",
+    "section_collection_8TFLxT",
+    "two_coll_PLyn7n",
+    "section_collection_YxNEeG",
+    "section_collection_MpqiAK",
+    "section_collection_fyDGYM",
+    "scrolling_Ke8cyF",
+    "section_text_row_we4DAE",
+    "1753737979cab7a210"
+  ]
+}

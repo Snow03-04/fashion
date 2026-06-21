@@ -1,0 +1,95 @@
+{% comment %}
+  Impulse — Barra de Coleções (sem botão, com hover escuro)
+{% endcomment %}
+
+<div class="imp-collections-bar{% if section.settings.sticky %} is-sticky{% endif %}">
+  <div class="imp-collections-inner page-width container">
+    {% if section.settings.menu and section.settings.menu.links.size > 0 %}
+      <nav class="imp-collections-nav" aria-label="Coleções">
+        <ul class="imp-collections-list">
+          {% for link in section.settings.menu.links %}
+            <li class="imp-collections-item">
+              <a href="{{ link.url }}" class="imp-collections-link{% if link.current or link.active %} is-active{% endif %}">
+                {{ link.title }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    {% else %}
+      <div class="imp-collections-empty">Selecione um menu com coleções nas configurações desta seção.</div>
+    {% endif %}
+  </div>
+
+  <style>
+    .imp-collections-bar {
+      background:#f3f4f6;
+      border-top:1px solidrgb(255, 255, 255);
+      border-bottom:1px solidrgb(255, 255, 255);
+      z-index:40;
+    }
+    .imp-collections-bar.is-sticky {
+      position:sticky;
+      top: {{ section.settings.offset | default: 0 }}px;
+    }
+    .imp-collections-inner {
+      display:flex;
+      align-items:center;
+      min-height:48px;
+    }
+    .imp-collections-nav {
+      flex:1 1 auto;
+      overflow-x:auto;
+      -webkit-overflow-scrolling:touch;
+      scrollbar-width:thin;
+    }
+    .imp-collections-list {
+      display:flex;
+      gap:18px;
+      margin:0;
+      padding:10px 4px;
+      list-style:none;
+      white-space:nowrap;
+      margin-left:20px; /* margem extra à esquerda */
+    }
+    .imp-collections-link {
+      text-decoration:none;
+      font-weight:600;
+      font-size:15px;
+      color:#000;          /* cinzento esbatido */
+      opacity:0.8;
+      transition:color 0.2s ease, opacity 0.2s ease;
+    }
+    .imp-collections-link:hover {
+      color:#000;          /* preto no hover */
+      opacity:1;
+      text-decoration:none;
+    }
+    .imp-collections-link.is-active {
+      color:#000;          /* preto quando ativo */
+      border-bottom:2px solid currentColor;
+      padding-bottom:3px;
+      opacity:1;
+    }
+    .imp-collections-nav::-webkit-scrollbar { height:6px; }
+    .imp-collections-nav::-webkit-scrollbar-thumb { background:#d1d5db; border-radius:4px; }
+    @media (max-width:990px){
+      .imp-collections-list{ gap:14px; margin-left:10px; }
+      .imp-collections-link{ font-size:14px; }
+    }
+  </style>
+
+  {% schema %}
+  {
+    "name": "Coleções Bar",
+    "settings": [
+      { "type": "link_list", "id": "menu", "label": "Menu de coleções" },
+      { "type": "checkbox", "id": "sticky", "label": "Ficar colada (sticky)", "default": false },
+      { "type": "number", "id": "offset", "label": "Offset sticky (px)", "default": 0 }
+    ],
+    "presets": [
+      { "name": "Coleções Bar" }
+    ]
+  }
+  {% endschema %}
+</div>

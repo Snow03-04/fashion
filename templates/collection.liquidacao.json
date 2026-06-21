@@ -1,0 +1,137 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "collection-image-with-title",
+      "settings": {
+        "show_title": true,
+        "show_description": true,
+        "flex_align": "align--middle-left",
+        "color_scheme": "",
+        "show_text_background": false,
+        "show_image": true,
+        "banner_layout": "inline",
+        "height": "three-fifty-height-hero",
+        "mobile_height": "two-fifty-height-hero--mobile",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "settings": {
+        "subcollection_layout": "grid",
+        "subcollection_description": true,
+        "select_image": "collection",
+        "color_scheme": "",
+        "color": "#ffffff",
+        "bg_color": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_rich_text_DjR8Pi": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_jxxEk9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Infelizmente, a minha irmã e eu somos obrigadas a fechar a nossa loja...💔<br/><br/>Ao longo dos últimos anos, dedicámos toda a nossa paixão a várias peças de vestuário: casacos, blusões, camisolas, sapatos, malas - com o objetivo de criar uma atmosfera calorosa e acolhedora para a nossa comunidade e deixar uma parte de nós próprios em cada uma destas peças.<br/><br/>Estamos quase a esgotar. Para acelerar o processo de liquidação, estamos a oferecer-lhe descontos significativos até 80%.<br/><br/>Os descontos são aplicados automaticamente.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_jxxEk9"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "featured_image_itFb3E": {
+          "type": "featured_image",
+          "settings": {
+            "featured_image": "shopify://shop_images/Frame_1010107060.svg",
+            "position": 5,
+            "featured_heading": "",
+            "heading_font_size": "heading-large",
+            "featured_text": "",
+            "featured_button_text": "",
+            "featured_button_link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "featured_color_text": "#ffffff",
+            "featured_color_overlay": "#222222",
+            "featured_overlay_opacity": 0,
+            "heading_tag": "automatic"
+          }
+        },
+        "featured_image_aTnhdJ": {
+          "type": "featured_image",
+          "settings": {
+            "featured_image": "shopify://shop_images/Frame_1010107060.svg",
+            "position": 22,
+            "featured_heading": "",
+            "heading_font_size": "heading-large",
+            "featured_text": "",
+            "featured_button_text": "",
+            "featured_button_link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "featured_color_text": "#ffffff",
+            "featured_color_overlay": "#222222",
+            "featured_overlay_opacity": 0,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "featured_image_itFb3E",
+        "featured_image_aTnhdJ"
+      ],
+      "settings": {
+        "enable_sort": true,
+        "enable_filters": true,
+        "filter_layout": "inline-open",
+        "default_open": true,
+        "collection_linklist": "",
+        "grid": 4,
+        "grid_mobile": "2",
+        "products_per_page": 24,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "subcollections",
+    "section_rich_text_DjR8Pi",
+    "main"
+  ]
+}

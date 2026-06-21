@@ -1,0 +1,212 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_hero_8dg8eJ": {
+      "type": "section-hero",
+      "name": "Image banner",
+      "settings": {
+        "image_1": "shopify://shop_images/Use_the_first_image_as_202606200441.jpg",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "mobile_image": "shopify://shop_images/meteste_umas_caixas_de_aneis_202606200453.jpg",
+        "mobile_height": "image-height--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "",
+        "show_text_background": false,
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_custom_code_BqDxwH": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<div class=\"liq-wrap\">\n  <div class=\"liq-inner\">\n\n    <h2 class=\"liq-title\">TELJES KÉSZLETKISÖPRÉS</h2>\n\n    <p class=\"liq-sub\">Kiürítjük készleteinket, hogy helyet adjunk az új projekteknek. Ez az utolsó lehetőség, hogy ikonikus darabjainkat kedvező áron megszerezze.</p>\n    <p class=\"liq-warning\"><strong>Minden el kell menjen :</strong> utánpótlásra nem kerül sor.</p>\n\n    <div class=\"liq-block\">\n      <p class=\"liq-block-title\">AUTOMATIKUS KÉSZLETKISÖPRÉSI KEDVEZMÉNYEK :</p>\n      <ul class=\"liq-tiers\">\n        <li><span class=\"liq-pct\">– 15 %</span> <span class=\"liq-lbl\">2 vásárolt terméktől</span></li>\n        <li><span class=\"liq-pct\">– 20 %</span> <span class=\"liq-lbl\">3 vásárolt terméktől</span></li>\n        <li class=\"liq-highlight\"><span class=\"liq-pct\">– 25 %</span> <span class=\"liq-lbl\">4 vásárolt terméktől</span></li>\n      </ul>\n    </div>\n\n    <p class=\"liq-footnote\">A kedvezmények automatikusan érvényesülnek a pénztárnál.</p>\n    <p class=\"liq-closing\"><strong>Csak az utolsó darabok érhetők el. Ha a készlet elfogy, ezek a termékek többé nem térnek vissza.</strong></p>\n\n  </div>\n</div>\n\n<style>\n.liq-wrap {\n  background: #ffffff;\n  padding: 50px 24px;\n  font-family: inherit;\n  color: #1a1a1a;\n  border: none;\n  outline: none;\n  box-shadow: none;\n}\n.liq-inner {\n  max-width: 640px;\n  margin: 0 auto;\n  text-align: center;\n}\n.liq-title {\n  font-size: clamp(22px, 5vw, 32px);\n  font-weight: 700;\n  letter-spacing: 0.08em;\n  text-transform: uppercase;\n  margin: 0 0 1.4rem;\n  color: #1a1a1a;\n  line-height: 1.2;\n}\n.liq-sub {\n  font-size: 15px;\n  line-height: 1.75;\n  max-width: 520px;\n  margin: 0 auto 0.75rem;\n  color: #1a1a1a;\n}\n.liq-warning {\n  font-size: 15px;\n  line-height: 1.6;\n  margin: 0 0 2rem;\n  color: #1a1a1a;\n}\n.liq-block {\n  border-top: 1px solid #d8d8d8;\n  border-bottom: 1px solid #d8d8d8;\n  padding: 1.75rem 0 1.5rem;\n  margin: 0 0 1.75rem;\n}\n.liq-block-title {\n  font-size: 12px;\n  font-weight: 700;\n  letter-spacing: 0.08em;\n  text-transform: uppercase;\n  margin: 0 0 1.25rem;\n  color: #1a1a1a;\n  line-height: 1.5;\n}\n.liq-tiers {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n  display: flex;\n  flex-direction: column;\n  gap: 0.5rem;\n}\n.liq-tiers li {\n  font-size: 15px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 5px;\n  color: #1a1a1a;\n}\n.liq-pct {\n  font-weight: 700;\n}\n.liq-highlight {\n  color: #c0392b !important;\n}\n.liq-highlight .liq-pct,\n.liq-highlight .liq-lbl {\n  color: #c0392b;\n  font-weight: 700;\n}\n.liq-footnote {\n  font-size: 13px;\n  font-style: italic;\n  color: #888;\n  margin: 0 0 1.5rem;\n  line-height: 1.6;\n}\n.liq-closing {\n  font-size: 15px;\n  line-height: 1.6;\n  margin: 0;\n  color: #1a1a1a;\n}\n</style>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "hero": {
+      "type": "collection-image-with-title",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_description": true,
+        "flex_align": "align--middle-left",
+        "color_scheme": "",
+        "show_text_background": false,
+        "show_image": true,
+        "banner_layout": "inline",
+        "height": "three-fifty-height-hero",
+        "mobile_height": "two-fifty-height-hero--mobile",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "sprinbanner_Wa89zc": {
+      "type": "SPRINBANNER",
+      "disabled": true,
+      "name": "Spring Sale Banner",
+      "settings": {
+        "title": "THE MORE YOU ADD, THE MORE YOU SAVE!",
+        "subtitle": "SPRING SALE"
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "settings": {
+        "subcollection_layout": "grid",
+        "subcollection_description": true,
+        "select_image": "collection",
+        "color_scheme": "",
+        "color": "#ffffff",
+        "bg_color": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_hero_8VDQWG": {
+      "type": "section-hero",
+      "disabled": true,
+      "name": "Image banner",
+      "settings": {
+        "link": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "mobile_height": "image-height--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "",
+        "show_text_background": false,
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "collection_nav_impulse_6iPpaj": {
+      "type": "collection-nav-impulse",
+      "disabled": true,
+      "custom_css": [
+        ".imp-collections-list {display: flex; gap: 18px; margin: 0; padding: 10px 4px; list-style: none; white-space: nowrap; margin-left: 20px; /* 👈 margem à esquerda */}"
+      ],
+      "name": "Coleções Bar",
+      "settings": {
+        "menu": "",
+        "sticky": false,
+        "offset": 0
+      }
+    },
+    "main": {
+      "type": "collection",
+      "custom_css": [],
+      "settings": {
+        "enable_sort": false,
+        "enable_filters": false,
+        "filter_layout": "inline-closed",
+        "default_open": false,
+        "collection_linklist": "",
+        "grid": 4,
+        "grid_mobile": "2",
+        "products_per_page": 24,
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "section_text_row_LKjQQg": {
+      "type": "section-text-row",
+      "blocks": {
+        "icon_Qpapmi": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-fast-shipment",
+            "icon_size": 80,
+            "icon_color": "",
+            "title": "Doprava zdarma",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>Doručujeme po celém Česku službou <strong>GLS</strong> pro rychlejší a bezpečnější dodání. Ke každé objednávce je doprava zdarma.</p>",
+            "text_font_size": "body-small",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_aeGDYT": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shield",
+            "icon_size": 40,
+            "icon_color": "",
+            "title": "Zákaznická podpora 24/7",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>Máte-li jakýkoli dotaz nebo pochybnost ohledně své objednávky, nemějte obavy — náš tým zákaznické podpory je vám k dispozici 24 hodin denně, aby vám pomohl.<br/></p>",
+            "text_font_size": "body-small",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_CeWGi8": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_size": 45,
+            "icon_color": "",
+            "title": "100% záruka spokojenosti",
+            "heading_font_size": "heading-x-small",
+            "text": "<p><strong>Na všechny objednávky nabízíme 60denní záruku vrácení peněz bez rizika. Pokud nejste spokojeni, můžete zboží vrátit.</strong></p>",
+            "text_font_size": "body-small",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "icon_Qpapmi",
+        "icon_aeGDYT",
+        "icon_CeWGi8"
+      ],
+      "settings": {
+        "title": "",
+        "heading_font_size": "heading-small",
+        "align_heading": "text-left",
+        "align_text": "text-center",
+        "icon_alignment": "icon--top",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-center",
+        "layout": "grid",
+        "grid": 3,
+        "layout_mobile": "1",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    }
+  },
+  "order": [
+    "section_hero_8dg8eJ",
+    "section_custom_code_BqDxwH",
+    "hero",
+    "sprinbanner_Wa89zc",
+    "subcollections",
+    "section_hero_8VDQWG",
+    "collection_nav_impulse_6iPpaj",
+    "main",
+    "section_text_row_LKjQQg"
+  ]
+}

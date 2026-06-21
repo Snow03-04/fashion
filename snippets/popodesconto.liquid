@@ -1,0 +1,67 @@
+<!-- popup-descuento.liquid -->
+<style>
+  #popup-overlay {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  #popup-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  #popup-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  #popup-container button {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+</style>
+
+<div id="popup-overlay">
+  <div id="popup-container">
+    <h2>Bienvenido a Lola Madrid</h2>
+    <p>Suscríbete con tu nombre y correo para obtener un 10% de descuento.</p>
+    <input type="text" id="popup-nombre" placeholder="Tu nombre">
+    <input type="email" id="popup-email" placeholder="Tu correo electrónico">
+    <button id="popup-boton">Obtener descuento</button>
+    <p id="popup-msg" style="margin-top:10px;"></p>
+  </div>
+</div>
+
+<script>
+  document.getElementById('popup-boton').addEventListener('click', function(event) {
+    var nombre = document.getElementById('popup-nombre').value;
+    var email = document.getElementById('popup-email').value;
+    var msg = document.getElementById('popup-msg');
+
+    if (nombre && email) {
+      msg.innerHTML = "Gracias " + nombre + "! Tu código de descuento es: <strong>LOLA10</strong>";
+      document.getElementById('popup-nombre').style.display = 'none';
+      document.getElementById('popup-email').style.display = 'none';
+      event.target.style.display = 'none';
+    } else {
+      msg.innerHTML = "Por favor completa ambos campos.";
+    }
+  });
+
+  // Ocultar automáticamente después de 15 segundos
+  setTimeout(function() {
+    var overlay = document.getElementById('popup-overlay');
+    if (overlay) overlay.style.display = 'none';
+  }, 15000);
+</script>

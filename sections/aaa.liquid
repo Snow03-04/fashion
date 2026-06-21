@@ -1,0 +1,97 @@
+{% schema %}
+{
+  "name": "Barra de Frases Rotativas",
+  "tag": "section",
+  "settings": [],
+  "presets": [{
+    "name": "Barra de Frases Rotativas"
+  }]
+}
+{% endschema %}
+
+<!-- Barra de Frases Rotativas -->
+<div id="animated-banner">
+  <div id="bannerText">¡Compra 2 artículos y obtén un 10% de descuento extra!</div>
+</div>
+
+<style>
+  #animated-banner {
+    position: relative;
+    width: 100%;
+    max-width: 100vw;
+    margin-left: 0;
+    background-color: #f6f5f2;
+    text-align: center;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    padding: 0 16px;
+    line-height: 1;
+    font-size: 14px;
+    overflow: hidden;
+  }
+
+  #bannerText {
+    white-space: nowrap;
+    animation: slideIn 0.5s ease forwards;
+    transition: opacity 0.5s ease;
+    color: #111;
+  }
+
+  @keyframes slideIn {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideOut {
+    from {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+    to {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+  }
+
+  @media (max-width: 749px) {
+    #animated-banner {
+      height: 28px;
+    }
+
+    #bannerText {
+      font-size: 12px;
+    }
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const frases = [
+      "¡Compra 2 artículos y obtén un 10% de descuento extra!",
+      "¡Compra 3 artículos y obtén un 15% de descuento extra!",
+      "¡Compra 4 artículos y obtén un 20% de descuento extra!"
+    ];
+
+    let index = 0;
+    const bannerText = document.getElementById("bannerText");
+
+    setInterval(() => {
+      bannerText.style.animation = "slideOut 0.5s ease forwards";
+
+      setTimeout(() => {
+        index = (index + 1) % frases.length;
+        bannerText.textContent = frases[index];
+        bannerText.style.animation = "slideIn 0.5s ease forwards";
+      }, 500);
+    }, 4000);
+  });
+</script>

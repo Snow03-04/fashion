@@ -1,0 +1,132 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_hero_qRRhtf": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_tQb3WV": {
+          "type": "heading",
+          "settings": {
+            "title": "+50% REMISE",
+            "heading_font_size": "heading-large",
+            "heading_tag": "automatic"
+          }
+        },
+        "heading_RQjAUk": {
+          "type": "heading",
+          "settings": {
+            "title": "sur l'achat d'une deuxième sac",
+            "heading_font_size": "heading-x-small",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tQb3WV",
+        "heading_RQjAUk"
+      ],
+      "settings": {
+        "link": "",
+        "width": "wrapper--full",
+        "height": "four-fifty-height-hero",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "mobile_image": "shopify://shop_images/SALE_MOB_BANNER_PH1_1.webp",
+        "mobile_height": "image-height--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "scheme-2",
+        "show_text_background": false,
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "hero": {
+      "type": "collection-image-with-title",
+      "settings": {
+        "show_title": false,
+        "show_description": true,
+        "flex_align": "align--middle-left",
+        "color_scheme": "",
+        "show_text_background": false,
+        "show_image": false,
+        "banner_layout": "overlay",
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-half--mobile",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "settings": {
+        "subcollection_layout": "grid",
+        "subcollection_description": true,
+        "select_image": "collection",
+        "color_scheme": "",
+        "color": "#ffffff",
+        "bg_color": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "featured_image_itFb3E": {
+          "type": "featured_image",
+          "settings": {
+            "featured_image": "shopify://shop_images/Frame_1010107044_91c2bb69-af9b-4634-9066-fb9678ec52c2.png",
+            "position": 5,
+            "featured_heading": "",
+            "heading_font_size": "heading-large",
+            "featured_text": "",
+            "featured_button_text": "",
+            "featured_button_link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "featured_color_text": "#ffffff",
+            "featured_color_overlay": "#222222",
+            "featured_overlay_opacity": 0,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "featured_image_itFb3E"
+      ],
+      "settings": {
+        "enable_sort": true,
+        "enable_filters": true,
+        "filter_layout": "inline-open",
+        "default_open": true,
+        "collection_linklist": "",
+        "grid": 4,
+        "grid_mobile": "2",
+        "products_per_page": 23,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "section_hero_qRRhtf",
+    "hero",
+    "subcollections",
+    "main"
+  ]
+}

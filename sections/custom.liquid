@@ -1,0 +1,64 @@
+<style>
+#shopify-section-{{ section.id }} a{color:inherit;background-color:transparent;text-decoration:none;}
+#shopify-section-{{ section.id }} a:active,a:hover{outline:0;}
+/*! CSS Used from: https://eloraboutique.shop/cdn/shop/t/2/assets/custom.css?v=27360554987871213591735500160 */
+#shopify-section-{{ section.id }} .dondead_collection__tabs{background:{{ section.settings.custom_nav_background }};}
+#shopify-section-{{ section.id }} .dondead_collection__tabs.dondead_collection_el{display:flex;}
+#shopify-section-{{ section.id }} .dondead_collection__tabs{width:100%;display:flex;align-items:center;justify-content:safe center;overflow-x:auto;overflow-y:hidden;padding:0 20px;-ms-overflow-style:none;scrollbar-width:none;}
+#shopify-section-{{ section.id }} .dondead_collection__tabs::-webkit-scrollbar{display:none!important;}
+#shopify-section-{{ section.id }} .dondead_collection_tabs .dondead_collection_tab_item{padding:20px 16px 18px;white-space:nowrap;border-bottom:solid 2px transparent;color:{{ section.settings.custom_nav_link_color }};font-size:14px;font-weight:700;line-height:16px;letter-spacing:0;text-align:center;text-transform:uppercase;transition:all .2s ease;}
+#shopify-section-{{ section.id }} .dondead_collection_tabs .dondead_collectiontab_item:hover:not(.dondead_collection_tab_item_active){border-color:{{ section.settings.custom_nav_link_color }};color:{{ section.settings.custom_nav_link_color }};cursor:pointer;}
+@media screen and (max-width: 750px){
+#shopify-section-{{ section.id }} .dondead_collection__tabs{justify-content:flex-start;}
+}
+@media only screen and (max-width: 750px){
+#shopify-section-{{ section.id }} .dondead_collection_tabs .dondead_collection_tab_item{padding:12px 10px 10px;color:{{ section.settings.custom_nav_link_color }};font-size:12px;transition:all .2s ease;}
+#shopify-section-{{ section.id }} .dondead_collection__tabs.dondead_collection_el{display:flex;padding-left:12px!important;}
+}
+  </style>
+<section id="shopify-section-Collection-names-links" class="shopify-section spaced-section">
+<div class="dondead_collection__tabs dondead_collection_el" style="display: flex; justify-content: left; gap: 0px;">
+  
+  {% for link in section.settings.custom_navigation.links -%}
+     <a class="dondead_collection__tab_item " href="{{  link.url }}">{{ link.title }}</a>
+{%- endfor %}
+  
+</div>
+</section> 
+{% schema %}
+  {
+    "name": "Custom navigation",
+    "settings": [
+         {
+  "type": "header",
+  "content": "Custom navigation"
+},
+      {
+  "type": "link_list",
+  "id": "custom_navigation",
+  "label": "Menu"
+},
+      {
+  "type": "color",
+  "id": "custom_nav_link_color",
+  "label": "Link color",
+  "default": "#000000"
+},
+      {
+  "type": "color",
+  "id": "custom_nav_background",
+  "label": "Background color",
+  "default": "#f2f2f2"
+}
+    ],
+     "enabled_on": {
+    "templates": ["*"],
+    "groups": ["header"]
+  },
+    "presets": [
+    {
+      "name": "Custom navigation"
+    }
+  ]
+  }
+{% endschema %}
