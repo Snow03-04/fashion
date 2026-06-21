@@ -16,7 +16,7 @@
       ],
       "name": "Coleções Bar",
       "settings": {
-        "menu": "",
+        "menu": "main-menu",
         "sticky": false,
         "offset": 0
       }
