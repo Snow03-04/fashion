@@ -102,7 +102,7 @@
       "type": "section-collection",
       "settings": {
         "featured_collection": "overaly",
-        "heading": "Plavky",
+        "heading": "Overlay",
         "heading_font_size": "heading-x-small",
         "description": "",
         "text_font_size": "body-medium",
@@ -129,7 +129,7 @@
       "type": "section-collection",
       "custom_css": [],
       "settings": {
-        "featured_collection": "nyari-szandal",
+        "featured_collection": "spolecenske-saty",
         "heading": "Letní sandály",
         "heading_font_size": "heading-x-small",
         "description": "",
@@ -343,7 +343,7 @@
     "section_collection_XwCHeG": {
       "type": "section-collection",
       "settings": {
-        "featured_collection": "nyari-overalok",
+        "featured_collection": "dzinova-kolekce",
         "heading": "Letní overaly",
         "heading_font_size": "heading-x-small",
         "description": "",
@@ -370,7 +370,7 @@
     "section_collection_FPAFdd": {
       "type": "section-collection",
       "settings": {
-        "featured_collection": "signature-noi-divat",
+        "featured_collection": "soupravy",
         "heading": "Signature dámská móda",
         "heading_font_size": "heading-x-small",
         "description": "",
@@ -444,7 +444,7 @@
     "section_collection_Cx4ccy": {
       "type": "section-collection",
       "settings": {
-        "featured_collection": "ruhak",
+        "featured_collection": "obuv",
         "heading": "Šaty",
         "heading_font_size": "heading-x-small",
         "description": "",
@@ -472,7 +472,7 @@
       "type": "section-collection",
       "custom_css": [],
       "settings": {
-        "featured_collection": "napszemuveg",
+        "featured_collection": "dog-1",
         "heading": "Sluneční brýle",
         "heading_font_size": "heading-small",
         "description": "",
@@ -498,6 +498,7 @@
     },
     "section_collection_8TFLxT": {
       "type": "section-collection",
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "featured_collection": "kezzel-keszitett-steppelt-taskak-70",
