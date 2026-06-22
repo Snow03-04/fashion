@@ -58,7 +58,7 @@
         "linklist_FFNgQE": {
           "type": "linklist",
           "settings": {
-            "linklist": "politics",
+            "linklist": "footer",
             "title": "Informace a zásady",
             "heading_font_size": "heading-x-small",
             "column_width": 14,
