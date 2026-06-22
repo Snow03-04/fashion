@@ -55,7 +55,7 @@
 
 {%- if total_qty >= 2 -%}
   <div class="cart__total">
-    <span class="cart__total__label">Termékek</span>
+    <span class="cart__total__label">Produkty</span>
     <span class="cart__total__price">
       {%- if original_subtotal == 0 -%}
         {{ 'general.money.free' | t }}
@@ -82,7 +82,7 @@
     <div class="cart__total">
       <div style="display:flex; align-items:center; gap:6px;">
         {%- render 'icon-tags' -%}
-        <span>{{ active_pct }}% Kedvezmény</span>
+        <span>{{ active_pct }}% Sleva</span>
       </div>
       <span style="color:var(--COLOR-SALE);">
         -{{- saving | money -}}
@@ -92,7 +92,7 @@
 {%- endif -%}
 
 <div class="cart__total">
-  <span class="cart__total__label">Összesen</span>
+  <span class="cart__total__label">Celkem</span>
   <span class="cart__total__price cart__total__price--animated" data-cart-total="{{ subtotal }}">
     {%- if subtotal == 0 -%}
       {{ 'general.money.free' | t }}
