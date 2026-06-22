@@ -708,11 +708,11 @@
 
   <script>
   document.addEventListener('DOMContentLoaded', function() {
-    // Encontra o label "Méret" dentro do form wrapper
+    // Encontra o label "Velikost" dentro do form wrapper
     var sizeLabels = document.querySelectorAll('.product__content .variant__label, .product__content label');
     
     sizeLabels.forEach(function(label) {
-      if (label.textContent.trim().startsWith('Méret')) {
+      if (label.textContent.trim().startsWith('Velikost')) {
         // Cria o wrapper inline se ainda não existe
         if (!label.parentElement.querySelector('#KiwiSizingChart')) {
           label.style.display = 'inline-flex';

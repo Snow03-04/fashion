@@ -391,6 +391,10 @@
     "full_date_and_time": "%d. %B %Y %H:%M"
   },
   "general": {
+    "404": {
+      "title": "404 stránka nenalezena",
+      "subtext_html": "Požadovaná stránka neexistuje."
+    },
     "ie11_support_message": "Tento web má určitá omezení prohlížeče. Doporučujeme používat prohlížeče: Edge, Chrome, Safari nebo Firefox.",
     "swatches": {
       "color": "Barva"
@@ -405,10 +409,6 @@
     "size_chart": {
       "title": "Tabulka velikostí",
       "size": "Velikost"
-    },
-    "404": {
-      "title": "404 stránka nenalezena",
-      "subtext_html": "Požadovaná stránka neexistuje."
     },
     "meta": {
       "tags": "Štítky \"{{ tags }}\"",
@@ -529,7 +529,8 @@
       "read_more": "Číst více",
       "no_articles": "Nejsou žádné články k zobrazení",
       "back_to": "Zpět na",
-      "all": "Vše"
+      "all": "Vše",
+      "read_more_descriptive": "Klikněte zde a přečtěte si celý článek"
     },
     "comments": {
       "title": "Zanechat komentář",
@@ -568,6 +569,29 @@
       },
       "alternative_payment_method_banner": {
         "express_checkout": "★★★★★ 4,8/5 (2 728+ hodnocení)"
+      },
+      "general": {
+        "cart": "Košík"
+      },
+      "stock": {
+        "sold_out_label": "Vyprodáno",
+        "empty_cart_label": "Váš košík je prázdný"
+      },
+      "throttle": {
+        "merchandise": {
+          "sold_out": "Vyprodáno"
+        },
+        "inventory": {
+          "partial_inventory_banner": "Část vašeho košíku je vyprodaná, takže ji při placení nebude možné zakoupit.",
+          "sold_out": {
+            "heading": "Váš košík se vyprázdnil (produkty byly vyprodány)"
+          }
+        }
+      }
+    },
+    "notices": {
+      "cart": {
+        "product_sold_out": "Produkt '{{name}}' je již vyprodán."
       }
     }
   }
