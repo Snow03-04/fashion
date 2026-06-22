@@ -32,7 +32,7 @@
         "heading_9chzd8": {
           "type": "heading",
           "settings": {
-            "title": "Česta pitanja",
+            "title": "Časté dotazy",
             "heading_font_size": "heading-large",
             "padding_bottom": 16,
             "heading_tag": "automatic"
@@ -41,7 +41,7 @@
         "text_Mgy88U": {
           "type": "text",
           "settings": {
-            "text": "<p>Pronađite odgovore na najčešća pitanja naših klijenata. Ako ne pronađete odgovor koji tražite, obratite se našem timu za podršku kako biste dobili pomoć.<br/><br/></p>",
+            "text": "<p>Najděte odpovědi na nejčastější dotazy našich zákazníků. Pokud nenajdete odpověď, kterou hledáte, obraťte se na náš tým podpory a rádi vám pomůžeme.<br/><br/></p>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
@@ -49,7 +49,7 @@
         "buttons_3EtNwQ": {
           "type": "buttons",
           "settings": {
-            "button_text": "Kontaktirajte nas",
+            "button_text": "Kontaktujte nás",
             "button_url": "shopify://pages/contact",
             "button_type": "btn--primary",
             "button_size": "",
@@ -80,15 +80,15 @@
         "faq-heading": {
           "type": "heading",
           "settings": {
-            "title": "Naručbe"
+            "title": "Objednávky"
           }
         },
         "faq-0": {
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Kako se radi narudžba?",
-            "content": "<p>Vrlo je jednostavno naručiti kod nas: čim stavite artikl u svoju košaricu za kupnju, možete izvršiti narudžbu klikom na gumb „Izvrši narudžbu”. To možete jednostavno učiniti tijekom procesa plaćanja, kada se automatski prijavite. Zatim ćete biti vođeni kroz proces narudžbe u tri koraka (adresa – način plaćanja – potvrda) i moći ćete dovršiti svoju narudžbu.</p><p>Također vam nudimo mogućnost naručivanja bez izrade korisničkog računa. Narudžbu možete izvršiti i bez izrade korisničkog računa.</p><p>Za to kliknite na „Nastavi” u obrascu za registraciju gostiju. Kako biste dovršili svoju narudžbu, slijedite proces narudžbe u tri koraka (vaši podaci – plaćanje – narudžba).</p>",
+            "title": "Jak provést objednávku?",
+            "content": "<p>Objednat u nás je velmi jednoduché: jakmile vložíte zboží do nákupního košíku, můžete objednávku dokončit kliknutím na tlačítko „Dokončit objednávku“. To lze snadno provést během platby, kdy se automaticky přihlásíte. Poté vás provedeme objednávkou ve třech krocích (adresa – způsob platby – potvrzení) a budete moci svou objednávku dokončit.</p><p>Nabízíme také možnost objednat bez vytvoření zákaznického účtu.</p><p>Stačí kliknout na „Pokračovat“ ve formuláři pro nákup jako host. Pro dokončení objednávky postupujte podle tří kroků (vaše údaje – platba – objednávka).</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -99,8 +99,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Što se događa kada je moja narudžba dovršena?",
-            "content": "<p>Nakon što dovršite svoju narudžbu, primit ćete e-mail s potvrdom narudžbe koji će sadržavati ne samo artikle koje ste naručili, već i vašu adresu za dostavu i naplatu te odabrani način plaćanja.</p><p>Ako nije tako, možete započeti postupak povrata.</p>",
+            "title": "Co se stane po dokončení mé objednávky?",
+            "content": "<p>Po dokončení objednávky obdržíte e-mail s potvrzením objednávky, který obsahuje nejen objednané zboží, ale také vaši doručovací a fakturační adresu a zvolený způsob platby.</p><p>Pokud tomu tak není, můžete zahájit proces vrácení.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -111,8 +111,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Mogu li otkazati svoju narudžbu ako još nije poslana?",
-            "content": "<p>Otkazivanje je moguće ako vaša narudžba još nije obrađena u našem skladištu. Budući da naše skladište vrlo brzo obrađuje narudžbe, ponekad nije moguće otkazati narudžbu čak ni nakon nekoliko minuta.</p><p>Najbrži način je otvoriti odgovarajuću narudžbu u svom korisničkom računu i odabrati opciju otkazivanja. Imajte na umu da možete zatražiti otkazivanje samo svih artikala iz jedne planirane isporuke.</p><p>Ako želite otkazati sve artikle iz svoje narudžbe, a ona je podijeljena u više planiranih isporuka, morat ćete zatražiti otkazivanje za svaku od tih planiranih isporuka.</p><p>Nažalost, nije moguće otkazati pojedinačni artikl iz planirane isporuke. Nakon vašeg zahtjeva, dobit ćete poseban e-mail o statusu vašeg zahtjeva za otkazivanje.</p>",
+            "title": "Mohu zrušit svou objednávku, pokud ještě nebyla odeslána?",
+            "content": "<p>Zrušení je možné, pokud vaše objednávka ještě nebyla zpracována v našem skladu. Protože náš sklad zpracovává objednávky velmi rychle, někdy není možné objednávku zrušit ani po několika minutách.</p><p>Nejrychlejším způsobem je otevřít příslušnou objednávku ve svém zákaznickém účtu a zvolit možnost zrušení. Upozorňujeme, že zrušení lze požádat pouze pro veškeré zboží z jedné plánované zásilky.</p><p>Pokud chcete zrušit veškeré zboží ze své objednávky, která je rozdělena do více plánovaných zásilek, budete muset požádat o zrušení každé z těchto zásilek.</p><p>Bohužel není možné zrušit jednotlivou položku z plánované zásilky. Po vaší žádosti obdržíte samostatný e-mail o stavu vaší žádosti o zrušení.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -123,8 +123,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Postoji li minimalna vrijednost narudžbe?",
-            "content": "<p>U načelu, u našoj internetskoj trgovini ne postoji minimalni iznos narudžbe. Međutim, za određene načine plaćanja može postojati minimalni iznos; o tome ćete biti obaviješteni tijekom procesa naručivanja.</p>",
+            "title": "Existuje minimální hodnota objednávky?",
+            "content": "<p>V zásadě v našem internetovém obchodě neexistuje minimální hodnota objednávky. U některých způsobů platby však může platit minimální částka; o tom budete informováni během objednávkového procesu.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -135,8 +135,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Nedostaje li nešto u mojoj narudžbi?",
-            "content": "<p>Kontaktirajte nas izravno na <a>info@store.com</a> i dostavite nam ključne informacije, poput dostavne etikete itd. Što su informacije potpunije, to ćemo brže moći identificirati i riješiti problem.</p>",
+            "title": "Chybí něco v mé objednávce?",
+            "content": "<p>Kontaktujte nás přímo na <a>info@store.com</a> a poskytněte nám klíčové informace, například údaje z doručovacího štítku apod. Čím úplnější informace, tím rychleji dokážeme problém najít a vyřešit.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -147,8 +147,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Što trebam učiniti ako nešto pođe po zlu s mojom narudžbom?",
-            "content": "<p>Kontaktirajte nas na <a>info@store.com</a>. Navedite broj svoje narudžbe, opis problema i priložite potrebne fotografije.</p>",
+            "title": "Co mám dělat, když se s mou objednávkou něco pokazí?",
+            "content": "<p>Kontaktujte nás na <a>info@store.com</a>. Uveďte číslo své objednávky, popis problému a přiložte potřebné fotografie.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -181,15 +181,15 @@
         "heading_6WKUpk": {
           "type": "heading",
           "settings": {
-            "title": "Dostava i isporuka"
+            "title": "Doprava a doručení"
           }
         },
         "question_XqYzfm": {
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Koji je rok isporuke?",
-            "content": "<p>U pravilu isporučujemo artikle koji su odmah dostupni u roku od 5 do 8 radnih dana.</p>",
+            "title": "Jaká je dodací lhůta?",
+            "content": "<p>Zboží, které je ihned dostupné, zpravidla doručujeme do 5 až 8 pracovních dnů.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -200,8 +200,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Kako mogu pratiti svoju narudžbu?",
-            "content": "<p>Kako biste pratili svoju narudžbu, možete kliknuti na poveznicu za praćenje u e-mailu s potvrdom slanja koji ste primili.</p><p>Ako ne pronađete e-mail s potvrdom u pristigloj pošti, najvjerojatnije se nalazi u mapi neželjene pošte.</p>",
+            "title": "Jak mohu sledovat svou objednávku?",
+            "content": "<p>Svou objednávku můžete sledovat kliknutím na odkaz pro sledování v e-mailu s potvrzením odeslání, který jste obdrželi.</p><p>Pokud potvrzovací e-mail nenajdete ve schránce, pravděpodobně se nachází ve složce nevyžádané pošty.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -212,8 +212,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Zašto se praćenje pošiljke ne ažurira?",
-            "content": "<p>Las actualizaciones de seguimiento pueden retrasarse cuando el paquete se :</p><p>-Retenidos por causas de fuerza mayor, como condiciones meteorológicas extremas, restricciones de envío, huelgas, etc.</p><p>-Sujeto a procedimientos aduaneros locales.</p>",
+            "title": "Proč se sledování zásilky neaktualizuje?",
+            "content": "<p>Aktualizace sledování se mohou zpozdit, když je zásilka:</p><p>– Zadržena z důvodu vyšší moci, jako jsou extrémní povětrnostní podmínky, omezení přepravy, stávky apod.</p><p>– Podrobena místním celním procedurám.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -224,8 +224,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Zašto se moja narudžba prikazuje kao isporučena prije nego što je primim?",
-            "content": "<p>Ako niste primili svoj(e) artikl(e):</p><p>1) Provjerite je li adresa u vašoj narudžbi netočna;</p><p>2) Kontaktirajte dostavnu službu;</p><p>3) Provjerite svoj poštanski sandučić ili pitajte susjede jesu li primili paket u vaše ime;</p><p>4) U rijetkim slučajevima, paketi mogu biti označeni kao isporučeni i do 48 sati prije stvarnog dolaska.</p><p>Ako ne primite artikl u roku od 3 radna dana od datuma isporuke vaše narudžbe, pošaljite nam e-mail na info@store.com (s brojem narudžbe i razlogom).</p>",
+            "title": "Proč je má objednávka označena jako doručená dříve, než ji obdržím?",
+            "content": "<p>Pokud jste své zboží neobdrželi:</p><p>1) Zkontrolujte, zda je adresa ve vaší objednávce správná;</p><p>2) Kontaktujte přepravní službu;</p><p>3) Zkontrolujte svou poštovní schránku nebo se zeptejte sousedů, zda zásilku nepřevzali za vás;</p><p>4) Ve vzácných případech mohou být zásilky označeny jako doručené až 48 hodin před skutečným dodáním.</p><p>Pokud zboží neobdržíte do 3 pracovních dnů od data doručení vaší objednávky, napište nám e-mail na info@store.com (s číslem objednávky a důvodem).</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -236,8 +236,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Zašto se moja narudžba vraća pošiljatelju ili se odbija?",
-            "content": "<p>Narudžba se može vratiti pošiljatelju ili odbiti iz bilo kojeg od sljedećih razloga:</p><p>1) Adresa nije važeća ili nedostaju podaci,</p><p>2) Dostavljač ne može isporučiti vaš paket,</p><p>3) Narudžbu kupac odbije u trenutku isporuke.</p><p>Imajte na umu da nismo odgovorni za izgubljene, pogrešno poslane ili krivo isporučene artikle ako je adresa navedena prilikom kupnje netočna.</p>",
+            "title": "Proč se má objednávka vrací odesílateli nebo je odmítnuta?",
+            "content": "<p>Objednávka se může vrátit odesílateli nebo být odmítnuta z některého z následujících důvodů:</p><p>1) Adresa není platná nebo chybí údaje,</p><p>2) Přepravce nemůže doručit vaši zásilku,</p><p>3) Zákazník objednávku odmítne v okamžiku doručení.</p><p>Upozorňujeme, že neneseme odpovědnost za ztracené, špatně odeslané nebo nesprávně doručené zboží, pokud je adresa uvedená při nákupu nesprávná.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -248,8 +248,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Što mogu učiniti ako usluga praćenja pokazuje da moj paket nije isporučen?",
-            "content": "<p>Ako otkrijete da vaš paket nije isporučen, provjerite podatke o adresi dostave navedene u potvrdi narudžbe. Ako je adresa točna, predlažemo da se najprije obratite logističkoj tvrtki, jer je to najučinkovitiji način da locirate svoj paket i dogovorite novu dostavu.</p>",
+            "title": "Co mohu dělat, když sledování ukazuje, že má zásilka nebyla doručena?",
+            "content": "<p>Pokud zjistíte, že vaše zásilka nebyla doručena, zkontrolujte údaje o doručovací adrese uvedené v potvrzení objednávky. Pokud je adresa správná, doporučujeme nejprve kontaktovat přepravní společnost, protože je to nejúčinnější způsob, jak zásilku najít a domluvit nové doručení.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -260,8 +260,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Kako mogu biti siguran/na da sam ispravno ispunio/la svoju narudžbu?",
-            "content": "<p>Ako ste izradili korisnički račun, možete pristupiti web stranici i pregledati svoje narudžbe u odjeljku „Narudžbe”. Ako imate bilo kakvih pitanja, možete se u bilo kojem trenutku obratiti našoj službi za korisnike putem e-pošte na adresu ayuda@store.com</p>",
+            "title": "Jak si mohu být jistý/á, že jsem objednávku vyplnil/a správně?",
+            "content": "<p>Pokud jste si vytvořili zákaznický účet, můžete se přihlásit na web a prohlédnout si své objednávky v sekci „Objednávky“. Máte-li jakékoli dotazy, můžete se kdykoli obrátit na naši zákaznickou podporu e-mailem na adrese info@store.com</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -272,8 +272,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Koje će dostavne službe dostaviti moj paket?",
-            "content": "<p>Svoje proizvode dostavljamo u Hrvatskoj u suradnji s našim partnerima Paket24.</p>",
+            "title": "Které přepravní služby doručí mou zásilku?",
+            "content": "<p>Své produkty doručujeme po celém Česku ve spolupráci s naším partnerem GLS.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -284,8 +284,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Može li adresa dostave biti drugačija od adrese za naplatu?",
-            "content": "<p>Naravno, svoju narudžbu možete dostaviti i na adresu koja je drugačija od adrese za naplatu, primjerice na svoje radno mjesto ili mjesto preuzimanja, odabirom jednog od dostupnih načina plaćanja i navođenjem adrese dostave u odjeljku „Adresa dostave”.</p>",
+            "title": "Může se doručovací adresa lišit od fakturační adresy?",
+            "content": "<p>Samozřejmě, svou objednávku můžete nechat doručit i na adresu odlišnou od fakturační, například do zaměstnání nebo na výdejní místo, výběrem jednoho z dostupných způsobů platby a zadáním doručovací adresy v sekci „Doručovací adresa“.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -296,8 +296,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Mogu li promijeniti adresu dostave svoje potvrđene narudžbe?",
-            "content": "<p>Nažalost, naknadna promjena adrese dostave nije moguća. Ako se adresa dostave ne može pronaći ili ako se vaša narudžba ne može isporučiti, pošiljka će nam biti vraćena. Nakon što primimo i provjerimo vašu povratnu pošiljku, vratit ćemo vam odgovarajući iznos koristeći način plaćanja koji ste odabrali prilikom naručivanja.</p>",
+            "title": "Mohu změnit doručovací adresu své potvrzené objednávky?",
+            "content": "<p>Bohužel dodatečná změna doručovací adresy není možná. Pokud doručovací adresu nelze najít nebo vaši objednávku nelze doručit, zásilka se nám vrátí. Po přijetí a kontrole vrácené zásilky vám vrátíme odpovídající částku způsobem platby, který jste zvolili při objednávce.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -334,15 +334,15 @@
         "heading_ihdNma": {
           "type": "heading",
           "settings": {
-            "title": "Povrati i povrati novca"
+            "title": "Vrácení a vrácení peněz"
           }
         },
         "question_LwTNKm": {
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Kako poslati povrat?",
-            "content": "<p>Ako je vaša narudžba podobna za povrat, slijedite ove korake kako biste započeli postupak povrata:</p><p>1. Pošaljite e-mail putem odjeljka „Kontakt” na web stranici</p><p>2. Provjerite sadrži li e-mail sljedeće informacije:<br/><br/>:- Broj narudžbe</p><p>-Razlog zahtjeva za povrat<br/>-Fotografija proizvoda ako je oštećen<br/>-Ime i prezime kupca<br/>-Adresa kupca</p><p>Kontaktirat ćemo vas kako bismo vam dostavili adresu za povrat.</p>",
+            "title": "Jak odeslat vrácení?",
+            "content": "<p>Pokud je vaše objednávka způsobilá k vrácení, postupujte podle těchto kroků pro zahájení procesu vrácení:</p><p>1. Pošlete e-mail prostřednictvím sekce „Kontakt“ na webu</p><p>2. Zkontrolujte, zda e-mail obsahuje následující informace:<br/><br/>- Číslo objednávky</p><p>- Důvod žádosti o vrácení<br/>- Fotografii produktu, pokud je poškozený<br/>- Jméno a příjmení zákazníka<br/>- Adresu zákazníka</p><p>Budeme vás kontaktovat a poskytneme vám adresu pro vrácení.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -353,8 +353,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Koliko obično traje povrat novca za povratnu pošiljku?",
-            "content": "<p>Čim primimo i provjerimo vraćene proizvode, iznos računa bit će vam vraćen u roku od 14 dana koristeći način plaćanja koji ste odabrali prilikom narudžbe.</p>",
+            "title": "Jak dlouho obvykle trvá vrácení peněz za vrácenou zásilku?",
+            "content": "<p>Jakmile obdržíme a zkontrolujeme vrácené produkty, bude vám částka vrácena do 14 dnů způsobem platby, který jste zvolili při objednávce.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -365,8 +365,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Hoće li troškovi dostave biti vraćeni ako vratim svoju narudžbu?",
-            "content": "<p>Dobit ćete puni povrat iznosa svoje narudžbe ako je vratite u cijelosti.</p>",
+            "title": "Budou mi vráceny náklady na dopravu, pokud vrátím svou objednávku?",
+            "content": "<p>Pokud objednávku vrátíte v plném rozsahu, obdržíte plnou náhradu její částky.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -377,8 +377,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Što mogu učiniti ako je moj artikl oštećen tijekom transporta?",
-            "content": "<p>Ako je artikl koji smo vam isporučili oštećen, neispravan ili ne odgovara vašim potrebama, možete, naravno, podnijeti reklamaciju i vratiti nam ga besplatno koristeći obrazac za povrat. Sve potrebne informacije o povratima pronaći ćete u odjeljku „Kako izvršiti povrat?”.</p>",
+            "title": "Co mohu dělat, když je mé zboží poškozené během přepravy?",
+            "content": "<p>Pokud je zboží, které jsme vám doručili, poškozené, vadné nebo neodpovídá vašim potřebám, můžete samozřejmě podat reklamaci a vrátit nám jej zdarma pomocí formuláře pro vrácení. Všechny potřebné informace o vrácení najdete v sekci „Jak odeslat vrácení?“.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -389,8 +389,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "U kojem roku mogu vratiti artikl?",
-            "content": "<p>U možete vratiti naručene artikle u roku od 30 dana od primitka svoje narudžbe.</p>",
+            "title": "V jaké lhůtě mohu zboží vrátit?",
+            "content": "<p>Objednané zboží můžete vrátit do 30 dnů od přijetí své objednávky.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -401,8 +401,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Kako ću primiti povrat novca?",
-            "content": "<p>Povrat će se uvijek izvršiti korištenjem načina plaćanja koji ste odabrali. Ako plaćate kreditnom karticom, iznos za vraćene artikle vratit ćemo izravno na račun vaše kreditne kartice. Ako plaćate putem PayPala, iznos će biti uplaćen na vaš PayPal račun.</p>",
+            "title": "Jak obdržím vrácení peněz?",
+            "content": "<p>Vrácení peněz se vždy provede způsobem platby, který jste zvolili. Pokud platíte kreditní kartou, částku za vrácené zboží vrátíme přímo na účet vaší kreditní karty. Pokud platíte přes PayPal, částka bude připsána na váš PayPal účet.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -435,15 +435,15 @@
         "heading_wUmdaQ": {
           "type": "heading",
           "settings": {
-            "title": "Plaćanja i promocije"
+            "title": "Platby a akce"
           }
         },
         "question_CzEWKL": {
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Kako se obračunavaju carine i porezi?",
-            "content": "<p>Vi ste odgovorni za to da proizvodi koje naručujete budu u skladu s državnim i saveznim uvoznim pravilima i propisima te za plaćanje troškova (uključujući sve troškove dostave, primjenjive carine, poreze i pristojbe za carinsko posredovanje).</p>",
+            "title": "Jak se počítají cla a daně?",
+            "content": "<p>Jste odpovědní za to, aby produkty, které objednáváte, byly v souladu s národními a státními dovozními pravidly a předpisy, a za úhradu nákladů (včetně všech nákladů na dopravu, příslušných cel, daní a poplatků za celní zprostředkování).</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -454,8 +454,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Koje oblike plaćanja prihvaćate?",
-            "content": "<p>Prihvaćamo Apple Pay, Google Pay, PayPal, Shop Pay, Visa, Mastercard i American Express kao načine plaćanja. Koristimo pouzdane kanale plaćanja i činimo sve kako bismo zaštitili vaše plaćanje i vaše osobne podatke.</p>",
+            "title": "Jaké způsoby platby přijímáte?",
+            "content": "<p>Přijímáme Apple Pay, Google Pay, PayPal, Shop Pay, Visa, Mastercard a American Express. Používáme spolehlivé platební kanály a děláme vše pro ochranu vaší platby i vašich osobních údajů.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -466,8 +466,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Zašto mi je plaćanje odbijeno?",
-            "content": "<p>To može biti iz nekoliko razloga. Podaci o kartici su netočni – provjerite datum isteka, adresu za naplatu i sigurnosni kod (sigurnosni kod se nalazi na poleđini vaše Visa/Master kartice). 2. Banka izdavatelj je odbila plaćanje. 3. Stanje na računu nije dovoljno za izvršenje plaćanja. Prihvaćeni načini plaćanja uključuju kreditne ili debitne kartice (Visa, MasterCard, American Express, Discover), PayPal i druge platforme ovisno o zemlji.</p>",
+            "title": "Proč byla má platba zamítnuta?",
+            "content": "<p>Může to být z několika důvodů. 1. Údaje o kartě jsou nesprávné – zkontrolujte datum platnosti, fakturační adresu a bezpečnostní kód (bezpečnostní kód najdete na zadní straně své karty Visa/Mastercard). 2. Vydávající banka platbu zamítla. 3. Zůstatek na účtu není dostatečný k provedení platby. Přijímané způsoby platby zahrnují kreditní nebo debetní karty (Visa, MasterCard, American Express, Discover), PayPal a další platformy v závislosti na zemi.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -478,8 +478,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Zašto mi je naplaćeno dvaput?",
-            "content": "<p>Ali ne brinite. Najprije provjerite jeste li možda greškom napravili više narudžbi. Ako niste, napravite snimku zaslona svoje povijesti plaćanja i kontaktirajte nas.</p>",
+            "title": "Proč mi bylo účtováno dvakrát?",
+            "content": "<p>Nebojte se. Nejprve zkontrolujte, zda jste omylem nevytvořili více objednávek. Pokud ne, pořiďte snímek obrazovky historie plateb a kontaktujte nás.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -511,7 +511,7 @@
           "type": "heading",
           "disabled": true,
           "settings": {
-            "title": "AFILIACIÓN E INFLUENCIADORES"
+            "title": "AFILIACE A INFLUENCEŘI"
           }
         },
         "question_tq6dGh": {
@@ -519,8 +519,8 @@
           "disabled": true,
           "settings": {
             "default_open": false,
-            "title": "Me gustaría ser afiliado y/o influencer de Nivra, ¿qué pasos debo seguir?",
-            "content": "<p>¡Gracias por tu cariño! Envíanos un e-mail a influencer@nivra-madrid.es. Te responderemos con más información si la necesitamos.¿Todavía tienes preguntas? Envíanos un correo electrónico a ayuda@nivra-madrid.es. Estaremos encantados de ayudarte.</p>",
+            "title": "Chtěl/a bych se stát affiliate partnerem a/nebo influencerem, jaké kroky mám podniknout?",
+            "content": "<p>Děkujeme za vaši přízeň! Napište nám e-mail na influencer@store.com. Pokud budeme potřebovat další informace, odpovíme vám. Máte ještě dotazy? Napište nám e-mail na info@store.com. Rádi vám pomůžeme.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -532,8 +532,8 @@
           "disabled": true,
           "settings": {
             "default_open": false,
-            "title": "¿Se trata de una invitación oficial a colaborar o de una estafa?",
-            "content": "<p>¡Esté alerta! Si recibes un correo electrónico o un SMS en nombre de Nivra pidiéndote que pagues una cuota, lo más probable es que se trate de una estafa. </p><p>Recientemente, algunos clientes nos han informado de que algunos estafadores se han hecho pasar por NIVRA para cometer fraudes. </p><p>Todas las cuentas de correo electrónico de NIVRA terminan con el sufijo @nivra-madrid.es. Si recibes un correo electrónico fraudulento, no respondas y denuncia al remitente a través de tu proveedor de servicios de Internet.</p><p>Gracias por ayudarnos a proteger a los demás de las estafas. En este caso, comprueba que el remitente es @nivra-madrid.es. 📬</p>",
+            "title": "Jedná se o oficiální pozvánku ke spolupráci, nebo o podvod?",
+            "content": "<p>Buďte ve střehu! Pokud obdržíte e-mail nebo SMS jménem našeho obchodu s žádostí o zaplacení poplatku, s největší pravděpodobností jde o podvod.</p><p>Někteří zákazníci nás nedávno informovali, že se podvodníci vydávali za naši značku, aby spáchali podvod.</p><p>Všechny naše e-mailové adresy končí příponou @store.com. Pokud obdržíte podvodný e-mail, neodpovídejte na něj a nahlaste odesílatele svému poskytovateli internetových služeb.</p><p>Děkujeme, že nám pomáháte chránit ostatní před podvody. V tomto případě zkontrolujte, zda je odesílatel @store.com. 📬</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,

@@ -14091,6 +14091,13 @@ quantity-counter {
 .variant__labels--hide .selector-wrapper--size .radio__legend__link {
   margin-left: 0;
 }
+/* Size chart link aligned to the far right of the size option label */
+.radio__legend--size .radio__legend__label {
+  flex-wrap: nowrap;
+}
+.radio__legend--size .radio__legend__label > product-modal {
+  margin-left: auto;
+}
 
 .variant-input-wrap {
   margin-left: -4px;

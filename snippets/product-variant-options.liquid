@@ -272,6 +272,10 @@
                         <small class="radio__legend__value" data-option-value>{{ current_value }}</small>
                       {%- endif -%}
 
+                      {%- if is_size_option -%}
+                        {{- size_chart_link -}}
+                      {%- endif -%}
+
                     </span>
                   </legend>
 
@@ -409,12 +413,6 @@
       </span>
     {%- endif -%}
   {%- endfor -%}
-
-  {%- if is_size_option -%}
-    <span class="size-chart-inline">
-      {{ size_chart_link }}
-    </span>
-  {%- endif -%}
 </div>
 
                 </div>

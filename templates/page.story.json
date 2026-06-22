@@ -15,7 +15,7 @@
         "image-1-1": {
           "type": "image",
           "settings": {
-            "title": "Our Story",
+            "title": "Náš příběh",
             "link_text": ""
           }
         }
@@ -35,14 +35,14 @@
         "image-2-1": {
           "type": "image",
           "settings": {
-            "title": "How it started",
+            "title": "Jak to začalo",
             "link_text": ""
           }
         },
         "image-2-2": {
           "type": "image",
           "settings": {
-            "title": "How it's going",
+            "title": "Jak to jde",
             "link_text": ""
           }
         }
