@@ -27,9 +27,13 @@
   #shopify-section-{{ section.id }} .av-reviews__track { --av-per-view: {{ cols }}; --av-gap: 24px; position: relative; display: flex; gap: var(--av-gap); overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; -ms-overflow-style: none; scrollbar-width: none; padding-bottom: 4px; }
   #shopify-section-{{ section.id }} .av-reviews__track::-webkit-scrollbar { display: none; }
   #shopify-section-{{ section.id }} .av-reviews__card { flex: 0 0 calc((100% - (var(--av-per-view) - 1) * var(--av-gap)) / var(--av-per-view)); scroll-snap-align: start; display: flex; flex-direction: column; background: #fff; border: 1px solid #ececec; border-radius: 18px; overflow: hidden; box-shadow: 0 8px 24px rgba(0,0,0,.06); }
-  #shopify-section-{{ section.id }} .av-reviews__media { position: relative; aspect-ratio: 1 / 1; background: #f3f3f3; }
-  #shopify-section-{{ section.id }} .av-reviews__media img { width: 100%; height: 100%; object-fit: cover; display: block; }
-  #shopify-section-{{ section.id }} .av-reviews__badge { position: absolute; top: 12px; left: 12px; background: rgba(255,255,255,.92); border-radius: 999px; padding: 5px 10px; font-size: 11px; font-weight: 600; color: #1a1a1a; display: inline-flex; align-items: center; gap: 5px; box-shadow: 0 2px 6px rgba(0,0,0,.08); }
+  #shopify-section-{{ section.id }} .av-reviews__media { position: relative; aspect-ratio: 1 / 1; background: #f1f0ee; overflow: hidden; }
+  #shopify-section-{{ section.id }} .av-reviews__media::after { content: ""; position: absolute; top: 50%; left: 50%; width: 34px; height: 34px; margin: -17px 0 0 -17px; border-radius: 50%; border: 3px solid rgba(0,0,0,.14); border-top-color: #1a1a1a; animation: av-spin .8s linear infinite; z-index: 1; }
+  #shopify-section-{{ section.id }} .av-reviews__media.is-loaded::after { display: none; }
+  #shopify-section-{{ section.id }} .av-reviews__media img { position: relative; z-index: 2; width: 100%; height: 100%; object-fit: cover; display: block; opacity: 0; transition: opacity .4s ease; }
+  #shopify-section-{{ section.id }} .av-reviews__media.is-loaded img { opacity: 1; }
+  @keyframes av-spin { to { transform: rotate(360deg); } }
+  #shopify-section-{{ section.id }} .av-reviews__badge { position: absolute; top: 12px; left: 12px; background: rgba(255,255,255,.92); border-radius: 999px; padding: 5px 10px; font-size: 11px; font-weight: 600; color: #1a1a1a; display: inline-flex; align-items: center; gap: 5px; box-shadow: 0 2px 6px rgba(0,0,0,.08); z-index: 3; }
   #shopify-section-{{ section.id }} .av-reviews__body { padding: 16px 18px 20px; display: flex; flex-direction: column; gap: 9px; flex: 1 1 auto; }
   #shopify-section-{{ section.id }} .av-reviews__stars { color: #f5a623; font-size: 17px; letter-spacing: 2px; line-height: 1; }
   #shopify-section-{{ section.id }} .av-reviews__text { margin: 0; font-size: 15px; line-height: 1.55; color: #222; flex: 1 1 auto; }
@@ -117,6 +121,14 @@
       var dotsWrap = root.querySelector('[data-av-dots]');
       var cards = Array.prototype.slice.call(track.children);
       if (!cards.length) return;
+
+      // Spinner: marca cada foto como carregada (remove o loading)
+      Array.prototype.slice.call(root.querySelectorAll('.av-reviews__media img')).forEach(function (img) {
+        var media = img.parentNode;
+        function done() { if (media) media.classList.add('is-loaded'); }
+        if (img.complete && img.naturalWidth > 0) { done(); }
+        else { img.addEventListener('load', done); img.addEventListener('error', done); }
+      });
 
       function step() { return cards.length > 1 ? Math.max(1, cards[1].offsetLeft - cards[0].offsetLeft) : Math.max(1, cards[0].offsetWidth); }
       function perView() { return Math.max(1, Math.round(track.clientWidth / step())); }
