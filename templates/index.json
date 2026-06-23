@@ -102,7 +102,7 @@
       "type": "section-collection",
       "settings": {
         "featured_collection": "obuv",
-        "heading": "Overlay",
+        "heading": "Obuv",
         "heading_font_size": "heading-x-small",
         "description": "",
         "text_font_size": "body-medium",
@@ -130,7 +130,7 @@
       "custom_css": [],
       "settings": {
         "featured_collection": "overaly",
-        "heading": "Letní sandály",
+        "heading": "overaly",
         "heading_font_size": "heading-x-small",
         "description": "",
         "text_font_size": "body-medium",
@@ -348,7 +348,7 @@
       "type": "section-collection",
       "settings": {
         "featured_collection": "dzinova-kolekce",
-        "heading": "Letní overaly",
+        "heading": "Džínová kolekce",
         "heading_font_size": "heading-x-small",
         "description": "",
         "text_font_size": "body-medium",
@@ -375,7 +375,7 @@
       "type": "section-collection",
       "settings": {
         "featured_collection": "soupravy",
-        "heading": "Signature dámská móda",
+        "heading": "soupravy",
         "heading_font_size": "heading-x-small",
         "description": "",
         "text_font_size": "body-medium",
@@ -449,7 +449,7 @@
       "type": "section-collection",
       "settings": {
         "featured_collection": "spolecenske-saty",
-        "heading": "Šaty",
+        "heading": "Společenské šaty",
         "heading_font_size": "heading-x-small",
         "description": "",
         "text_font_size": "body-medium",
@@ -477,7 +477,7 @@
       "custom_css": [],
       "settings": {
         "featured_collection": "dog-1",
-        "heading": "Sluneční brýle",
+        "heading": "Věčné přátelství",
         "heading_font_size": "heading-small",
         "description": "",
         "text_font_size": "body-medium",
