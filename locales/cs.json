@@ -553,11 +553,10 @@
   "shopify": {
     "checkout": {
       "order_summary": {
-        "enter_shipping_address": "Zdarma",
-        "free_shipping_discount_label": "Doprava zdarma (včetně sledovacího čísla zásilky)"
+        "enter_shipping_address": "Zdarma"
       },
       "shipping_errors": {
-        "empty_state": "Doprava zdarma"
+        "empty_state": "Doprava zdarma (včetně sledovacího čísla zásilky)"
       },
       "contact": {
         "contact_method_title": "Krok 1/3: Kontakt"
