@@ -559,13 +559,13 @@
         "empty_state": "Doprava zdarma (včetně sledovacího čísla zásilky)"
       },
       "contact": {
-        "contact_method_title": "Krok 1/3: Kontakt"
+        "contact_method_title": "Kontakt"
       },
       "shipping": {
-        "delivery_title": "Krok 2/3: Doručení"
+        "delivery_title": "Doručení"
       },
       "payment": {
-        "title": "Krok 3/3: Platba"
+        "title": "Platba"
       },
       "alternative_payment_method_banner": {
         "express_checkout": "★★★★★ 4,8/5 (8 400+ hodnocení)"
