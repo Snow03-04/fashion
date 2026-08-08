@@ -709,13 +709,14 @@
   <script>
   /* Kiwi Size Chart junto ao selector de tamanho.
      O selector e desenhado pelo Swatch King por JavaScript, DEPOIS do
-     DOMContentLoaded. O Swatch King deixa um slot vazio proprio para isto:
+     DOMContentLoaded. Sem data-sizing-id: o Kiwi escolhe o quadro pelas regras dele
+     (coleccao obuv). Fixar um ID e fragil — o 84638160 ja nao existia.
+     O Swatch King deixa um slot vazio proprio para isto:
      <span class="swatch-size-chart"> dentro de .swatch-label-container.
      E ai que a div do Kiwi tem de entrar — ao lado do label visivel, nao
      do <label class="visually-hidden-label">, que tem 1px de largura. */
   (function () {
     var ID = 'KiwiSizingChart';
-    var SIZING_ID = '84638160';
     var LABEL = 'Velikost';
     var LIMITE_MS = 15000;
 
@@ -723,7 +724,6 @@
       if (document.getElementById(ID)) return true;
       var kiwi = document.createElement('div');
       kiwi.id = ID;
-      kiwi.setAttribute('data-sizing-id', SIZING_ID);
       kiwi.setAttribute('data-display-mode', '0');
       kiwi.setAttribute('data-recommender-display-mode', '0');
       kiwi.setAttribute('data-layout-type', '0');
