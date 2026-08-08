@@ -707,30 +707,65 @@
   {%- endif -%}
 
   <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    // Encontra o label "Velikost" dentro do form wrapper
-    var sizeLabels = document.querySelectorAll('.product__content .variant__label, .product__content label');
-    
-    sizeLabels.forEach(function(label) {
-      if (label.textContent.trim().startsWith('Velikost')) {
-        // Cria o wrapper inline se ainda não existe
-        if (!label.parentElement.querySelector('#KiwiSizingChart')) {
-          label.style.display = 'inline-flex';
-          label.style.alignItems = 'center';
-          label.style.gap = '12px';
+  /* Kiwi Size Chart junto ao selector de tamanho.
+     O selector e desenhado pelo Swatch King por JavaScript, DEPOIS do
+     DOMContentLoaded — por isso esperamos que o label aparteca em vez de
+     correr uma vez so. Observa ate 15s e desliga-se sozinho. */
+  (function () {
+    var ID = 'KiwiSizingChart';
+    var SIZING_ID = '84638160';
+    var LABEL = 'Velikost';
+    var LIMITE_MS = 15000;
 
-          var kiwi = document.createElement('div');
-          kiwi.id = 'KiwiSizingChart';
-          kiwi.setAttribute('data-sizing-id', '84638160');
-          kiwi.setAttribute('data-display-mode', '0');
-          kiwi.setAttribute('data-recommender-display-mode', '0');
-          kiwi.setAttribute('data-layout-type', '0');
-
-          label.parentElement.insertBefore(kiwi, label.nextSibling);
-        }
+    function criar(label) {
+      if (label.parentElement.querySelector('#' + ID)) return true;
+      label.style.display = 'inline-flex';
+      label.style.alignItems = 'center';
+      label.style.gap = '12px';
+      var kiwi = document.createElement('div');
+      kiwi.id = ID;
+      kiwi.setAttribute('data-sizing-id', SIZING_ID);
+      kiwi.setAttribute('data-display-mode', '0');
+      kiwi.setAttribute('data-recommender-display-mode', '0');
+      kiwi.setAttribute('data-layout-type', '0');
+      label.parentElement.insertBefore(kiwi, label.nextSibling);
+      if (window.KiwiSizing && typeof window.KiwiSizing.reload === 'function') {
+        try { window.KiwiSizing.reload(); } catch (e) {}
       }
-    });
-  });
+      return true;
+    }
+
+    function tentar() {
+      if (document.getElementById(ID)) return true;
+      var alvos = document.querySelectorAll(
+        '.product__content .variant__label,' +
+        '.product__content label,' +
+        '.product__content .swatch-label,' +
+        '.product__content .swatch-label-container label,' +
+        '.product__content [class*="swatch"] label'
+      );
+      for (var i = 0; i < alvos.length; i++) {
+        var t = (alvos[i].textContent || '').trim();
+        if (t.indexOf(LABEL) === 0) return criar(alvos[i]);
+      }
+      return false;
+    }
+
+    function arrancar() {
+      if (tentar()) return;
+      var obs = new MutationObserver(function () { if (tentar()) parar(); });
+      var raiz = document.querySelector('.product__content') || document.body;
+      obs.observe(raiz, { childList: true, subtree: true });
+      var t = setTimeout(parar, LIMITE_MS);
+      function parar() { clearTimeout(t); obs.disconnect(); }
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', arrancar);
+    } else {
+      arrancar();
+    }
+  })();
 </script>
 
 </div>
