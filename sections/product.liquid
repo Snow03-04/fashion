@@ -724,7 +724,7 @@
       if (document.getElementById(ID)) return true;
       var kiwi = document.createElement('div');
       kiwi.id = ID;
-      kiwi.setAttribute('data-display-mode', '0');
+      kiwi.setAttribute('data-display-mode', '1');   // 1 = botao + modal (0 = tabela inline, ocupa 600px)
       kiwi.setAttribute('data-recommender-display-mode', '0');
       kiwi.setAttribute('data-layout-type', '0');
       if (antesDe) destino.insertBefore(kiwi, antesDe); else destino.appendChild(kiwi);
