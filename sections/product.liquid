@@ -709,44 +709,51 @@
   <script>
   /* Kiwi Size Chart junto ao selector de tamanho.
      O selector e desenhado pelo Swatch King por JavaScript, DEPOIS do
-     DOMContentLoaded — por isso esperamos que o label aparteca em vez de
-     correr uma vez so. Observa ate 15s e desliga-se sozinho. */
+     DOMContentLoaded. O Swatch King deixa um slot vazio proprio para isto:
+     <span class="swatch-size-chart"> dentro de .swatch-label-container.
+     E ai que a div do Kiwi tem de entrar — ao lado do label visivel, nao
+     do <label class="visually-hidden-label">, que tem 1px de largura. */
   (function () {
     var ID = 'KiwiSizingChart';
     var SIZING_ID = '84638160';
     var LABEL = 'Velikost';
     var LIMITE_MS = 15000;
 
-    function criar(label) {
-      if (label.parentElement.querySelector('#' + ID)) return true;
-      label.style.display = 'inline-flex';
-      label.style.alignItems = 'center';
-      label.style.gap = '12px';
+    function montar(destino, antesDe) {
+      if (document.getElementById(ID)) return true;
       var kiwi = document.createElement('div');
       kiwi.id = ID;
       kiwi.setAttribute('data-sizing-id', SIZING_ID);
       kiwi.setAttribute('data-display-mode', '0');
       kiwi.setAttribute('data-recommender-display-mode', '0');
       kiwi.setAttribute('data-layout-type', '0');
-      label.parentElement.insertBefore(kiwi, label.nextSibling);
-      if (window.KiwiSizing && typeof window.KiwiSizing.reload === 'function') {
-        try { window.KiwiSizing.reload(); } catch (e) {}
+      if (antesDe) destino.insertBefore(kiwi, antesDe); else destino.appendChild(kiwi);
+      if (typeof window.loadKiwiSizingChart === 'function') {
+        try { window.loadKiwiSizingChart(); } catch (e) {}
       }
       return true;
     }
 
     function tentar() {
       if (document.getElementById(ID)) return true;
-      var alvos = document.querySelectorAll(
-        '.product__content .variant__label,' +
-        '.product__content label,' +
-        '.product__content .swatch-label,' +
-        '.product__content .swatch-label-container label,' +
-        '.product__content [class*="swatch"] label'
-      );
-      for (var i = 0; i < alvos.length; i++) {
-        var t = (alvos[i].textContent || '').trim();
-        if (t.indexOf(LABEL) === 0) return criar(alvos[i]);
+
+      // 1) slot que o Swatch King prepara para o quadro de tamanhos
+      var slot = document.querySelector('.swatch-label-container.size-chart-right .swatch-size-chart, .swatch-label-container.size-chart-left .swatch-size-chart');
+      if (slot) return montar(slot, null);
+
+      // 2) container do tamanho, a seguir ao label visivel
+      var conts = document.querySelectorAll('.product__content .swatch-label-container');
+      for (var i = 0; i < conts.length; i++) {
+        if ((conts[i].textContent || '').trim().indexOf(LABEL) === 0) return montar(conts[i], null);
+      }
+
+      // 3) ultimo recurso: label visivel (ignora os visually-hidden)
+      var labels = document.querySelectorAll('.product__content .variant__label, .product__content .swatch-label');
+      for (var j = 0; j < labels.length; j++) {
+        var el = labels[j];
+        if ((el.textContent || '').trim().indexOf(LABEL) !== 0) continue;
+        if (el.getBoundingClientRect().width < 10) continue; // esta escondido
+        return montar(el.parentElement, el.nextSibling);
       }
       return false;
     }
@@ -754,8 +761,7 @@
     function arrancar() {
       if (tentar()) return;
       var obs = new MutationObserver(function () { if (tentar()) parar(); });
-      var raiz = document.querySelector('.product__content') || document.body;
-      obs.observe(raiz, { childList: true, subtree: true });
+      obs.observe(document.querySelector('.product__content') || document.body, { childList: true, subtree: true });
       var t = setTimeout(parar, LIMITE_MS);
       function parar() { clearTimeout(t); obs.disconnect(); }
     }
