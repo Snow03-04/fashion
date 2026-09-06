@@ -147,3 +147,15 @@
 .template-index .radio__fieldset--pgi {
   display: none !important;
 }
+
+
+/* --- estilo Elena Eger: swatch de cor 70px, botao de tamanho mais compacto --- */
+.product__content .radio__fieldset--swatches:not(.radio__fieldset--pgi) .swatch__button {
+  width: 70px !important;
+  height: 70px !important;
+}
+.product__content .radio__fieldset:not(.radio__fieldset--swatches) .radio__button label {
+  font-size: 16px;
+  border-radius: 2px;
+  padding: 7px 10px;
+}
