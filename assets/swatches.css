@@ -204,11 +204,25 @@
   justify-content: center !important;
   border: 1px solid #cfcfcf !important;
   border-radius: 2px !important;
-  font-size: 16px !important;
-  font-weight: 400 !important;
-  background: transparent !important;
-  color: #000 !important;
-  transition: border-color .15s ease !important;
+  background: #fff !important;
+  transition: border-color .15s ease, background-color .15s ease !important;
 }
+/* texto: 13px, cinzento, espacamento 1.6px */
+.product__content .radio__fieldset:not(.radio__fieldset--swatches) .radio__button label,
+.product__content .radio__fieldset:not(.radio__fieldset--swatches) .radio__button label .option-title {
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  letter-spacing: 1.6px !important;
+  color: #6a6a6a !important;
+}
+/* hover: borda escurece */
 .product__content .radio__fieldset:not(.radio__fieldset--swatches) .radio__button label:hover { border-color: #6a6a6a !important; }
-.product__content .radio__fieldset:not(.radio__fieldset--swatches) .radio__button:has(input:checked) label { border-color: #292929 !important; }
+/* seleccionado: caixa escura, texto branco */
+.product__content .radio__fieldset:not(.radio__fieldset--swatches) .radio__button:has(input:checked) label {
+  border-color: #292929 !important;
+  background: #292929 !important;
+}
+.product__content .radio__fieldset:not(.radio__fieldset--swatches) .radio__button:has(input:checked) label,
+.product__content .radio__fieldset:not(.radio__fieldset--swatches) .radio__button:has(input:checked) label .option-title {
+  color: #fff !important;
+}
