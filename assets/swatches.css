@@ -130,3 +130,11 @@
   --light-coral: #f08080;
   --light-green: #90ee90;
 }
+
+/* --- contorno nos swatches: torna visiveis o branco/creme --- */
+.swatch__button .swatch__link,
+.swatch__button a,
+.product-item__swatches .swatch__link {
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,.16);
+  border-radius: inherit;
+}
