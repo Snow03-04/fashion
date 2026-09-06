@@ -151,12 +151,17 @@
 
 /* ================= estilo Elena Eger ================= */
 
-/* --- swatch de cor: 70x70, imagem a preencher, 12px de espaco --- */
+/* --- swatch de cor --- */
+.product__content .radio__fieldset--swatches:not(.radio__fieldset--pgi) .radio__buttons {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 12px 12px !important;
+}
 .product__content .radio__fieldset--swatches:not(.radio__fieldset--pgi) .swatch__button {
   width: 70px !important;
   height: 70px !important;
   padding: 0 !important;
-  margin: 0 12px 8px 0 !important;
+  margin: 0 !important;
   display: inline-block !important;
   vertical-align: top !important;
   transition: box-shadow .2s ease !important;
@@ -174,19 +179,24 @@
   outline: 2px solid #292929 !important;
   outline-offset: 0 !important;
 }
-/* hover do swatch: sombra por baixo (igual a Elena Eger) */
 .product__content .radio__fieldset--swatches:not(.radio__fieldset--pgi) .swatch__button:hover {
   box-shadow: 0 10px 10px -10px rgba(0,0,0,1) !important;
 }
 
-/* --- botao de tamanho: 50x36, borda cinza, hover escurece --- */
+/* --- botao de tamanho --- */
+.product__content .radio__fieldset:not(.radio__fieldset--swatches) .radio__buttons {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 12px 12px !important;
+}
 .product__content .radio__fieldset:not(.radio__fieldset--swatches) .radio__button {
-  margin: 0 12px 8px 0 !important;
+  margin: 0 !important;
 }
 .product__content .radio__fieldset:not(.radio__fieldset--swatches) .radio__button label {
   width: 50px !important;
   height: 36px !important;
   padding: 0 !important;
+  margin: 0 !important;
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -198,9 +208,5 @@
   color: #000 !important;
   transition: border-color .15s ease !important;
 }
-.product__content .radio__fieldset:not(.radio__fieldset--swatches) .radio__button label:hover {
-  border-color: #6a6a6a !important;
-}
-.product__content .radio__fieldset:not(.radio__fieldset--swatches) .radio__button:has(input:checked) label {
-  border-color: #292929 !important;
-}
+.product__content .radio__fieldset:not(.radio__fieldset--swatches) .radio__button label:hover { border-color: #6a6a6a !important; }
+.product__content .radio__fieldset:not(.radio__fieldset--swatches) .radio__button:has(input:checked) label { border-color: #292929 !important; }
