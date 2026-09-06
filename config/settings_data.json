@@ -79,7 +79,7 @@
     "show_variant_image": true,
     "variant_image_style": "stacked",
     "final_sale": false,
-    "swatches_type": "native",
+    "swatches_type": "theme",
     "variant_on_sale": false,
     "swatch_size": "large",
     "swatch_style": "square",
