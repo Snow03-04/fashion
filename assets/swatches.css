@@ -149,11 +149,20 @@
 }
 
 
-/* --- estilo Elena Eger: swatch de cor 70px, botao de tamanho mais compacto --- */
+/* --- estilo Elena Eger --- */
+/* swatch de cor: 70x70, imagem a preencher, 12px de espaco */
 .product__content .radio__fieldset--swatches:not(.radio__fieldset--pgi) .swatch__button {
   width: 70px !important;
   height: 70px !important;
+  padding: 0 !important;
+  margin: 0 12px 8px 0 !important;
 }
+/* seleccionado: contorno escuro */
+.product__content .radio__fieldset--swatches:not(.radio__fieldset--pgi) .swatch__button:has(input:checked) {
+  outline: 2px solid #1a1a1a !important;
+  outline-offset: 0 !important;
+}
+/* botao de tamanho */
 .product__content .radio__fieldset:not(.radio__fieldset--swatches) .radio__button label {
   font-size: 16px;
   border-radius: 2px;
