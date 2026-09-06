@@ -155,21 +155,18 @@
   height: 70px !important;
   padding: 0 !important;
   margin: 0 12px 8px 0 !important;
-  background-size: cover !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
+  display: inline-block !important;
+  vertical-align: top !important;
 }
-.product__content .radio__fieldset--swatches:not(.radio__fieldset--pgi) .swatch__button > *,
-.product__content .radio__fieldset--swatches:not(.radio__fieldset--pgi) .swatch__button label {
-  background-size: cover !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-}
-.product__content .radio__fieldset--swatches:not(.radio__fieldset--pgi) .swatch__button img {
+/* o LABEL e que carrega a imagem: tem de preencher a caixa toda */
+.product__content .radio__fieldset--swatches:not(.radio__fieldset--pgi) .swatch__button > label {
   width: 100% !important;
   height: 100% !important;
-  object-fit: cover !important;
-  object-position: center !important;
+  display: block !important;
+  margin: 0 !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
 }
 .product__content .radio__fieldset--swatches:not(.radio__fieldset--pgi) .swatch__button:has(input:checked) {
   outline: 2px solid #1a1a1a !important;
