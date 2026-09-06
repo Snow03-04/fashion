@@ -191,6 +191,8 @@
 }
 .product__content .radio__fieldset:not(.radio__fieldset--swatches) .radio__button {
   margin: 0 !important;
+  width: 50px !important;
+  padding: 0 !important;
 }
 .product__content .radio__fieldset:not(.radio__fieldset--swatches) .radio__button label {
   width: 50px !important;
