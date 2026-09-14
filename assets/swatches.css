@@ -191,17 +191,21 @@
 }
 .product__content .radio__fieldset:not(.radio__fieldset--swatches) .radio__button {
   margin: 0 !important;
-  width: 50px !important;
+  width: auto !important;
   padding: 0 !important;
 }
 .product__content .radio__fieldset:not(.radio__fieldset--swatches) .radio__button label {
-  width: 50px !important;
-  height: 36px !important;
-  padding: 0 !important;
+  width: auto !important;
+  min-width: 50px !important;
+  height: auto !important;
+  min-height: 36px !important;
+  padding: 0 12px !important;
   margin: 0 !important;
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
+  white-space: nowrap !important;
+  box-sizing: border-box !important;
   border: 1px solid #cfcfcf !important;
   border-radius: 2px !important;
   background: #fff !important;
