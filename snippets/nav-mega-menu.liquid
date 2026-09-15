@@ -39,12 +39,7 @@ Mega menu item for desktop. Expects:
         {%- for block in section.blocks -%}
           {%- if block.type == 'image' and block.settings.position == index and block.settings.image != blank -%}
             <div class="mega__promo{% if block.settings.wide_image %} mega__promo--wide{% endif %}">
-              {%- render 'image',
-                image: block.settings.image,
-                widths: '360,540,720,900,1080',
-                sizes: '(min-width: 1200px) 420px, 40vw',
-                alt: block.settings.image.alt | default: block.settings.title
-              -%}
+              {%- render 'image', image: block.settings.image, widths: '360,540,720,900,1080', sizes: '(min-width: 1200px) 420px, 40vw', alt: block.settings.image.alt, default: block.settings.title -%}
               {%- if block.settings.title != blank or block.settings.link_text != blank -%}
                 <div class="mega__promo__overlay"
                      style="--overlay: {{ block.settings.overlay_color }}; --overlay-o: {{ block.settings.overlay_opacity | default: 0 }}%;">
@@ -63,3 +58,21 @@ Mega menu item for desktop. Expects:
     </div>
   {%- endif -%}
 </div>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {%- render 'image',
+                    image: block.settings.image,
+                    widths: '360,540,720,900,1080',
+                    sizes: '(min-width: 1200px) 420px, 40vw',
+                    alt: block.settings.image.alt | default: block.settings.title
+                  -%}
+  to: "{%- render 'image', image: block.settings.image, widths: '360,540,720,900,1080',
+    sizes: '(min-width: 1200px) 420px, 40vw', alt: block.settings.image.alt, default:
+    block.settings.title -%}"
+  position: 1732..1919
+{% endcomment %}
